@@ -10,8 +10,8 @@
   line-height: 1.6;
 }
 .hero .content .hero-img img {
-  width: 100%;
-  height: 35rem;
+  width: auto;
+  height: auto;
 }
 .hero .actions {
   top: 74%;
@@ -23,7 +23,11 @@
     display: flex;
     justify-content: center;
   }
-  .hero .hero-img,
+  .hero .hero-img {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
   .hero .actions {
     display: none;
   }
