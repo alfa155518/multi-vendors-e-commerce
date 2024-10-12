@@ -32,7 +32,9 @@ export default function Footer() {
           <li>
             <strong>Follow Us</strong>
           </li>
-          <Socials />
+          <li>
+            <Socials />
+          </li>
         </ul>
       </footer>
       <p className="copy-right">

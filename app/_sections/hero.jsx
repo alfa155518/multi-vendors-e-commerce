@@ -31,7 +31,7 @@ export default function Hero() {
       </div>
       <div className="actions absolute">
         <button className="btn">
-          <Link href={"/products"}>order now</Link>
+          <Link href={"/"}>order now</Link>
         </button>
       </div>
     </section>

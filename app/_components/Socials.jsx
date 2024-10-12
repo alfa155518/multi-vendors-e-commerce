@@ -10,7 +10,7 @@ export default function Socials() {
       className={`social-links ${
         inView ? "animate__animated animate__fadeInUp" : ""
       } `}>
-      <button className="button">
+      <button className="button" aria-label="button instagram">
         <svg
           viewBox="0 0 24 24"
           fill="none"
@@ -27,7 +27,7 @@ export default function Socials() {
           />
         </svg>
       </button>
-      <button className="button">
+      <button className="button" aria-label="button whatsapp">
         <svg
           viewBox="0 0 24 24"
           fill="none"
@@ -48,7 +48,7 @@ export default function Socials() {
           />
         </svg>
       </button>
-      <button className="button">
+      <button className="button" aria-label="button titter">
         <svg
           viewBox="0 0 24 24"
           fill="currentColor"
@@ -64,7 +64,7 @@ export default function Socials() {
           />
         </svg>
       </button>
-      <button className="button">
+      <button className="button" aria-label="button youtube">
         <svg
           viewBox="0 0 24 24"
           fill="currentColor"
@@ -80,7 +80,7 @@ export default function Socials() {
           />
         </svg>
       </button>
-      <button className="button">
+      <button className="button" aria-label="button github">
         <svg
           viewBox="0 0 24 24"
           fill="currentColor"

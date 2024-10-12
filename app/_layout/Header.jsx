@@ -43,7 +43,7 @@ export default function Header() {
         </ul>
       </nav>
       <div className="search-wrapper">
-        <button className="icon">
+        <button className="icon" aria-label="button search products">
           <FaSearch />
         </button>
         <input
@@ -55,13 +55,13 @@ export default function Header() {
       </div>
 
       <div className="cart relative">
-        <Link href={"/cart"}>
+        <Link href={"/"} aria-label="cart icon">
           <TiShoppingCart />
         </Link>
         <span className="cart-count absolute">0</span>
       </div>
       <button className="btn">
-        <Link href={"/signup"}>signup</Link>
+        <Link href={"/"}>signup</Link>
       </button>
       <div className="bars-wrapper">
         <label className="bar" htmlFor="check">
