@@ -11,8 +11,7 @@
     }
     .hero-img {
       img {
-        width: auto;
-        height: auto;
+        height: 35rem;
       }
     }
   }
@@ -26,11 +25,7 @@
     height: 50vh;
     display: flex;
     justify-content: center;
-    .hero-img {
-      display: none;
-    }
-  }
-  @media (max-width: 992px) {
+    .hero-img,
     .actions {
       display: none;
     }
