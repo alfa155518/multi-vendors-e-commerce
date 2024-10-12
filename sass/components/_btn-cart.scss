@@ -1,0 +1,62 @@
+.btn-cart {
+  padding: 0.1rem 0.8rem;
+  @include radios(0.5rem);
+  border: 0.1rem solid $secondaryColor_1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  .IconContainer {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    background: linear-gradient(
+      to bottom,
+      $secondaryColor_1,
+      $secondaryColor_1
+    );
+    @include radios(5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: 0.3s;
+    .icon {
+      @include radios(0.1rem);
+    }
+  }
+  .second-text {
+    height: 100%;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 1;
+    transition-duration: 0.3s;
+    font-size: 1rem;
+  }
+
+  &:hover .IconContainer {
+    width: 100%;
+    transition-duration: 0.3s;
+    @include radios(0.2rem);
+  }
+  &:hover {
+    padding: 0;
+  }
+  &:hover .second-text {
+    transform: translate(10px);
+    width: 0;
+    font-size: 0;
+    transition-duration: 0.3s;
+  }
+
+  &:active {
+    transform: scale(0.95);
+    transition-duration: 0.3s;
+  }
+}

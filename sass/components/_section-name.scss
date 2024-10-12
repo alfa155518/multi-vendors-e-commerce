@@ -1,0 +1,66 @@
+.section-name {
+  font-size: 1.6rem;
+  width: fit-content;
+  color: $neutralColor_1;
+  font-family: inherit;
+  font-weight: 800;
+  position: relative;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  margin: 2rem auto;
+  span {
+    color: $neutralColor_1;
+    text-decoration: none;
+  }
+  &:focus,
+  &:hover {
+    color: $secondaryColor_2;
+  }
+
+  &:focus:after,
+  &:hover:after {
+    width: 50%;
+    left: 0%;
+  }
+
+  &:after {
+    content: "";
+    pointer-events: none;
+    bottom: 36px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: $secondaryColor_2;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+
+  .text:focus,
+  .text:hover {
+    color: $secondaryColor_2;
+  }
+  .text:focus:after,
+  .text:hover:after {
+    width: 50%;
+    right: 0%;
+  }
+
+  .text:after {
+    content: "";
+    pointer-events: none;
+    bottom: -5px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: $secondaryColor_2;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, right;
+  }
+}

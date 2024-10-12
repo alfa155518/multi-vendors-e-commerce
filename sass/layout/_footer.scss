@@ -1,0 +1,54 @@
+footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("/static.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 9rem;
+  padding: 1rem;
+  text-align: center;
+  padding: 2rem 0.3rem;
+  ul {
+    flex: 1;
+    margin: 3rem;
+    li {
+      &:not(:first-child) {
+        margin: 0.5rem 0;
+        color: $neutralColor_1;
+        font-size: 1rem;
+        font-weight: 700;
+        &:hover {
+          color: $secondaryColor_2;
+          @include transition(0.5s);
+          cursor: pointer;
+        }
+      }
+      strong {
+        font-size: 1.3rem;
+        color: $neutralColor_1;
+      }
+    }
+  }
+}
+.copy-right {
+  color: $neutralColor_1;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  text-wrap: balance;
+  a {
+    margin: 0 1rem;
+    span {
+      font-size: 2rem;
+    }
+  }
+  @media (max-width: 472px) {
+    font-size: 0.8rem;
+    a {
+      span {
+        font-size: 1rem;
+      }
+    }
+  }
+}

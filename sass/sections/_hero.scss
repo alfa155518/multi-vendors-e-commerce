@@ -1,0 +1,33 @@
+.hero {
+  .content {
+    text-align: center;
+    .info {
+      color: $neutralColor_1;
+      .hero-text {
+        color: $neutralColor_1;
+        text-wrap: balance;
+        line-height: 1.6;
+      }
+    }
+    .hero-img {
+      img {
+        height: 35rem;
+      }
+    }
+  }
+  .actions {
+    top: 74%;
+    left: 15%;
+  }
+
+  // Responsive
+  @media (max-width: 768px) {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    .hero-img,
+    .actions {
+      display: none;
+    }
+  }
+}

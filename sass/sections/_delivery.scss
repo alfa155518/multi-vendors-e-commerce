@@ -1,0 +1,58 @@
+.delivery-container {
+  background-image: url("/static.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 9rem;
+  padding: 1rem;
+  .content {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .right-side,
+    .left-side {
+      h3 {
+        font-size: 2rem;
+        text-wrap: balance;
+      }
+      article {
+        color: $neutralColor_1;
+        font-size: 1.2rem;
+        font-weight: 700;
+        line-height: 1.6;
+        padding: 1rem 0;
+        text-wrap: balance;
+      }
+    }
+  }
+
+  // Responsive
+  @media (max-width: 992px) {
+    .content {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      .img {
+        img {
+          width: 30%;
+          height: 30%;
+        }
+      }
+    }
+  }
+  @media (max-width: 472px) {
+    .content {
+      .special-word {
+        font-size: 1rem;
+      }
+      article {
+        font-size: 0.8rem !important;
+      }
+      .img {
+        img {
+          width: 10rem;
+        }
+      }
+    }
+  }
+}

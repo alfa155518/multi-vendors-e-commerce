@@ -1,0 +1,14 @@
+.categories-wrapper {
+  margin-bottom: 10rem;
+  padding-bottom: 9rem;
+  .my-swiper {
+    margin: 5rem 0;
+    .swiper-slide {
+      width: 30% !important;
+      height: 50% !important;
+      img {
+        width: 50%;
+      }
+    }
+  }
+}

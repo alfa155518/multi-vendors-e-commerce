@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./helpers/mixins";
+@import "./helpers/variables";
+
+// Components
+@import "./layout/header";
+@import "./components/button";
+@import "./components/section-name";
+@import "./components/btn-cart";
+@import "./components/special-word";
+@import "./components/socials";
+@import "./components/btn-to-top";
+@import "./layout/footer";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 62.5%;
+  background-color: #000000;
+}
+
+input {
+  @apply outline-none;
+}
+ul {
+  list-style: none;
+}
+.appear {
+  display: block !important;
+}
+.appear-menu {
+  @include transition(0.5s);
+  width: 50% !important;
+  left: -21px !important;
+}
