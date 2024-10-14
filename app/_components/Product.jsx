@@ -1,5 +1,4 @@
 "use client";
-import { FaShoppingCart } from "react-icons/fa";
 import Image from "next/image";
 import "@/css/product.css";
 import LazyLoadImg from "./LazyLoadImg";
