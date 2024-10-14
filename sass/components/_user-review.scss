@@ -1,0 +1,38 @@
+form {
+  background-color: $textColor_1;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include secondRadios;
+  padding: 1rem;
+  textarea {
+    @include secondRadios;
+    resize: none;
+    outline: none;
+    border: 0.2rem solid $secondaryColor_2;
+    color: $textColor_1;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .review-stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    .stars-rating {
+      cursor: pointer;
+      font-size: 2rem;
+      &:hover {
+        color: $secondaryColor_2;
+        @include transition(0.3s);
+      }
+    }
+  }
+  button {
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 0.3rem 3rem;
+    @include secondRadios;
+  }
+}

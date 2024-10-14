@@ -19,3 +19,11 @@
   -ms-border-radius: $size;
   -o-border-radius: $size;
 }
+
+@mixin secondRadios {
+  border-radius: 1rem 0rem 1rem 0rem;
+  -webkit-border-radius: 1rem 0rem 1rem 0rem;
+  -moz-border-radius: 1rem 0rem 1rem 0rem;
+  -ms-border-radius: 1rem 0rem 1rem 0rem;
+  -o-border-radius: 1rem 0rem 1rem 0rem;
+}

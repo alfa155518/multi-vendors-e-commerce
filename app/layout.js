@@ -12,6 +12,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "animate.css";
 import "@/css/main.css";
+import UsersManageMent from "./_context/usersManagement";
 
 // Font
 const openSans = Open_Sans({
@@ -33,14 +34,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={openSans.className}>
-        <Header />
-        <main>
-          <ProductProvider>{children}</ProductProvider>
-        </main>
-        <Footer />
-        <BtnToTop />
-      </body>
+      <ProductProvider>
+        <UsersManageMent>
+          <body className={openSans.className}>
+            <Header />
+            <main>{children}</main>
+            <Footer />
+            <BtnToTop />
+          </body>
+        </UsersManageMent>
+      </ProductProvider>
     </html>
   );
 }

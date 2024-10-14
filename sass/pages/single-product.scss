@@ -1,0 +1,117 @@
+@use "../helpers/mixins" as *;
+@use "../helpers/variables" as *;
+.product-wrapper {
+  .single-product {
+    padding: 2rem 5rem;
+    margin: 2rem 5rem;
+    @apply flex text-center items-center;
+    border: 0.1rem solid $neutralColor_1;
+    border-radius: 1rem 0.5rem 1rem 0.5rem;
+    -webkit-border-radius: 1rem 0.5rem 1rem 0.5rem;
+    -moz-border-radius: 1rem 0.5rem 1rem 0.5rem;
+    -ms-border-radius: 1rem 0.5rem 1rem 0.5rem;
+    -o-border-radius: 1rem 0.5rem 1rem 0.5rem;
+    .product-image {
+      @apply flex-1;
+      margin: 1rem auto;
+      img {
+        width: 80%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    .product-details {
+      @apply flex-1;
+      h1 {
+        font-size: 2rem;
+        color: $secondaryColor_2;
+      }
+      p {
+        color: $neutralColor_1;
+        font-size: 0.8rem;
+        line-height: 1.8;
+        padding: 1rem 0;
+      }
+      .product-price {
+        span {
+          margin: 0 0.5rem;
+          font-size: 1rem;
+        }
+        strong {
+          color: $accentColor_1;
+          font-size: 1rem;
+        }
+      }
+      .product-rating {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 1rem 0;
+        .stars {
+          @apply flex items-center gap-1;
+          color: $accentColor_1;
+          font-size: 0.8rem;
+        }
+        strong {
+          font-size: 1rem;
+          color: $secondaryColor_2;
+        }
+      }
+      .stock {
+        font-size: 1rem;
+        color: $secondaryColor_1;
+        margin-bottom: 1rem;
+      }
+      .product-vendor {
+        span {
+          font-size: 0.8rem;
+          margin: 0 0.5rem;
+        }
+      }
+      a {
+        font-size: 1rem;
+        color: $secondaryColor_1;
+      }
+    }
+  }
+  .reviews {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    background-image: url("/static.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 3rem 0;
+    text-align: center;
+  }
+  .suggested-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 0.5rem;
+    margin: 5rem 1rem;
+  }
+
+  .user-review {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+  }
+  // Responsive
+  @media (max-width: 772px) {
+    .single-product {
+      flex-direction: column;
+      .product-image {
+        img {
+          width: 10rem !important;
+          height: 10rem !important;
+        }
+      }
+    }
+  }
+  @media (max-width: 992px) {
+    .reviews {
+      grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+  }
+}

@@ -4,6 +4,7 @@ import Image from "next/image";
 import "@/css/product.css";
 import LazyLoadImg from "./LazyLoadImg";
 import useInViewAnimation from "../_hooks/useInViewAnimation";
+import Link from "next/link";
 const Product = ({ product }) => {
   const [ref, inView] = useInViewAnimation();
   return (
@@ -44,7 +45,7 @@ const Product = ({ product }) => {
         </button>
 
         <button className="btn btn-secondary">
-          <a href={`/product/${product._id}`}>view details</a>
+          <Link href={`/products/${product._id}`}>view details</Link>
         </button>
       </div>
       <strong className={product.rating > 4.6 ? `discount` : ""}>

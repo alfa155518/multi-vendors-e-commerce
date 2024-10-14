@@ -9,8 +9,29 @@ import { MdContactSupport } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/public/logo.webp";
-import { useRef, useState } from "react";
+import { useContext, useRef, useState } from "react";
+import { ProductContext } from "@/app/_context/manageProducts";
 export default function Header() {
+  const { handleSearch } = useContext(ProductContext);
+  const [searchValue, setSearchValue] = useState("");
+
+  // Debounce function to limit the rate of function calls
+  const debounce = (func, delay) => {
+    let timeout;
+    return (...args) => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        func(...args);
+      }, delay);
+    };
+  };
+
+  // Update the handleSearch function to set the search value
+  const handleSearchChange = debounce((e) => {
+    setSearchValue(e.target.value);
+    handleSearch(e); // Call the original handleSearch function
+  }, 300); // Adjust delay as needed
+
   const menuRef = useRef("");
   const handleMenuToggle = () => {
     menuRef.current.classList.toggle("appear-menu");
@@ -30,7 +51,7 @@ export default function Header() {
           </li>
           <li>
             <MdOutlineProductionQuantityLimits className="menu-icon" />
-            <Link href={"/"}>All Products</Link>
+            <Link href={"/products"}>All Products</Link>
           </li>
           <li>
             <FaPersonChalkboard className="menu-icon" />
@@ -43,15 +64,36 @@ export default function Header() {
         </ul>
       </nav>
       <div className="search-wrapper">
-        <button className="icon" aria-label="button search products">
-          <FaSearch />
-        </button>
+        {searchValue ? (
+          <button className="icon" aria-label="button search products">
+            <Link href={`/products?search=${searchValue}`}>
+              <FaSearch />
+            </Link>
+          </button>
+        ) : (
+          <button className="icon" aria-label="button search products">
+            <FaSearch />
+          </button>
+        )}
         <input
-          type="text"
-          name="text"
           className="input"
-          placeholder="search.."
+          type="text"
+          name="search"
+          placeholder="search..."
+          onChange={(e) => handleSearchChange(e)}
+          list="products"
+          aria-live="polite"
         />
+        <datalist id="products">
+          <option value="Electronics"></option>
+          <option value="Chocolate"></option>
+          <option value="Foods"></option>
+          <option value="Glasses"></option>
+          <option value="Jewelry"></option>
+          <option value="Technology"></option>
+          <option value="Fashion"></option>
+          <option value="Cosmetics"></option>
+        </datalist>
       </div>
 
       <div className="cart relative">

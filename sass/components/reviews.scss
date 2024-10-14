@@ -1,0 +1,41 @@
+@use "../helpers/variables" as *;
+@use "../helpers/mixins" as *;
+
+.review {
+  background-color: $primaryColor;
+  margin: 1rem;
+  position: relative;
+  @include secondRadios;
+  .user-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    img {
+      width: 20%;
+      height: 20%;
+      @include radios(50%);
+    }
+  }
+  .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem auto;
+    color: $accentColor_1;
+    font-size: 0.8rem;
+  }
+  .comment {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: $secondaryColor_2;
+  }
+  .review-date {
+    position: absolute;
+    color: $secondaryColor_1;
+    top: 0.2rem;
+    right: 0.3rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+  }
+}
