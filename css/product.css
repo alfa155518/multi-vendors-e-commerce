@@ -14,8 +14,8 @@
   justify-content: center;
 }
 .product .img img {
-  width: 50%;
-  height: 100px;
+  width: auto;
+  height: auto;
 }
 .product .name {
   font-size: 1.2rem;

@@ -1,5 +1,5 @@
 "use client";
-
+import React from 'react'
 import { createContext, useState } from "react";
 import AllData from "@/data/product";
 export const ProductContext = createContext({});

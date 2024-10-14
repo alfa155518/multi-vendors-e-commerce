@@ -15,8 +15,10 @@
     display: flex;
     justify-content: center;
     img {
-      width: 50%;
-      height: 100px;
+      // width: 50%;
+      // height: 100px;
+      width: auto;
+      height: auto;
     }
   }
   .name {
