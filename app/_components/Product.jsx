@@ -45,7 +45,7 @@ const Product = ({ product }) => {
         </button>
 
         <button className="btn btn-secondary">
-          <Link href={`/products/${product._id}`}>view details</Link>
+          <Link href={`/products/${product._id}`}> view details </Link>
         </button>
       </div>
       <strong className={product.rating > 4.6 ? `discount` : ""}>

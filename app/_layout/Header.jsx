@@ -40,7 +40,13 @@ export default function Header() {
     <header className="flex justify-between items-center">
       <div className="logo relative">
         <Link href={"/"}>
-          <Image src={Logo} alt="Logo" priority={true} />
+          <Image
+            src={Logo}
+            alt="Logo"
+            width={100}
+            height={100}
+            priority={true}
+          />
         </Link>
       </div>
       <nav ref={menuRef}>
@@ -103,7 +109,7 @@ export default function Header() {
         <span className="cart-count absolute">0</span>
       </div>
       <button className="btn">
-        <Link href={"/"}>signup</Link>
+        <Link href={"/"}> signup </Link>
       </button>
       <div className="bars-wrapper">
         <label className="bar" htmlFor="check">
