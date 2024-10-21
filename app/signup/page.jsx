@@ -34,7 +34,7 @@ export default function SignUp() {
         <div className="user-photo">
           <label htmlFor="photo">Chose Img</label>
           <input type="file" name="photo" id="photo" />
-          <select name="role">
+          <select name="role" aria-label="role">
             <option value="user">user</option>
             <option value="vendor">vendor</option>
           </select>
