@@ -1,0 +1,101 @@
+@use "../helpers/mixins" as *;
+@use "../helpers/variables" as *;
+
+.sign-up {
+  padding: 2rem;
+  margin: 1rem;
+  .signup-form {
+    width: 50rem;
+    margin: 2rem auto;
+    font-size: 0.8rem;
+    background: linear-gradient(#212121, #212121) padding-box,
+      linear-gradient(
+          145deg,
+          transparent 35%,
+          $secondaryColor_2,
+          $secondaryColor_1
+        )
+        border-box;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    @include radios(1.2rem);
+    background-size: 200% 100%;
+    animation: gradient 5s ease infinite;
+    input {
+      margin: 1rem;
+      padding: 0.8rem;
+      @include radios(1rem);
+      @include transition(0.3s);
+      &:focus {
+        border: 0.2rem solid $secondaryColor_2;
+        scale: 1;
+      }
+      &:placeholder-shown {
+        content: attr(placeholder);
+        color: $textColor_2;
+      }
+    }
+    .user-photo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8rem;
+      margin: 1rem auto;
+      label {
+        color: $neutralColor_1;
+        border-bottom: 0.1rem solid $secondaryColor_2;
+        font-size: 1rem;
+        cursor: pointer;
+        letter-spacing: 0.2rem;
+        padding: 0.5rem 2rem;
+        font-weight: 600;
+        @include transition(0.5s);
+        &:hover {
+          background: linear-gradient($secondaryColor_2, $accentColor_1);
+          @include radios(2rem);
+        }
+      }
+      input[type="file"] {
+        display: none;
+      }
+      select {
+        outline: none;
+        cursor: pointer;
+        background-color: $primaryColor;
+        color: $neutralColor_2;
+        font-size: 1rem;
+        margin-top: 1rem;
+        option {
+        }
+      }
+    }
+    .send-btn {
+      padding: 0.1rem 1rem;
+    }
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  // Responsive
+  @media (max-width: 992px) {
+    .signup-form {
+      width: 100%;
+    }
+  }
+  @media (max-width: 572px) {
+    .user-photo {
+      flex-direction: column;
+      gap: 0.5rem !important;
+    }
+  }
+}

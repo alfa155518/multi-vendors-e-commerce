@@ -1,0 +1,108 @@
+.hero .content {
+  text-align: center;
+}
+.hero .content .info {
+  color: #ecf0f1;
+}
+.hero .content .info .hero-text {
+  color: #ecf0f1;
+  text-wrap: balance;
+  line-height: 1.6;
+}
+.hero .content .hero-img img {
+  height: 35rem;
+}
+.hero .actions {
+  top: 74%;
+  left: 15%;
+}
+@media (max-width: 768px) {
+  .hero {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+  }
+  .hero .hero-img,
+  .hero .actions {
+    display: none;
+  }
+}
+
+.categories-wrapper {
+  margin-bottom: 10rem;
+  padding-bottom: 9rem;
+}
+.categories-wrapper .my-swiper {
+  margin: 5rem 0;
+}
+.categories-wrapper .my-swiper .swiper-slide {
+  width: 30% !important;
+  height: 50% !important;
+}
+.categories-wrapper .my-swiper .swiper-slide img {
+  width: 50%;
+}
+
+.featured-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  padding: 1rem;
+  margin: 1rem;
+  margin-bottom: 8rem;
+  padding-bottom: 9rem;
+}
+@media (max-width: 768px) {
+  .featured-products {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+}
+
+.delivery-container {
+  background-image: url("/static.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 9rem;
+  padding: 1rem;
+}
+.delivery-container .content {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.delivery-container .content .right-side h3,
+.delivery-container .content .left-side h3 {
+  font-size: 2rem;
+  text-wrap: balance;
+}
+.delivery-container .content .right-side article,
+.delivery-container .content .left-side article {
+  color: #ecf0f1;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.6;
+  padding: 1rem 0;
+  text-wrap: balance;
+}
+@media (max-width: 992px) {
+  .delivery-container .content {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .delivery-container .content .img img {
+    width: 30%;
+    height: 30%;
+  }
+}
+@media (max-width: 472px) {
+  .delivery-container .content .special-word {
+    font-size: 1rem;
+  }
+  .delivery-container .content article {
+    font-size: 0.8rem !important;
+  }
+  .delivery-container .content .img img {
+    width: 10rem;
+  }
+}

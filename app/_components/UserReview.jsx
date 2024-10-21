@@ -7,7 +7,7 @@ export default function UserReview() {
   const [selectedRating, setSelectedRating] = useState(0);
   const starColors = ["red", "#e67e22", "#f1c40f", "lightgreen", "#1abc9c"];
   return (
-    <form>
+    <form className="form-review">
       <textarea placeholder="Your Review..." rows={5} />
       <div className="review-stars">
         {Array.from({ length: 5 }, (_, i) => (
@@ -27,7 +27,7 @@ export default function UserReview() {
           </span>
         ))}
       </div>
-      <SendButton />
+      <SendButton>Send</SendButton>
     </form>
   );
 }

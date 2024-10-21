@@ -1,4 +1,4 @@
-export default function SendButton() {
+export default function SendButton({ children }) {
   return (
     <button type="submit" className="send-btn">
       <div className="svg-wrapper-1">
@@ -15,7 +15,7 @@ export default function SendButton() {
           </svg>
         </div>
       </div>
-      <span>Send</span>
+      <span>{children}</span>
     </button>
   );
 }

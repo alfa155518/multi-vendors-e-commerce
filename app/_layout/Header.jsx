@@ -109,7 +109,7 @@ export default function Header() {
         <span className="cart-count absolute">0</span>
       </div>
       <button className="btn">
-        <Link href={"/"}> signup </Link>
+        <Link href={"/signup"}> signup </Link>
       </button>
       <div className="bars-wrapper">
         <label className="bar" htmlFor="check">
