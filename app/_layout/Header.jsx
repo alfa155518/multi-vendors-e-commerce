@@ -1,16 +1,16 @@
 "use client";
 
-import { TiShoppingCart } from "react-icons/ti";
-import { FaSearch } from "react-icons/fa";
-import { IoHome } from "react-icons/io5";
-import { MdOutlineProductionQuantityLimits } from "react-icons/md";
+import { useContext, useRef, useState } from "react";
 import { FaPersonChalkboard } from "react-icons/fa6";
-import { MdContactSupport } from "react-icons/md";
+import { FaSearch } from "react-icons/fa";
 import Image from "next/image";
+import { IoHome } from "react-icons/io5";
 import Link from "next/link";
 import Logo from "@/public/logo.webp";
-import { useContext, useRef, useState } from "react";
+import { MdContactSupport } from "react-icons/md";
+import { MdOutlineProductionQuantityLimits } from "react-icons/md";
 import { ProductContext } from "@/app/_context/manageProducts";
+import { TiShoppingCart } from "react-icons/ti";
 export default function Header() {
   const { handleSearch } = useContext(ProductContext);
   const [searchValue, setSearchValue] = useState("");
@@ -65,7 +65,7 @@ export default function Header() {
           </li>
           <li>
             <MdContactSupport className="menu-icon" />
-            <Link href={"/"}>Contact</Link>
+            <Link href={"/contact"}>Contact</Link>
           </li>
         </ul>
       </nav>

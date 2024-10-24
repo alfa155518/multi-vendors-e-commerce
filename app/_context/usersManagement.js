@@ -1,7 +1,7 @@
 "use client";
-import React from "react";
 import { createContext, useState } from "react";
 import AllReviews from "@/data/reviews";
+import React from "react";
 
 export const UserContext = createContext({});
 

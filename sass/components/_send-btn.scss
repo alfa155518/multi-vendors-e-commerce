@@ -12,6 +12,9 @@
   overflow: hidden;
   transition: all 0.2s;
   cursor: pointer;
+  &:hover {
+    background-color: $secondaryColor_1;
+  }
 }
 
 .send-btn span {

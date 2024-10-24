@@ -1,0 +1,60 @@
+@use "../helpers/mixins" as *;
+@use "../helpers/variables" as *;
+
+.vendor-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 1rem;
+  label:not(:nth-last-child(-n + 2)) {
+    width: 70%;
+  }
+  label {
+    color: $neutralColor_1;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin: 0.5rem;
+    color: $secondaryColor_2;
+    textarea {
+      @apply outline-none border-none;
+    }
+    input,
+    textarea {
+      color: $primaryColor;
+      padding: 0.5rem 1rem;
+      @include radios(0.4rem);
+      @include transition(0.5s);
+      // &:focus {
+      //   border: 0.2rem solid $secondaryColor_2;
+      //   scale: 1.1;
+      // }
+    }
+  }
+  .images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    label {
+      @include labelImg;
+    }
+    input {
+      display: none;
+    }
+  }
+  .send-btn {
+    width: fit-content;
+    margin: 2rem auto;
+    text-wrap: balance;
+    text-align: center;
+  }
+
+  // Responsive
+  @media (max-width: 667px) {
+    .images {
+      flex-direction: column;
+    }
+  }
+}

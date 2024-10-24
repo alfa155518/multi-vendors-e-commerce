@@ -308,6 +308,8 @@ header .cart .cart-count {
 }
 
 .section-name {
+  text-align: center;
+  text-wrap: balance;
   font-size: 1.6rem;
   width: -moz-fit-content;
   width: fit-content;
@@ -591,6 +593,9 @@ header .cart .cart-count {
   transition: all 0.2s;
   cursor: pointer;
 }
+.send-btn:hover {
+  background-color: #1abc9c;
+}
 
 .send-btn span {
   display: block;
@@ -628,7 +633,7 @@ header .cart .cart-count {
     transform: translateY(-0.1em);
   }
 }
-form {
+.form-review {
   background-color: #34495e;
   width: 40rem;
   display: flex;
@@ -641,7 +646,7 @@ form {
   -o-border-radius: 1rem 0rem 1rem 0rem;
   padding: 1rem;
 }
-form textarea {
+.form-review textarea {
   border-radius: 1rem 0rem 1rem 0rem;
   -webkit-border-radius: 1rem 0rem 1rem 0rem;
   -moz-border-radius: 1rem 0rem 1rem 0rem;
@@ -654,17 +659,17 @@ form textarea {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
-form .review-stars {
+.form-review .review-stars {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
 }
-form .review-stars .stars-rating {
+.form-review .review-stars .stars-rating {
   cursor: pointer;
   font-size: 2rem;
 }
-form .review-stars .stars-rating:hover {
+.form-review .review-stars .stars-rating:hover {
   color: #e67e22;
   transition: 0.3s ease-in-out;
   -webkit-transition: 0.3s ease-in-out;
@@ -672,7 +677,7 @@ form .review-stars .stars-rating:hover {
   -ms-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
 }
-form button {
+.form-review button {
   width: -moz-fit-content;
   width: fit-content;
   margin: 1rem auto;

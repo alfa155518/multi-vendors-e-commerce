@@ -14,8 +14,8 @@
   margin: 1rem auto;
 }
 .product-wrapper .single-product .product-image img {
-  width: 80%;
-  height: 100%;
+  width: auto;
+  height: auto;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -93,10 +93,6 @@
 @media (max-width: 772px) {
   .product-wrapper .single-product {
     flex-direction: column;
-  }
-  .product-wrapper .single-product .product-image img {
-    width: 10rem !important;
-    height: 10rem !important;
   }
 }
 @media (max-width: 992px) {

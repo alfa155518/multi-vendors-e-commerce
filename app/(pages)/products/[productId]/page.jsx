@@ -1,17 +1,17 @@
 "use client";
 
+import "../../../../css/single-product.css";
+import { useContext, useState } from "react";
+import { FaRegStarHalfStroke } from "react-icons/fa6";
+import { FaStar } from "react-icons/fa6";
+import Image from "next/image";
+import LazyLoadImg from "@/app/_components/LazyLoadImg";
+import Link from "next/link";
 import Product from "@/app/_components/Product";
 import { ProductContext } from "@/app/_context/manageProducts";
-import { useContext, useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { FaStar } from "react-icons/fa6";
-import { FaRegStarHalfStroke } from "react-icons/fa6";
 import Reviews from "@/app/_components/Reviews";
 import SectionName from "@/app/_components/SectionName";
-import "@/css/single-product.css";
 import UserReview from "@/app/_components/UserReview";
-import LazyLoadImg from "@/app/_components/LazyLoadImg";
 export default function ProductInfo({ params }) {
   const productId = +params.productId;
   const { singleProduct, suggestions } = useContext(ProductContext);

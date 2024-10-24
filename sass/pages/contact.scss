@@ -1,0 +1,52 @@
+@use "../helpers/mixins" as *;
+@use "../helpers/variables" as *;
+
+.contact-container {
+  padding: 3rem;
+  margin: 2rem auto;
+
+  .lazyload-wrapper {
+    flex: 1;
+    .img {
+      width: 100%;
+      img {
+        width: 90%;
+        object-fit: cover;
+      }
+    }
+  }
+  .contact-form {
+    flex-direction: column;
+    flex: 1;
+    .form-group {
+      width: 90%;
+      margin: 0.2rem auto;
+      label {
+        display: block;
+        color: $secondaryColor_2;
+        margin: 0.4rem;
+        font-weight: 600;
+        font-size: 1rem;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 0.5rem;
+        @include radios(0.5rem);
+        font-size: 1rem;
+        outline: none;
+        border: none;
+      }
+    }
+    .send-btn {
+      width: fit-content;
+      margin: 2rem auto;
+    }
+  }
+  // Responsive
+  @media (max-width: 992px) {
+    .lazyload-wrapper {
+      display: none;
+    }
+  }
+}

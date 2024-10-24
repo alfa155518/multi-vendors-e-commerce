@@ -1,8 +1,7 @@
 "use client";
-import Image from "next/image";
+import LazyLoadImageAnimation from "../_components/ImageAnimation";
 import SectionName from "../_components/SectionName";
 import deliveryImg from "@/public/delivery.webp";
-import LazyLoadImg from "../_components/LazyLoadImg";
 import useInViewAnimation from "../_hooks/useInViewAnimation";
 export default function Delivery() {
   const [ref, inView] = useInViewAnimation();
@@ -23,16 +22,12 @@ export default function Delivery() {
               experience tailored just for you!
             </article>
           </div>
-          <LazyLoadImg>
-            <div className="img flex justify-center items-center">
-              <Image
-                src={deliveryImg}
-                alt="Delivery"
-                priority={true}
-                className="w-2/4 h-auto"
-              />
-            </div>
-          </LazyLoadImg>
+          <LazyLoadImageAnimation
+            src={deliveryImg}
+            alt={"Delivery"}
+            containerClassName="img flex justify-center items-center"
+            imgClassName="w-2/4 h-auto"
+          />
           <div className="left-side">
             <h3 className="special-word">Order Online and Get Fast Delivery</h3>
             <article>

@@ -1,3 +1,15 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": false, // Ignore case while sorting imports
+        "ignoreDeclarationSort": false, // Ignore sorting of import declarations
+        "ignoreMemberSort": false, // Ignore sorting of import members
+        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"], // Order of syntax
+        "allowSeparatedGroups": false // Allow separated groups of imports
+      }
+    ]
+  }
 }

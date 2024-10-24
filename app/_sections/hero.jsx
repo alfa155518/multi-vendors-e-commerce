@@ -1,9 +1,8 @@
-import Link from "next/link";
 import Image from "next/image";
+import LazyLoadImg from "../_components/LazyLoadImg";
+import Link from "next/link";
 import bgImage from "@/public/static.webp";
 import heroImage from "@/public/hero.webp";
-import LazyLoadImg from "../_components/LazyLoadImg";
-import useInViewAnimation from "../_hooks/useInViewAnimation";
 
 export default function Hero() {
   return (

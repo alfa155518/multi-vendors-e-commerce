@@ -1,12 +1,12 @@
 "use client";
 
+import "../../../css/products.css";
+import NoData from "../../_components/NoData";
+import Product from "../../_components/Product";
+import { ProductContext } from "../../_context/manageProducts";
+import SectionName from "../../_components/SectionName";
 import { useContext } from "react";
-import SectionName from "../_components/SectionName";
-import { ProductContext } from "../_context/manageProducts";
-import Product from "../_components/Product";
-import NoData from "@/app/_components/NoData";
-import useInViewAnimation from "../_hooks/useInViewAnimation";
-import "@/css/products.css";
+import useInViewAnimation from "../../_hooks/useInViewAnimation";
 export default function AllProducts() {
   const { allProducts, filterProductsByPrice, filterByCategories } =
     useContext(ProductContext);

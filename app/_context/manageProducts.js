@@ -1,7 +1,7 @@
 "use client";
-import React from 'react'
 import { createContext, useState } from "react";
 import AllData from "@/data/product";
+import React from "react";
 export const ProductContext = createContext({});
 
 export function ProductProvider({ children }) {
@@ -81,7 +81,7 @@ export function ProductProvider({ children }) {
         filterProductsByPrice,
         singleProduct,
         suggestions,
-        filterByCategories
+        filterByCategories,
       }}>
       {children}
     </ProductContext.Provider>

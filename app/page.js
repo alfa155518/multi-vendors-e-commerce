@@ -1,8 +1,8 @@
-import Hero from "./_sections/hero";
-import Categories from "./_sections/categories";
-import FeaturedProducts from "./_sections/featuredProducts";
 import "../css/home.css";
+import Categories from "./_sections/categories";
 import Delivery from "./_sections/delivery";
+import FeaturedProducts from "./_sections/featuredProducts";
+import Hero from "./_sections/hero";
 export default function Home() {
   return (
     <div className="home">

@@ -1,3 +1,4 @@
+@use "./variables" as *;
 @mixin transition($time) {
   transition: $time ease-in-out;
   -webkit-transition: $time ease-in-out;
@@ -26,4 +27,19 @@
   -moz-border-radius: 1rem 0rem 1rem 0rem;
   -ms-border-radius: 1rem 0rem 1rem 0rem;
   -o-border-radius: 1rem 0rem 1rem 0rem;
+}
+
+@mixin labelImg {
+  color: $neutralColor_1;
+  border-bottom: 0.1rem solid $secondaryColor_2;
+  font-size: 1rem;
+  cursor: pointer;
+  letter-spacing: 0.2rem;
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  @include transition(0.5s);
+  &:hover {
+    background: linear-gradient($secondaryColor_2, $accentColor_1);
+    @include radios(2rem);
+  }
 }
