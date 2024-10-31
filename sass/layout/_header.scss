@@ -176,7 +176,12 @@ header {
       padding: 0.1rem;
     }
   }
-
+  .profile-img {
+    img {
+      @include radios(50%);
+      object-fit: contain;
+    }
+  }
   // Responsive
   @media (max-width: 992px) {
     .search-wrapper {

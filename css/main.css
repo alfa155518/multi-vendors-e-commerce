@@ -189,6 +189,15 @@ header .cart .cart-count {
   line-height: 1;
   padding: 0.1rem;
 }
+header .profile-img img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 @media (max-width: 992px) {
   header .search-wrapper {
     display: none;
@@ -633,6 +642,64 @@ header .cart .cart-count {
     transform: translateY(-0.1em);
   }
 }
+.btn-logout {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: rgb(255, 65, 65);
+}
+.btn-logout .sign {
+  width: 100%;
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-logout .sign svg {
+  width: 17px;
+}
+.btn-logout .sign svg path {
+  fill: white;
+}
+.btn-logout .text {
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  opacity: 0;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  transition-duration: 0.3s;
+}
+.btn-logout:hover {
+  width: 125px;
+  border-radius: 40px;
+  transition-duration: 0.3s;
+}
+.btn-logout:hover .sign {
+  width: 30%;
+  transition-duration: 0.3s;
+  padding-left: 20px;
+}
+.btn-logout:hover .text {
+  opacity: 1;
+  width: 70%;
+  transition-duration: 0.3s;
+  padding-right: 10px;
+}
+.btn-logout:active {
+  transform: translate(2px, 2px);
+}
+
 .form-review {
   background-color: #34495e;
   width: 40rem;

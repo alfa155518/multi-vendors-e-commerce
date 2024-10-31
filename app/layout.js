@@ -3,10 +3,10 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "animate.css";
+// import "sweetalert2/src/sweetalert2.scss";
 import "@/css/main.css";
 
 import AnimatePresencePages from "./_components/AnimatePresence";
-
 // Import Component
 import BtnToTop from "./_components/BtnToTop";
 import Footer from "./_layout/Footer";

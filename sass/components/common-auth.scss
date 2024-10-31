@@ -1,12 +1,15 @@
 @use "../helpers/mixins" as *;
 @use "../helpers/variables" as *;
 
-.sign-up {
+.sign-up,
+.login {
   padding: 2rem;
   margin: 1rem;
-  .signup-form {
+  .signup-form,
+  .login-form {
     width: 50rem;
     margin: 2rem auto;
+    padding: 2rem;
     font-size: 0.8rem;
     background: linear-gradient(#212121, #212121) padding-box,
       linear-gradient(
@@ -22,18 +25,21 @@
     background-size: 200% 100%;
     animation: gradient 5s ease infinite;
     input {
-      margin: 1rem;
+      margin: 1rem 3rem;
       padding: 0.8rem;
       width: 90%;
       @include radios(1rem);
       @include transition(0.3s);
-      // &:focus {
-      //   border: 0.2rem solid $secondaryColor_2;
-      //   scale: 1;
-      // }
       &:placeholder-shown {
         content: attr(placeholder);
         color: $textColor_2;
+      }
+      &.input-valid {
+        border: 0.2rem solid $secondaryColor_1;
+      }
+
+      &.input-invalid {
+        border: 0.2rem solid $dangerColor;
       }
     }
     .user-photo {
@@ -61,6 +67,18 @@
       padding: 0.1rem 1rem;
       margin: 3rem auto;
     }
+    .account-link {
+      text-align: center;
+      padding: 1rem;
+      margin: 1rem auto;
+      color: $neutralColor_2;
+      font-style: 1.4rem;
+      a {
+        padding: 0 0.2rem;
+        font-size: 1rem;
+        color: $secondaryColor_2;
+      }
+    }
   }
   @keyframes gradient {
     0% {
@@ -77,8 +95,17 @@
   }
   // Responsive
   @media (max-width: 992px) {
-    .signup-form {
+    .signup-form,
+    .login-form {
       width: 100%;
+    }
+  }
+  @media (max-width: 667px) {
+    .signup-form,
+    .login-form {
+      input {
+        margin: 1rem auto;
+      }
     }
   }
   @media (max-width: 572px) {

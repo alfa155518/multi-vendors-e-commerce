@@ -11,11 +11,18 @@ import { MdContactSupport } from "react-icons/md";
 import { MdOutlineProductionQuantityLimits } from "react-icons/md";
 import { ProductContext } from "@/app/_context/manageProducts";
 import { TiShoppingCart } from "react-icons/ti";
+import LazyLoadImageAnimation from "../_components/ImageAnimation";
+import LogoutBtn from "../_components/LogoutBtn";
+import Logout from "../actions/Logout";
+import { UserContext } from "../_context/usersManagement";
+
 export default function Header() {
   const { handleSearch } = useContext(ProductContext);
   const [searchValue, setSearchValue] = useState("");
+  const { userData } = useContext(UserContext);
+  const menuRef = useRef("");
 
-  // Debounce function to limit the rate of function calls
+  // Debounce function to  limit the rate of function calls
   const debounce = (func, delay) => {
     let timeout;
     return (...args) => {
@@ -29,13 +36,13 @@ export default function Header() {
   // Update the handleSearch function to set the search value
   const handleSearchChange = debounce((e) => {
     setSearchValue(e.target.value);
-    handleSearch(e); // Call the original handleSearch function
-  }, 300); // Adjust delay as needed
+    handleSearch(e);
+  }, 300);
 
-  const menuRef = useRef("");
   const handleMenuToggle = () => {
     menuRef.current.classList.toggle("appear-menu");
   };
+
   return (
     <header className="flex justify-between items-center">
       <div className="logo relative">
@@ -108,9 +115,25 @@ export default function Header() {
         </Link>
         <span className="cart-count absolute">0</span>
       </div>
-      <button className="btn">
-        <Link href={"/signup"}> signup </Link>
-      </button>
+      {userData ? (
+        <>
+          <Link href={"/profile"} className="profile-img">
+            <LazyLoadImageAnimation
+              src={userData?.photo.url}
+              alt={"profile"}
+              width={80}
+              height={20}
+            />
+          </Link>
+          <button className="btn-logout" onClick={(e) => Logout(e)}>
+            <LogoutBtn>Logout</LogoutBtn>
+          </button>
+        </>
+      ) : (
+        <button className="btn">
+          <Link href={"/signup"}> signup </Link>
+        </button>
+      )}
       <div className="bars-wrapper">
         <label className="bar" htmlFor="check">
           <input
@@ -118,15 +141,11 @@ export default function Header() {
             id="check"
             onClick={() => handleMenuToggle()}
           />
-
           <span className="top"></span>
           <span className="middle"></span>
           <span className="bottom"></span>
         </label>
       </div>
-      {/* <div className="user-profile">
-        <Link href={"/profile"}>Profile</Link>
-      </div> */}
     </header>
   );
 }

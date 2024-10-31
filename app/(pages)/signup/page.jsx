@@ -1,27 +1,21 @@
 "use client";
-
-import "../../../css/signup.css";
+import "../../../css/common-auth.css";
 import * as motion from "framer-motion/client";
 import SendButton from "../../_components/SendButton";
-import { useState } from "react";
+import Link from "next/link";
+import Loading from "@/app/_components/Laoding";
+import useSignUp from "@/app/_hooks/useSignup";
 
 export default function SignUp() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    password: "",
-    photo: null,
-    role: "user",
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  return (
+  // Custom Hook SignUp
+  const { getInputClass, handleSubmit, formData, handleChange, loading } =
+    useSignUp();
+  return loading ? (
+    <Loading />
+  ) : (
     <div className="sign-up">
       <motion.form
+        onSubmit={handleSubmit}
         className="signup-form"
         initial={{ opacity: 0 }}
         animate={{
@@ -37,55 +31,51 @@ export default function SignUp() {
         </div>
         <motion.input
           type="text"
-          placeholder="name"
+          placeholder="Name"
           name="name"
-          autoComplete="any name"
           onChange={handleChange}
-          style={{
-            border: formData.name ? "2px solid green" : "2px solid red",
-            transition: "border-color 0.3s ease",
-          }}
+          autoComplete="name"
           whileFocus={{ scale: 1.05 }}
+          className={getInputClass(formData.name)}
         />
         <motion.input
           type="email"
           placeholder="Email"
           name="email"
-          autoComplete="any email"
+          autoComplete="email"
           onChange={handleChange}
-          style={{
-            border: formData.email ? "2px solid green" : "2px solid red",
-            transition: "border-color 0.3s ease",
-          }}
           whileFocus={{ scale: 1.05 }}
+          className={getInputClass(formData.email)}
         />
         <motion.input
           type="password"
           placeholder="Password"
           name="password"
           onChange={handleChange}
-          style={{
-            border: formData.password ? "2px solid green" : "2px solid red",
-            transition: "border-color 0.3s ease",
-          }}
           whileFocus={{ scale: 1.05 }}
+          className={getInputClass(formData.password)}
         />
         <div className="user-photo">
-          <label htmlFor="photo">Chose Img</label>
+          <label htmlFor="photo">Choose Img</label>
           <input
             type="file"
             name="photo"
             id="photo"
-            onChange={(e) =>
-              setFormData({ ...formData, photo: e.target.files[0] })
-            }
+            accept="image/*"
+            onChange={handleChange}
           />
-          <select name="role" aria-label="role" onChange={handleChange}>
-            <option value="user">user</option>
-            <option value="vendor">vendor</option>
+          <select name="role" aria-label="role">
+            <option value="user">User</option>
+            <option value="vendor">Vendor</option>
           </select>
         </div>
-        <SendButton>sign up</SendButton>
+        <SendButton>Sign Up</SendButton>
+        <p className="account-link">
+          Already have an account?
+          <Link href="/login" aria-label="Login to your account">
+            Login
+          </Link>
+        </p>
       </motion.form>
     </div>
   );
