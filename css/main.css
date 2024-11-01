@@ -197,6 +197,8 @@ header .profile-img img {
   -o-border-radius: 50%;
   -o-object-fit: contain;
      object-fit: contain;
+  width: auto;
+  height: auto;
 }
 @media (max-width: 992px) {
   header .search-wrapper {

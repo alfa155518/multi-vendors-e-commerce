@@ -6,7 +6,8 @@ import Cookies from "js-cookie";
 export const UserContext = createContext({});
 
 export default function UsersManageMent({ children }) {
-  // All reviews
+  const token = Cookies.get("token") ? JSON.parse(Cookies.get("token")) : null;
+
   const [reviews, setReviews] = useState(AllReviews);
 
   const [userData, setUserData] = useState(null);
@@ -26,7 +27,7 @@ export default function UsersManageMent({ children }) {
   }, []);
 
   return (
-    <UserContext.Provider value={{ reviews, userData }}>
+    <UserContext.Provider value={{ reviews, userData, token }}>
       {children}
     </UserContext.Provider>
   );

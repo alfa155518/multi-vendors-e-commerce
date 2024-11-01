@@ -180,6 +180,8 @@ header {
     img {
       @include radios(50%);
       object-fit: contain;
+      width: auto;
+      height: auto;
     }
   }
   // Responsive
