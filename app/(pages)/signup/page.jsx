@@ -64,7 +64,7 @@ export default function SignUp() {
             accept="image/*"
             onChange={handleChange}
           />
-          <select name="role" aria-label="role">
+          <select name="role" aria-label="role" onChange={handleChange}>
             <option value="user">User</option>
             <option value="vendor">Vendor</option>
           </select>

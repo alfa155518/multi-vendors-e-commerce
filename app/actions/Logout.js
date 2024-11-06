@@ -15,10 +15,12 @@ export default async function Logout(e) {
         "Content-Type": "application/json",
       },
     });
-    console.log(response);
     if (response.ok) {
       Cookies.remove("userData");
       Cookies.remove("token");
+      Cookies.remove("vendor");
+      Cookies.remove("vendorToken");
+      Notification("success", "Successfully logged out", "See you again soon!");
       window.location.href = "/signup";
     }
   } catch (err) {

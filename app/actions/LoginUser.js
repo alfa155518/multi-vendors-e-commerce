@@ -22,7 +22,12 @@ export default async function LoginUser(
       const { password, ...userData } = data.user;
       Cookies.set("userData", JSON.stringify(userData));
       Cookies.set("token", JSON.stringify(data.token));
-      window.location.href = "/";
+      console.log(data);
+      if (userData.role === "vendor") {
+        window.location.href = "/createVendor";
+      } else {
+        window.location.href = "/";
+      }
     } else {
       Notification("error", "An Error Ocurred", data.message);
     }

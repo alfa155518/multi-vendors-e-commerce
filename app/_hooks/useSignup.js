@@ -9,8 +9,9 @@ const useSignUp = () => {
     email: "",
     password: "",
     photo: null,
+    role: "",
   });
-
+  console.log(formData.role);
   // State to manage loading status
   const [loading, setLoading] = useState(false);
 

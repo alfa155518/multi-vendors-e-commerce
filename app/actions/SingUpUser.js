@@ -1,7 +1,7 @@
 import Notification from "../_components/Notification";
 
 export default async function signUpUser(
-  { name, email, password, photo },
+  { name, email, password, photo, role },
   setLoading,
   setFormData
 ) {
@@ -13,6 +13,7 @@ export default async function signUpUser(
   formData.append("email", email);
   formData.append("password", password);
   formData.append("photo", photo);
+  formData.append("role", role);
 
   try {
     // Send a POST request to the signup endpoint
@@ -27,7 +28,9 @@ export default async function signUpUser(
     // Check if the response indicates success
     if (response.ok) {
       Notification("success", "User created successfully", "You can now login");
-      window.location.href = "/login";
+      setTimeout(() => {
+        window.location.href = "/login";
+      }, 3000);
     } else {
       // Handle errors returned from the server
       return Notification(

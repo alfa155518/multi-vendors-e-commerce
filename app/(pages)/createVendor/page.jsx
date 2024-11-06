@@ -3,41 +3,16 @@ import "../../../css/create-vendor.css";
 import * as motion from "framer-motion/client";
 import SectionName from "@/app/_components/SectionName";
 import SendButton from "../../_components/SendButton";
-import { useState } from "react";
+import Loading from "@/app/_components/Laoding";
+import useCreateVendor from "@/app/_hooks/useCreateVendor";
 
 export default function CreateVendor() {
-  const [formData, setFormData] = useState({
-    storeName: "",
-    storeDescription: "",
-    name: "",
-    email: "",
-    phoneNumber: "",
-    country: "",
-    logo: "",
-    bannerImage: "",
-  });
-
-  const handleChange = (e) => {
-    const { name, value, files } = e.target;
-    if (files && files.length > 0) {
-      setFormData({ ...formData, [name]: files[0] });
-    } else {
-      setFormData({ ...formData, [name]: value });
-    }
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    // Here you would typically send formData to your server
-    console.log(formData); // For demonstration purposes
-  };
-
-  const getInputStyle = (value) => ({
-    border: value ? "2px solid green" : "2px solid red",
-    transition: "border-color 0.3s ease",
-  });
-
-  return (
+  // Custom Hook CreateVendor
+  const [isLoading, handleSubmit, getInputStyle, handleChange, formData] =
+    useCreateVendor();
+  return isLoading ? (
+    <Loading />
+  ) : (
     <>
       <SectionName>Create Your Vendor Account</SectionName>
       <motion.form
@@ -66,12 +41,12 @@ export default function CreateVendor() {
         <label>
           Store Description
           <motion.textarea
-            name="storeDescription"
-            value={formData.storeDescription}
+            name="description"
+            value={formData.description}
             onChange={handleChange}
             required
             placeholder="Describe your store"
-            style={getInputStyle(formData.storeDescription)}
+            style={getInputStyle(formData.description)}
             whileFocus={{
               scale: 1.05,
               transition: { type: "spring", stiffness: 300 },
@@ -116,13 +91,13 @@ export default function CreateVendor() {
           Phone Number
           <motion.input
             type="tel"
-            name="phoneNumber"
-            value={formData.phoneNumber}
+            name="phone"
+            value={formData.phone}
             onChange={handleChange}
             required
             placeholder="Enter your phone number"
             autoComplete="tel"
-            style={getInputStyle(formData.phoneNumber)}
+            style={getInputStyle(formData.phone)}
             whileFocus={{
               scale: 1.05,
               transition: { type: "spring", stiffness: 300 },
@@ -149,13 +124,9 @@ export default function CreateVendor() {
         <div className="images">
           <label>
             Logo
-            <input type="file" name="logo" onChange={handleChange} required />
-          </label>
-          <label>
-            Banner Image
             <input
               type="file"
-              name="bannerImage"
+              name="storeLogo"
               onChange={handleChange}
               required
             />
