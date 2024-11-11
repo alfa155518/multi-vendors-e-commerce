@@ -1,8 +1,8 @@
 import Link from "next/link";
 export default function BtnBackArrow({ direction }) {
   return (
-    <Link href={direction} className="back-arrow">
-      <button className="button">
+    <Link href={direction} className="back-arrow" aria-label="back arrow link">
+      <button className="button" aria-label="back arrow">
         <div className="button-box">
           <span className="button-elem">
             <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
