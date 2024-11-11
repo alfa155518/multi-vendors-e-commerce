@@ -4,7 +4,7 @@ import LazyLoadImageAnimation from "@/app/_components/ImageAnimation";
 import { UserContext } from "@/app/_context/usersManagement";
 import Link from "next/link";
 import { useContext } from "react";
-import DefaultImg from "@/public/images/users/default.webp";
+import DefaultImg from "../../../public/images/users/default.WebP";
 
 export default function Profile() {
   const { userData } = useContext(UserContext);
