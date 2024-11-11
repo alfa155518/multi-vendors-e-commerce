@@ -4,7 +4,7 @@ import * as motion from "framer-motion/client";
 import SendButton from "@/app/_components/SendButton";
 
 import { useContext, useEffect, useState } from "react";
-import BtnBackArrow from "@/app/_components/BtnBackArrow";
+import BtnBackArrow from "../../../_components/btnBackArrow";
 import { UserContext } from "@/app/_context/usersManagement";
 import { UpdateDetails, UpdatePassword } from "@/app/actions/UpdateUser";
 import Cookies from "js-cookie";
