@@ -16,15 +16,6 @@ import { ProductProvider } from "./_context/manageProducts";
 
 import UsersManageMent from "./_context/usersManagement";
 
-// Font
-// const openSans = Open_Sans({
-//   weight: ["400", "700", "300", "800", "500"],
-//   style: ["normal", "italic"],
-//   subsets: ["latin"],
-//   display: "swap",
-//   variable: "--font-open-sans",
-// });
-
 // MetaData
 export const metadata = {
   title: "Multi-vendor E-commerce Products",

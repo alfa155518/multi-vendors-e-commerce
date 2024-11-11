@@ -1,15 +1,17 @@
 "use client";
 import "../../../css/create-vendor.css";
+import "react-phone-number-input/style.css";
 import * as motion from "framer-motion/client";
 import SectionName from "@/app/_components/SectionName";
 import SendButton from "../../_components/SendButton";
 import Loading from "@/app/_components/Laoding";
 import useCreateVendor from "@/app/_hooks/useCreateVendor";
+import PhoneInput from "react-phone-number-input";
 
 export default function CreateVendor() {
-  // Custom Hook CreateVendor
   const [isLoading, handleSubmit, getInputStyle, handleChange, formData] =
     useCreateVendor();
+
   return isLoading ? (
     <Loading />
   ) : (
@@ -27,7 +29,7 @@ export default function CreateVendor() {
             type="text"
             name="storeName"
             value={formData.storeName}
-            onChange={handleChange}
+            onChange={(e) => handleChange(e.target.name, e.target.value)}
             required
             placeholder="Enter your store name"
             autoComplete="off"
@@ -43,7 +45,7 @@ export default function CreateVendor() {
           <motion.textarea
             name="description"
             value={formData.description}
-            onChange={handleChange}
+            onChange={(e) => handleChange(e.target.name, e.target.value)}
             required
             placeholder="Describe your store"
             style={getInputStyle(formData.description)}
@@ -59,7 +61,7 @@ export default function CreateVendor() {
             type="text"
             name="name"
             value={formData.name}
-            onChange={handleChange}
+            onChange={(e) => handleChange(e.target.name, e.target.value)}
             required
             placeholder="Enter your name"
             autoComplete="off"
@@ -76,7 +78,7 @@ export default function CreateVendor() {
             type="email"
             name="email"
             value={formData.email}
-            onChange={handleChange}
+            onChange={(e) => handleChange(e.target.name, e.target.value)}
             required
             placeholder="Enter your email"
             autoComplete="email"
@@ -89,20 +91,24 @@ export default function CreateVendor() {
         </label>
         <label>
           Phone Number
-          <motion.input
-            type="tel"
-            name="phone"
-            value={formData.phone}
-            onChange={handleChange}
-            required
-            placeholder="Enter your phone number"
-            autoComplete="tel"
-            style={getInputStyle(formData.phone)}
+          <motion.div
             whileFocus={{
               scale: 1.05,
               transition: { type: "spring", stiffness: 300 },
             }}
-          />
+            style={{ width: "100%" }}>
+            <PhoneInput
+              placeholder="Enter your phone number"
+              onChange={(value) => handleChange("phone", value)}
+              name="phone"
+              value={formData.phone}
+              required
+              international
+              countryCallingCodeEditable={false}
+              defaultCountry="EG"
+              style={getInputStyle(formData.phone)}
+            />
+          </motion.div>
         </label>
         <label>
           Country
@@ -110,7 +116,7 @@ export default function CreateVendor() {
             type="text"
             name="country"
             value={formData.country}
-            onChange={handleChange}
+            onChange={(e) => handleChange(e.target.name, e.target.value)}
             required
             placeholder="Enter your country"
             autoComplete="off"
@@ -127,7 +133,7 @@ export default function CreateVendor() {
             <input
               type="file"
               name="storeLogo"
-              onChange={handleChange}
+              onChange={(e) => handleChange("storeLogo", null, e)}
               required
             />
           </label>

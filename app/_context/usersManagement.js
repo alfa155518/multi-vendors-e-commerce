@@ -3,10 +3,13 @@ import { createContext, useEffect, useState } from "react";
 import AllReviews from "@/data/reviews";
 import React from "react";
 import Cookies from "js-cookie";
+
 export const UserContext = createContext({});
 
 export default function UsersManageMent({ children }) {
   const token = Cookies.get("token") ? JSON.parse(Cookies.get("token")) : null;
+
+  const API = process.env.NEXT_PUBLIC_API_URL;
 
   const [reviews, setReviews] = useState(AllReviews);
 
@@ -17,7 +20,26 @@ export default function UsersManageMent({ children }) {
       try {
         if (Cookies.get("userData")) {
           const data = await JSON.parse(Cookies.get("userData"));
-          return setUserData(data);
+          const response = await fetch(
+            `${API}/users/${data._id}`,
+            {
+              headers: { Authorization: `Bearer ${token}` },
+            },
+            {
+              next: {
+                revalidate: 1,
+              },
+            }
+          );
+          if (response.ok) {
+            const data = await response.json();
+            if (data) {
+              Cookies.set("userData", JSON.stringify(data.user));
+            }
+            return setUserData(data.user);
+          } else {
+            throw new Error("Failed to fetch user data");
+          }
         }
       } catch (error) {
         console.error("Error fetching user data:", error);

@@ -119,7 +119,7 @@ export default function Header() {
         <>
           <Link href={"/profile"} className="profile-img">
             <LazyLoadImageAnimation
-              src={userData?.photo.url}
+              src={userData?.photo?.url}
               alt={"profile"}
               width={80}
               height={20}

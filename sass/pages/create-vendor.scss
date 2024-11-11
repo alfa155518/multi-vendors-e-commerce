@@ -12,12 +12,19 @@
     width: 70%;
   }
   label {
+    position: relative;
     color: $neutralColor_1;
     display: flex;
     flex-direction: column;
     font-size: 1rem;
     margin: 0.5rem;
     color: $secondaryColor_2;
+    .PhoneInput {
+      @include radios(0.5rem);
+      .PhoneInputCountry {
+        padding: 0 0.5rem;
+      }
+    }
     textarea {
       @apply outline-none border-none;
     }
@@ -27,10 +34,6 @@
       padding: 0.5rem 1rem;
       @include radios(0.4rem);
       @include transition(0.5s);
-      // &:focus {
-      //   border: 0.2rem solid $secondaryColor_2;
-      //   scale: 1.1;
-      // }
     }
   }
   .images {

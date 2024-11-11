@@ -34,7 +34,7 @@ export default function LazyLoadImageAnimation({
         onViewportEnter={() => setIsInView(true)}>
         <Image
           className={imgClassName}
-          src={src} // Assuming the images are in the public directory
+          src={src}
           alt={alt}
           width={width}
           height={height}

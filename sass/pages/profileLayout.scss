@@ -1,0 +1,95 @@
+@import "../helpers/mixins";
+@import "../helpers/variables";
+
+// Component
+@import "../components/profile-content";
+@import "../components/update-profile";
+
+.profile-layout {
+  display: flex;
+  background-color: $primaryColor;
+  position: relative;
+  margin: 2rem 1rem;
+  @include radios(0.5rem);
+  overflow: hidden;
+  .side-nav-bars {
+    color: $secondaryColor_2;
+    font-size: 2rem;
+    position: absolute;
+    z-index: 9999;
+    right: 0;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  .side-nav {
+    flex: 1;
+    background-color: $secondaryColor_2;
+    border-radius: 0.5rem 0 0 0.5rem;
+    -webkit-border-radius: 0.5rem 0 0 0.5rem;
+    -moz-border-radius: 0.5rem 0 0 0.5rem;
+    -ms-border-radius: 0.5rem 0 0 0.5rem;
+    -o-border-radius: 0.5rem 0 0 0.5rem;
+    @include transition(0.5s);
+    &.active {
+      @include transition(0.5s);
+      width: 30%;
+      left: 0;
+    }
+    ul {
+      li {
+        display: flex;
+        position: relative;
+        margin: 2rem 0;
+        @include transition(0.3s);
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 0.5rem;
+          font-size: 1.2rem;
+          color: $neutralColor_2;
+        }
+        .icon {
+          margin-left: 0.5rem;
+        }
+
+        &.active {
+          &::before {
+            content: "";
+            position: absolute;
+            top: 0.1rem;
+            left: 0;
+            width: 0.2rem;
+            height: 2rem;
+            background-color: $neutralColor_2;
+            transition: width 0.3s;
+          }
+        }
+      }
+    }
+  }
+  .content {
+    flex: 4;
+  }
+
+  // Responsive
+  @media (max-width: 778px) {
+    .side-nav-bars {
+      display: block;
+    }
+  }
+  @media (max-width: 776px) {
+    .side-nav {
+      position: absolute;
+      height: 100%;
+      z-index: 100;
+      width: 30%;
+      left: -50%;
+    }
+  }
+  @media (max-width: 467px) {
+    .side-nav {
+      width: 50% !important;
+    }
+  }
+}

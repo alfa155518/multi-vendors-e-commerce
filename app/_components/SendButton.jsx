@@ -1,6 +1,8 @@
-export default function SendButton({ children }) {
+export default function SendButton({ children, isDisabled }) {
   return (
-    <button type="submit" className="send-btn">
+    <button
+      type="submit"
+      className={`send-btn ${isDisabled ? "pointer-events-none" : ""}`}>
       <div className="svg-wrapper-1">
         <div className="svg-wrapper">
           <svg
