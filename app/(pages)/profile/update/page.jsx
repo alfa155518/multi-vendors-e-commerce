@@ -11,6 +11,7 @@ import Cookies from "js-cookie";
 import useUpdateUserDetails from "@/app/_hooks/useUpdateUserDetails";
 import useUpdateUserPassword from "@/app/_hooks/useUpdateUserPassword";
 export default function UpdateProfile() {
+  // Vendor
   const [loading, setLoading] = useState(false);
   const { token } = useContext(UserContext);
   const [hasMounted, setHasMounted] = useState(false);
