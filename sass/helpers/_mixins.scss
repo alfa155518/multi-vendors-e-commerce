@@ -44,3 +44,43 @@
     @include radios(2rem);
   }
 }
+
+@mixin tableComponent {
+  overflow-x: auto;
+  margin: 5rem auto;
+  color: $neutralColor_2;
+  h2 {
+    color: $secondaryColor_2;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 0.5rem;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1rem;
+    thead {
+      tr {
+        padding: 1.2rem;
+        font-weight: bold;
+        border-bottom: 0.2rem solid $textColor_1;
+      }
+    }
+    tbody {
+      tr {
+        &:nth-child(even) {
+          background-color: $primaryColor;
+        }
+        td {
+          padding: 0.6rem;
+          border-bottom: 0.2rem solid $textColor_1;
+          font-weight: 800;
+          &.price {
+            color: $accentColor_1;
+          }
+        }
+      }
+    }
+  }
+}

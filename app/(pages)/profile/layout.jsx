@@ -1,5 +1,6 @@
 "use client";
 
+import "../../../css/profileLayout.css";
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import Link from "next/link";
 import { CgProfile } from "react-icons/cg";
@@ -7,10 +8,7 @@ import { MdOutlineSecurity } from "react-icons/md";
 import { BsFillBagCheckFill } from "react-icons/bs";
 import { IoIosStarOutline } from "react-icons/io";
 import { motion } from "framer-motion";
-
-import "../../../css/profileLayout.css";
 import { usePathname } from "next/navigation";
-
 import { useCallback, useState } from "react";
 
 export default function ProfileLayout({ children }) {

@@ -1,21 +1,28 @@
 "use client";
-import "../../../css/create-vendor.css";
+import "../../../../css/create-vendor.css";
 import "react-phone-number-input/style.css";
 import * as motion from "framer-motion/client";
 import SectionName from "@/app/_components/SectionName";
-import SendButton from "../../_components/SendButton";
+import SendButton from "../../../_components/SendButton";
 import Loading from "@/app/_components/Laoding";
 import useCreateVendor from "@/app/_hooks/useCreateVendor";
 import PhoneInput from "react-phone-number-input";
+import ConfettiParty from "@/app/_components/ConfettiParty";
+import { useState } from "react";
 
 export default function CreateVendor() {
+  const [isConfettiVisible, setIsConfettiVisible] = useState(false);
   const [isLoading, handleSubmit, getInputStyle, handleChange, formData] =
-    useCreateVendor();
-
+    useCreateVendor(setIsConfettiVisible);
   return isLoading ? (
     <Loading />
   ) : (
     <>
+      {isConfettiVisible ? (
+        <ConfettiParty isConfettiVisible={isConfettiVisible} />
+      ) : (
+        <></>
+      )}
       <SectionName>Create Your Vendor Account</SectionName>
       <motion.form
         onSubmit={handleSubmit}

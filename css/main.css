@@ -644,6 +644,256 @@ header .profile-img img {
     transform: translateY(-0.1em);
   }
 }
+.edit-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #000000;
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none !important;
+}
+.edit-button .edit-svgIcon {
+  width: 17px;
+  transition-duration: 0.3s;
+}
+.edit-button .edit-svgIcon path {
+  fill: white;
+}
+.edit-button:hover {
+  width: 120px;
+  border-radius: 50px;
+  transition-duration: 0.3s;
+  background-color: #e67e22;
+  align-items: center;
+}
+.edit-button:hover .edit-svgIcon {
+  width: 20px;
+  transition-duration: 0.3s;
+  transform: translateY(60%);
+  transform: rotate(360deg);
+}
+.edit-button::before {
+  display: none;
+  content: "Edit";
+  color: white;
+  transition-duration: 0.3s;
+  font-size: 2px;
+}
+.edit-button:hover::before {
+  display: block;
+  padding-right: 10px;
+  font-size: 13px;
+  opacity: 1;
+  transform: translateY(0px);
+  transition-duration: 0.3s;
+}
+
+.update-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100px;
+  height: 40px;
+  border: none;
+  padding: 0px 1rem;
+  background-color: #1abc9c;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+}
+.update-btn svg {
+  width: 1.5rem;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  fill: #ffffff;
+  transition-duration: 0.3s;
+  font-size: 1rem;
+}
+.update-btn:hover {
+  color: transparent;
+}
+.update-btn:hover svg {
+  right: 43%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  transition-duration: 0.3s;
+}
+.update-btn:active {
+  transform: translate(3px, 3px);
+  transition-duration: 0.3s;
+}
+
+.btn-details {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100px;
+  height: 40px;
+  border: none;
+  padding: 0px 1rem;
+  background-color: #e67e22;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+}
+.btn-details svg {
+  width: 1.5rem;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  fill: #ffffff;
+  transition-duration: 0.3s;
+  font-size: 1.3rem;
+}
+.btn-details:hover {
+  color: transparent;
+}
+.btn-details:hover svg {
+  right: 43%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  transition-duration: 0.3s;
+}
+.btn-details:active {
+  transform: translate(3px, 3px);
+  transition-duration: 0.3s;
+}
+
+.remove-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e67e22;
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: relative;
+}
+.remove-button .delete-svgIcon {
+  width: 15px;
+  transition-duration: 0.3s;
+}
+.remove-button .delete-svgIcon path {
+  fill: #ffffff;
+}
+.remove-button:hover {
+  width: 90px;
+  border-radius: 50px;
+  transition-duration: 0.3s;
+  background-color: #cd0000;
+  align-items: center;
+}
+.remove-button:hover .delete-svgIcon {
+  width: 20px;
+  transition-duration: 0.3s;
+  transform: translateY(60%);
+  transform: rotate(360deg);
+}
+.remove-button::before {
+  display: none;
+  content: "Delete";
+  color: #ffffff;
+  transition-duration: 0.3s;
+  font-size: 2px;
+}
+.remove-button:hover::before {
+  display: block;
+  padding-right: 10px;
+  font-size: 13px;
+  opacity: 1;
+  transform: translateY(0px);
+  transition-duration: 0.3s;
+}
+
+.btn-add .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 4px;
+  border: none;
+  background: rgba(27, 27, 28, 0.8156862745);
+  cursor: pointer;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+.btn-add .button .lable {
+  line-height: 22px;
+  font-size: 17px;
+  color: #e67e22;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+.btn-add .button:hover {
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transform: translate(0, -0.5rem);
+  -webkit-transform: translate(0, -0.5rem);
+  -moz-transform: translate(0, -0.5rem);
+  -ms-transform: translate(0, -0.5rem);
+  -o-transform: translate(0, -0.5rem);
+}
+.btn-add .button:hover .svg-icon {
+  animation: rotate 1.3s linear infinite;
+}
+.btn-add .button .svg-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
 .back-arrow {
   width: -moz-fit-content;
   width: fit-content;

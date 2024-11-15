@@ -1,0 +1,37 @@
+.orders {
+  @include tableComponent;
+  table {
+    tbody {
+      tr {
+        td {
+          &.count {
+            color: $secondaryColor_2;
+          }
+          &.pending,
+          &.delivered {
+            @include radios(0.5rem);
+          }
+          &.pending {
+            background-color: $secondaryColor_2;
+          }
+          &.delivered {
+            background-color: $secondaryColor_1;
+          }
+          &.customer-name {
+            color: $secondaryColor_2;
+          }
+          &.price {
+            color: $accentColor_1;
+          }
+          .edit,
+          .update,
+          .remove {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}

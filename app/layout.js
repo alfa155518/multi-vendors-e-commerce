@@ -15,6 +15,7 @@ import Header from "./_layout/Header";
 import { ProductProvider } from "./_context/manageProducts";
 
 import UsersManageMent from "./_context/usersManagement";
+import VendorManageMent from "./_context/vendorManagement";
 
 // MetaData
 export const metadata = {
@@ -27,16 +28,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <ProductProvider>
-        <UsersManageMent>
-          <AnimatePresencePages>
-            <Header />
-            <main>{children}</main>
-            <Footer />
-            <BtnToTop />
-          </AnimatePresencePages>
-        </UsersManageMent>
-      </ProductProvider>
+      <VendorManageMent>
+        <ProductProvider>
+          <UsersManageMent>
+            <AnimatePresencePages>
+              <Header />
+              <main>{children}</main>
+              <Footer />
+              <BtnToTop />
+            </AnimatePresencePages>
+          </UsersManageMent>
+        </ProductProvider>
+      </VendorManageMent>
     </html>
   );
 }

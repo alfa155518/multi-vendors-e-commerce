@@ -65,6 +65,7 @@ export default function SignUp() {
             onChange={handleChange}
           />
           <select name="role" aria-label="role" onChange={handleChange}>
+            <option>Chose role</option>
             <option value="user">User</option>
             <option value="vendor">Vendor</option>
           </select>

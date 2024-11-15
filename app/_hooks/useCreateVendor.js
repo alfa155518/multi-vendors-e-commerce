@@ -4,7 +4,7 @@ import { UserContext } from "@/app/_context/usersManagement";
 import { isValidPhoneNumber } from "react-phone-number-input";
 import Notification from "../_components/Notification";
 
-const useCreateVendor = () => {
+const useCreateVendor = (setIsConfettiVisible) => {
   const { token } = useContext(UserContext);
   const [isLoading, setIsLoading] = useState(false);
   const [isValidPhone, setIsValidPhone] = useState(true);
@@ -43,8 +43,13 @@ const useCreateVendor = () => {
       return;
     }
     setIsLoading(true);
-    await createVendor(formData, token, setIsLoading, setFormData);
-    console.log(formData);
+    await createVendor(
+      formData,
+      token,
+      setIsLoading,
+      setIsConfettiVisible,
+      setFormData
+    );
   };
 
   const getInputStyle = (value) => ({

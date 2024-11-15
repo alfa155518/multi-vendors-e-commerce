@@ -24,7 +24,7 @@ export default async function LoginUser(
       Cookies.set("token", JSON.stringify(data.token));
       console.log(data);
       if (userData.role === "vendor") {
-        window.location.href = "/createVendor";
+        window.location.href = "/vendor/register";
       } else {
         window.location.href = "/";
       }

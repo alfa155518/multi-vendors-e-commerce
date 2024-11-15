@@ -1,0 +1,54 @@
+.analytics {
+  color: $neutralColor_2;
+  .sub-analytics {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    .sales-performance {
+      flex: 1;
+    }
+    .customer-satisfaction {
+      flex: 1;
+    }
+    .sales-performance,
+    .customer-satisfaction {
+      border: 0.1rem solid $neutralColor_1;
+      padding: 1rem;
+      @include radios(0.5rem);
+    }
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: $secondaryColor_2;
+    }
+    .progress {
+      margin: 1rem auto;
+      .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        span {
+          font-size: 0.8rem;
+          font-weight: 500;
+        }
+      }
+      .outer-bar {
+        background-color: $neutralColor_1;
+        width: 100%;
+        height: 1rem;
+        position: relative;
+        @include radios(0.5rem);
+        .inner-bar {
+          background-color: $secondaryColor_2;
+          @include radios(0.5rem);
+        }
+      }
+    }
+  }
+  // Responsive
+  @media (max-width: 670px) {
+    .sub-analytics {
+      flex-direction: column;
+    }
+  }
+}

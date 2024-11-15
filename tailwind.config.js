@@ -16,6 +16,7 @@ module.exports = {
         accentColor_1: "#F1C40F",
         textColor_1: "#34495E",
         textColor_2: "#000000",
+        dangerColor: "#cd0000",
       },
     },
   },

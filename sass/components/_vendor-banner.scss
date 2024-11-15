@@ -1,0 +1,126 @@
+.vendor-profile {
+  .vendor-banner {
+    padding: 2rem;
+    img {
+      width: auto;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: $secondaryColor_2;
+      text-align: center;
+      text-wrap: balance;
+    }
+    .store-details {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 -1rem;
+      margin-top: 5rem;
+      .store-logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        img {
+          width: 7rem;
+          height: 7rem;
+          @include radios(50%);
+          border: 0.3rem solid $secondaryColor_2;
+        }
+        .sub-details {
+          .store-name {
+            font-size: 1.3rem;
+            color: $secondaryColor_2;
+            font-weight: 700;
+          }
+          .vendor-name {
+            font-size: 1rem;
+            color: $neutralColor_1;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+  nav {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    .vendor-links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $textColor_1;
+      @include radios(0.5rem);
+      li {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
+        &:first-child {
+          &.active {
+            @include radios(0.5rem);
+          }
+        }
+        &:last-child {
+          &.active {
+            @include radios(0.5rem);
+          }
+        }
+        @include transition(0.3s);
+        &.active {
+          background-color: $secondaryColor_2;
+          @include transition(0.3s);
+        }
+        a {
+          color: $neutralColor_2;
+        }
+      }
+    }
+  }
+
+  // Responsive
+  @media (max-width: 670px) {
+    .vendor-banner {
+      h1 {
+        font-size: 2rem;
+      }
+      @media (max-width: 470px) {
+        .store-details {
+          flex-direction: column;
+          .store-logo {
+            flex-direction: column;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 570px) {
+    @media (max-width: 470px) {
+      h1 {
+        display: none;
+      }
+      .store-details {
+        margin-top: 0 !important;
+      }
+    }
+    nav {
+      padding: 0;
+      margin: 1rem 0;
+      .vendor-links {
+        width: 100%;
+        flex-direction: column;
+        @include radios(0);
+        li {
+          padding: 1rem;
+          width: 100%;
+          text-align: center;
+          @include radios(0);
+        }
+      }
+    }
+  }
+}

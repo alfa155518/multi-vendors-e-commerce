@@ -1,0 +1,40 @@
+.update-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100px;
+  height: 40px;
+  border: none;
+  padding: 0px 1rem;
+  background-color: $secondaryColor_1;
+  color: $neutralColor_2;
+  font-weight: 500;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+  svg {
+    width: 1.5rem;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    fill: $neutralColor_2;
+    transition-duration: 0.3s;
+    font-size: 1rem;
+  }
+  &:hover {
+    color: transparent;
+  }
+  &:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: 0.3s;
+  }
+  &:active {
+    transform: translate(3px, 3px);
+    transition-duration: 0.3s;
+  }
+}

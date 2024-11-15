@@ -4,7 +4,9 @@ import Notification from "../_components/Notification";
 export default async function createVendor(
   { name, email, country, phone, storeLogo, description, storeName },
   token,
-  setIsLoading
+  setIsLoading,
+  setIsConfettiVisible,
+  setFormData
 ) {
   const ApiUrl = process.env.NEXT_PUBLIC_API_URL;
   try {
@@ -29,13 +31,19 @@ export default async function createVendor(
     if (response.ok) {
       Cookies.set("vendor", JSON.stringify(data.vendor));
       Cookies.set("tokenVendor", JSON.stringify(data.token));
-      window.location.href = "/";
-      return Notification(
+      setIsConfettiVisible(true);
+      setTimeout(() => {
+        setIsConfettiVisible(false);
+        window.location.href = "/vendor";
+      }, 10000);
+      setFormData("");
+      Notification(
         "success",
         "Vendor created successfully",
         "You can now manage your store"
       );
     } else {
+      console.log(data);
       return Notification(
         "error",
         "An error occurred",

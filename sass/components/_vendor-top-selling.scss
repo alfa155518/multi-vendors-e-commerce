@@ -1,0 +1,9 @@
+.top-selling {
+  @include tableComponent;
+  .sales {
+    color: $secondaryColor_2;
+  }
+  .product-name {
+    color: $secondaryColor_2;
+  }
+}

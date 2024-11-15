@@ -3,7 +3,8 @@ import Notification from "../_components/Notification";
 export async function UpdateDetails(
   { name, email, photo, role },
   token,
-  setLoading
+  setLoading,
+  hasVendorAccount
 ) {
   try {
     setLoading(true);
@@ -28,7 +29,7 @@ export async function UpdateDetails(
 
     if (response.ok) {
       if (data) {
-        window.location.reload();
+        window.location.href = "/profile";
       }
       return Notification("success", "Details updated successfully", "Done!");
     } else {

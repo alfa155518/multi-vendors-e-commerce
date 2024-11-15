@@ -1,0 +1,49 @@
+.btn-add {
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 4px;
+    border: none;
+    background: #1b1b1cd0;
+    cursor: pointer;
+    @include radios(1.5rem);
+    @include transition(0.3s);
+    .lable {
+      line-height: 22px;
+      font-size: 17px;
+      color: $secondaryColor_2;
+      font-family: sans-serif;
+      letter-spacing: 1px;
+    }
+    &:hover {
+      @include transition(0.3s);
+      @include transform(0, -0.5rem);
+    }
+    &:hover .svg-icon {
+      animation: rotate 1.3s linear infinite;
+    }
+    .svg-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,145 @@
+%style-section {
+  border: 0.1rem solid $secondaryColor_2;
+  @include radios(0.5rem);
+  padding: 1rem;
+  margin: 1rem;
+}
+%section-head {
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 0.5rem;
+  color: $secondaryColor_2;
+  text-wrap: balance;
+  @media (max-width: 370px) {
+    font-size: 1rem !important;
+  }
+}
+
+// Over View Section
+.overview {
+  display: flex;
+  justify-content: center;
+  color: $neutralColor_2;
+  .about-store {
+    @extend %style-section;
+    flex: 3;
+    .info {
+      margin: 1rem auto;
+      h3 {
+        @extend %section-head;
+      }
+      article {
+        font-size: 0.8rem;
+        line-height: 1.6;
+        color: $neutralColor_1;
+        text-wrap: balance;
+      }
+    }
+    .details {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      place-items: center;
+      border-top: 0.1rem solid $secondaryColor_2;
+      padding-top: 1rem;
+      li {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+        svg {
+          font-size: 1.2rem;
+        }
+        span {
+          color: $secondaryColor_2;
+        }
+      }
+    }
+  }
+  .contact-info {
+    @extend %style-section;
+    flex: 1;
+    h4 {
+      @extend %section-head;
+      text-align: center;
+    }
+    ul {
+      li {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 2rem auto;
+        font-weight: bold;
+        svg {
+          font-size: 1.5rem;
+        }
+        span {
+          font-size: 1rem;
+          color: $secondaryColor_2;
+        }
+      }
+    }
+  }
+
+  // Responsive
+  @media (max-width: 670px) {
+    flex-direction: column;
+    .contact-info {
+      ul {
+        li {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+//  Performance Highlights Section
+
+.performance-highlights {
+  @extend %style-section;
+  border: 0.1rem solid $neutralColor_1;
+  h4 {
+    @extend %section-head;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    li {
+      text-align: center;
+      svg {
+        color: $accentColor_1;
+        font-size: 1.7rem;
+        font-weight: 800;
+        margin: 0 auto;
+      }
+      strong {
+        display: block;
+        margin: 0.5rem 0;
+        font-size: 1.2rem;
+      }
+      span {
+        font-size: 1rem;
+        color: $secondaryColor_2;
+      }
+    }
+  }
+  // Responsive
+  @media (max-width: 670px) {
+    h4 {
+      text-align: center;
+    }
+    ul {
+      flex-direction: column;
+      li {
+        margin: 1rem auto;
+      }
+    }
+  }
+}

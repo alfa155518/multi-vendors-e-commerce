@@ -1,0 +1,35 @@
+.products {
+  @include tableComponent;
+  table {
+    tbody {
+      tr {
+        td {
+          &.count {
+            color: $secondaryColor_2;
+          }
+          &.pending,
+          &.delivered {
+            @include radios(0.5rem);
+          }
+          &.sales {
+            color: $secondaryColor_2;
+          }
+          &.product-name {
+            color: $secondaryColor_2;
+          }
+          .update,
+          .remove {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+  .btn-add {
+    margin: 2rem auto;
+    display: block;
+    width: fit-content;
+  }
+}

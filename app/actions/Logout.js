@@ -17,8 +17,6 @@ export default async function Logout(e) {
     if (response.ok) {
       Cookies.remove("userData");
       Cookies.remove("token");
-      Cookies.remove("vendor");
-      Cookies.remove("tokenVendor");
       window.location.href = "/signup";
       Notification("success", "Successfully logged out", "See you again soon!");
     }

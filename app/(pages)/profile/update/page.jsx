@@ -100,6 +100,7 @@ export default function UpdateProfile() {
               name="role"
               aria-label="role"
               onChange={handleChangeBasicDetails}>
+              <option>chose role</option>
               <option value="user">User</option>
               <option value="vendor">Vendor</option>
             </select>
