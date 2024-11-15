@@ -1,26 +1,27 @@
 "use client";
 
-import EditBtn from "@/app/_components/EditBtn";
-import LazyLoadImageAnimation from "@/app/_components/ImageAnimation";
-import { vendorContext } from "@/app/_context/vendorManagement";
-import Image from "next/image";
-import { useContext } from "react";
-import "../../../css/vendor.css";
 import Link from "next/link";
-
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
+import { useContext } from "react";
+import { vendorContext } from "@/app/_context/vendorManagement";
+import useInViewAnimation from "@/app/_hooks/useInViewAnimation";
+import EditBtn from "@/app/_components/EditBtn";
+import LazyLoadImageAnimation from "@/app/_components/ImageAnimation";
+import "../../../css/vendor.css";
 
 export default function VendorLayout({ children }) {
   const { vendor } = useContext(vendorContext);
   const activeLink = usePathname();
+  const [ref, inView] = useInViewAnimation();
   return (
-    <div className="vendor-profile">
-      <motion.section
-        className="vendor-banner relative"
-        initial={{ opacity: 0, scale: 0.9, y: -20 }}
-        animate={{ opacity: 1, scale: 1, y: 0 }}
-        transition={{ duration: 0.5, type: "spring", stiffness: 100 }}>
+    <div
+      ref={ref}
+      className={`vendor-profile  ${
+        inView ? "animate__animated animate__flash" : ""
+      }`}>
+      <section className="vendor-banner relative">
         <Image
           className=" object-cover -z-10"
           src={vendor.storeBanner.url}
@@ -47,10 +48,12 @@ export default function VendorLayout({ children }) {
             <EditBtn page={"/"} />
           </div>
         </div>
-      </motion.section>
+      </section>
 
       {/* Vendor Nav */}
-      <nav>
+      <nav
+        ref={ref}
+        className={`${inView ? "animate__animated animate__rubberBand" : ""}`}>
         <ul className="vendor-links">
           <li className={activeLink === "/vendor" ? "active" : ""}>
             <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>

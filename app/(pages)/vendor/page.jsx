@@ -12,14 +12,19 @@ import { useContext } from "react";
 import { vendorContext } from "@/app/_context/vendorManagement";
 import Link from "next/link";
 import VendorRecentOrder from "@/app/_sections/VendorRecentOrder";
+import useInViewAnimation from "@/app/_hooks/useInViewAnimation";
 export default function Vendor() {
   const { vendor } = useContext(vendorContext);
-
+  const [ref, inView] = useInViewAnimation();
   return (
     <>
       {/* Over View Section */}
       <section className="overview">
-        <div className="about-store">
+        <div
+          ref={ref}
+          className={`about-store ${
+            inView ? "animate__animated animate__backInUp" : ""
+          }`}>
           <div className="info">
             <h3>About {vendor.storeDetails.storeName}</h3>
             <article>{vendor.storeDetails.description}</article>
@@ -43,7 +48,11 @@ export default function Vendor() {
             </li>
           </ul>
         </div>
-        <div className="contact-info">
+        <div
+          ref={ref}
+          className={`contact-info ${
+            inView ? "animate__animated animate__backInDown" : ""
+          }`}>
           <h4>Contact Information</h4>
           <ul>
             <li>
@@ -63,7 +72,11 @@ export default function Vendor() {
       </section>
 
       {/* Performance Highlights */}
-      <section className="performance-highlights text-white">
+      <section
+        ref={ref}
+        className={`performance-highlights text-neutralColor_2 ${
+          inView ? "animate__animated animate__fadeInDown" : ""
+        }`}>
         <h4>Performance Highlights</h4>
         <ul>
           <li>

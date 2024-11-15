@@ -194,7 +194,6 @@
 }
 .overview .about-store .details li {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem;
@@ -216,7 +215,6 @@
 }
 .overview .contact-info ul li {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
   margin: 2rem auto;
