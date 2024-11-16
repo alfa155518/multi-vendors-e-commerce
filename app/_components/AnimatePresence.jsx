@@ -19,10 +19,10 @@ export default function AnimatePresencePages({ children }) {
       <motion.body
         className={openSans.className}
         key={pathname}
-        initial={{ opacity: 0.5 }}
+        initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        transition={{ duration: 0.3 }}>
+        transition={{ duration: 0.5 }}>
         {children}
       </motion.body>
     </AnimatePresence>
