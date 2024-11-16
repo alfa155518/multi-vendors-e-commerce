@@ -1,22 +1,27 @@
 "use client";
 
+import useInViewAnimation from "@/app/_hooks/useInViewAnimation";
 import VendorTopSelling from "@/app/_sections/VendorTopSelling";
 import { motion } from "framer-motion";
 
 export default function Analytics() {
-  // Mock dynamic progress values
   const progressData = {
     orders: 80, // 80% progress for orders
     sales: 65, // 65% progress for sales
     rating: 90, // 90% progress for rating
     reviews: 75, // 75% progress for reviews
   };
+  const [ref, inView] = useInViewAnimation();
 
   return (
     <>
       <section className="analytics">
         <div className="sub-analytics">
-          <div className="sales-performance">
+          <div
+            ref={ref}
+            className={`sales-performance ${
+              inView ? "animate__animated animate__slideInLeft" : ""
+            }`}>
             <h2>Sales Performance</h2>
             {/* Orders */}
             <div className="progress">
@@ -49,7 +54,11 @@ export default function Analytics() {
               </div>
             </div>
           </div>
-          <div className="customer-satisfaction">
+          <div
+            ref={ref}
+            className={`customer-satisfaction ce ${
+              inView ? "animate__animated animate__slideInRight" : ""
+            }`}>
             <h2>Customer Satisfaction</h2>
             {/* Rating */}
             <div className="progress">

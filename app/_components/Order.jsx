@@ -5,12 +5,17 @@ import UpdateBtn from "./UpdateBtn";
 import BtnDetails from "./BtnDetails";
 import BtnRemove from "./RemoveBtn";
 import { usePathname } from "next/navigation";
-import { motion } from "framer-motion";
+import useInViewAnimation from "../_hooks/useInViewAnimation";
 
 export default function Order({ recentOrder }) {
   const pathName = usePathname();
+  const [ref, inView] = useInViewAnimation();
   return (
-    <section className="orders text-white">
+    <section
+      ref={ref}
+      className={`orders text-neutralColor_2 ${
+        inView ? "animate__animated animate__fadeInUp" : ""
+      }`}>
       {pathName === "/vendor" ? (
         <h2>Recent Order</h2>
       ) : (
@@ -37,12 +42,7 @@ export default function Order({ recentOrder }) {
         </thead>
         <tbody>
           {recentOrder.map((order, i) => (
-            <motion.tr
-              key={i}
-              initial={{ opacity: 0, scale: 0.9, y: -20 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.5, type: "spring", stiffness: 100 }}>
+            <tr key={i}>
               <td className="customer-name">{order.customerName}</td>
               <td className="date">{order.date}</td>
               <td
@@ -74,7 +74,7 @@ export default function Order({ recentOrder }) {
                   </td>
                 </>
               )}
-            </motion.tr>
+            </tr>
           ))}
         </tbody>
       </table>

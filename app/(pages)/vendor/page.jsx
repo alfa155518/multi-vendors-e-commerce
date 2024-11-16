@@ -10,7 +10,6 @@ import { LuPackageOpen } from "react-icons/lu";
 import { HiMiniCurrencyDollar } from "react-icons/hi2";
 import { useContext } from "react";
 import { vendorContext } from "@/app/_context/vendorManagement";
-import Link from "next/link";
 import VendorRecentOrder from "@/app/_sections/VendorRecentOrder";
 import useInViewAnimation from "@/app/_hooks/useInViewAnimation";
 export default function Vendor() {

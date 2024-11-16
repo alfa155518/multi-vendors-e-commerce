@@ -53,7 +53,7 @@ export default function VendorLayout({ children }) {
       {/* Vendor Nav */}
       <nav
         ref={ref}
-        className={`${inView ? "animate__animated animate__rubberBand" : ""}`}>
+        className={`${inView ? "animate__animated animate__zoomIn" : ""}`}>
         <ul className="vendor-links">
           <li className={activeLink === "/vendor" ? "active" : ""}>
             <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>

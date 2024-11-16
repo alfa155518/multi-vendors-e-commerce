@@ -4,17 +4,19 @@ import BtnAdd from "@/app/_components/BtnAdd";
 import BtnRemove from "@/app/_components/RemoveBtn";
 import UpdateBtn from "@/app/_components/UpdateBtn";
 import { vendorContext } from "@/app/_context/vendorManagement";
+import useInViewAnimation from "@/app/_hooks/useInViewAnimation";
 import Link from "next/link";
 import { useContext } from "react";
-import { motion } from "framer-motion";
 
 export default function Products() {
   const { products } = useContext(vendorContext);
-  console.log(products);
+  const [ref, inView] = useInViewAnimation();
   return (
     <section className="products">
       <h2>Products ({products.length})</h2>
-      <table>
+      <table
+        ref={ref}
+        className={`${inView ? "animate__animated animate__fadeInDown" : ""}`}>
         <thead>
           <tr>
             <th>Name</th>
@@ -27,12 +29,7 @@ export default function Products() {
         </thead>
         <tbody>
           {products.map((product) => (
-            <motion.tr
-              key={product.id}
-              initial={{ opacity: 0, scale: 0.9, y: -20 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.5, type: "spring", stiffness: 100 }}>
+            <tr key={product.id}>
               <td className="product-name">{product.name}</td>
               <td className="price">${product.price}</td>
               <td
@@ -56,7 +53,7 @@ export default function Products() {
                   <BtnRemove />
                 </div>
               </td>
-            </motion.tr>
+            </tr>
           ))}
         </tbody>
       </table>
