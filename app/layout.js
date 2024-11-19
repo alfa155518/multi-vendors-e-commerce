@@ -16,6 +16,7 @@ import { ProductProvider } from "./_context/manageProducts";
 
 import UsersManageMent from "./_context/usersManagement";
 import VendorManageMent from "./_context/vendorManagement";
+import VendorsManagement from "./_context/vendorsManagement";
 
 // MetaData
 export const metadata = {
@@ -29,16 +30,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <VendorManageMent>
-        <ProductProvider>
-          <UsersManageMent>
-            <AnimatePresencePages>
-              <Header />
-              <main>{children}</main>
-              <Footer />
-              <BtnToTop />
-            </AnimatePresencePages>
-          </UsersManageMent>
-        </ProductProvider>
+        <VendorsManagement>
+          <ProductProvider>
+            <UsersManageMent>
+              <AnimatePresencePages>
+                <Header />
+                <main>{children}</main>
+                <Footer />
+                <BtnToTop />
+              </AnimatePresencePages>
+            </UsersManageMent>
+          </ProductProvider>
+        </VendorsManagement>
       </VendorManageMent>
     </html>
   );

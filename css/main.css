@@ -1013,6 +1013,87 @@ header .profile-img img {
   transform: translate(2px, 2px);
 }
 
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.pagination .arrow {
+  background-color: #e67e22;
+  color: #ecf0f1;
+  text-align: center;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.pagination .arrow.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.pagination .pageNumbers {
+  display: flex;
+  gap: 0.5rem;
+}
+.pagination .pageNumbers .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  background-color: #ecf0f1;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.pagination .pageNumbers .page:hover {
+  background-color: #ffffff;
+}
+.pagination .pageNumbers .page.active {
+  background-color: #e67e22;
+  color: #ffffff;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .pagination {
+    gap: 0.5rem;
+  }
+  .pagination .arrow {
+    padding: 0.3rem 0.8rem;
+    font-size: 1rem;
+  }
+  .pagination .pageNumbers {
+    gap: 0.3rem;
+  }
+  .pagination .pageNumbers .page {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 480px) {
+  .pagination {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .pagination .arrow {
+    text-align: center;
+    padding: 0.3rem 0.5rem;
+  }
+  .pagination .pageNumbers {
+    display: none;
+  }
+}
+
 .form-review {
   background-color: #34495e;
   width: 40rem;

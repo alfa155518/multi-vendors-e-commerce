@@ -1,0 +1,227 @@
+[
+  {
+    "name": "Choco Delights",
+    "email": "chocodelights@gmail.com",
+    "phone": "+1234567890",
+    "country": "Belgium",
+    "storeLogo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/brands/xuwt9o9oy9hyfw4gdyyt",
+      "publicId": "multi-vendor E-commerce/brands/xuwt9o9oy9hyfw4gdyyt"
+    },
+    "storeBanner": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/vendors/default_vendor_photo",
+      "publicId": null
+    },
+    "products": [],
+    "storeDetails": {
+      "storeName": "Choco Delights",
+      "description": "Premium handmade chocolates from Belgium for every occasion."
+    },
+    "performanceMetrics": {
+      "totalOrders": 500,
+      "totalSales": 15000,
+      "averageRating": 4.8,
+      "reviews": 120
+    }
+  },
+  {
+    "name": "Vision Optics",
+    "email": "visionoptics@gmail.com",
+    "phone": "+2345678901",
+    "country": "USA",
+    "storeLogo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/brands/if9dbqfapucf4inmsz4i",
+      "publicId": "multi-vendor E-commerce/brands/if9dbqfapucf4inmsz4i"
+    },
+    "storeBanner": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/vendors/default_vendor_photo",
+      "publicId": null
+    },
+    "products": [],
+    "storeDetails": {
+      "storeName": "Vision Optics",
+      "description": "Stylish and affordable glasses for all age groups."
+    },
+    "performanceMetrics": {
+      "totalOrders": 300,
+      "totalSales": 10000,
+      "averageRating": 4.6,
+      "reviews": 90
+    }
+  },
+  {
+    "name": "Tech Horizons",
+    "email": "techhorizons@gmail.com",
+    "phone": "+3456789012",
+    "country": "Germany",
+    "storeLogo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/brands/rrbmiwwr2ss8rj63jnj7",
+      "publicId": "multi-vendor E-commerce/brands/rrbmiwwr2ss8rj63jnj7"
+    },
+    "storeBanner": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/vendors/default_vendor_photo",
+      "publicId": null
+    },
+    "products": [],
+    "storeDetails": {
+      "storeName": "Tech Horizons",
+      "description": "Your one-stop shop for cutting-edge tech and gadgets."
+    },
+    "performanceMetrics": {
+      "totalOrders": 700,
+      "totalSales": 40000,
+      "averageRating": 4.9,
+      "reviews": 250
+    }
+  },
+  {
+    "name": "Golden Gems",
+    "email": "goldengems@gmail.com",
+    "phone": "+4567890123",
+    "country": "India",
+    "storeLogo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/brands/tsqlyrjqa4lrhmocvet2",
+      "publicId": "multi-vendor E-commerce/brands/tsqlyrjqa4lrhmocvet2"
+    },
+    "storeBanner": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/vendors/default_vendor_photo",
+      "publicId": null
+    },
+    "products": [],
+    "storeDetails": {
+      "storeName": "Golden Gems",
+      "description": "Exclusive jewelry crafted with the finest materials."
+    },
+    "performanceMetrics": {
+      "totalOrders": 400,
+      "totalSales": 30000,
+      "averageRating": 4.7,
+      "reviews": 180
+    }
+  },
+  {
+    "name": "Radiant Beauty",
+    "email": "radiantbeauty@gmail.com",
+    "phone": "+5678901234",
+    "country": "France",
+    "storeLogo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/brands/p7waoauqry9ddaaq6fue",
+      "publicId": "multi-vendor E-commerce/brands/p7waoauqry9ddaaq6fue"
+    },
+    "storeBanner": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/vendors/default_vendor_photo",
+      "publicId": null
+    },
+    "products": [],
+    "storeDetails": {
+      "storeName": "Radiant Beauty",
+      "description": "Luxury cosmetics to enhance your natural glow."
+    },
+    "performanceMetrics": {
+      "totalOrders": 600,
+      "totalSales": 20000,
+      "averageRating": 4.5,
+      "reviews": 150
+    }
+  },
+  {
+    "name": "ElectroWorld",
+    "email": "electroworld@gmail.com",
+    "phone": "+6789012345",
+    "country": "Japan",
+    "storeLogo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/brands/j24v6v7zhbtuiie6wl28",
+      "publicId": "multi-vendor E-commerce/brands/j24v6v7zhbtuiie6wl28"
+    },
+    "storeBanner": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/vendors/default_vendor_photo",
+      "publicId": null
+    },
+    "products": [],
+    "storeDetails": {
+      "storeName": "ElectroWorld",
+      "description": "Home electronics and appliances for modern living."
+    },
+    "performanceMetrics": {
+      "totalOrders": 800,
+      "totalSales": 50000,
+      "averageRating": 4.8,
+      "reviews": 220
+    }
+  },
+  {
+    "name": "Style Avenue",
+    "email": "styleavenue@gmail.com",
+    "phone": "+7890123456",
+    "country": "Italy",
+    "storeLogo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/brands/otwbt8vrz6pyhe8idggd",
+      "publicId": "multi-vendor E-commerce/brands/otwbt8vrz6pyhe8idggd"
+    },
+    "storeBanner": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/vendors/default_vendor_photo",
+      "publicId": null
+    },
+    "products": [],
+    "storeDetails": {
+      "storeName": "Style Avenue",
+      "description": "Trendy and timeless fashion for all seasons."
+    },
+    "performanceMetrics": {
+      "totalOrders": 900,
+      "totalSales": 35000,
+      "averageRating": 4.7,
+      "reviews": 200
+    }
+  },
+  {
+    "name": "Gourmet Foods",
+    "email": "gourmetfoods@gmail.com",
+    "phone": "+8901234567",
+    "country": "Australia",
+    "storeLogo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/brands/no0ltn0ghygygqq6owuk",
+      "publicId": "multi-vendor E-commerce/brands/no0ltn0ghygygqq6owuk"
+    },
+    "storeBanner": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/vendors/default_vendor_photo",
+      "publicId": null
+    },
+    "products": [],
+    "storeDetails": {
+      "storeName": "Gourmet Foods",
+      "description": "Delicious and healthy food options for every palate."
+    },
+    "performanceMetrics": {
+      "totalOrders": 700,
+      "totalSales": 25000,
+      "averageRating": 4.6,
+      "reviews": 170
+    }
+  },
+  {
+    "name": "Home Comforts",
+    "email": "homecomforts@gmail.com",
+    "phone": "+9012345678",
+    "country": "Canada",
+    "storeLogo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/brands/sfcuc1lgcjfwuyuviy8a",
+      "publicId": "multi-vendor E-commerce/brands/sfcuc1lgcjfwuyuviy8a"
+    },
+    "storeBanner": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/vendors/default_vendor_photo",
+      "publicId": null
+    },
+    "products": [],
+    "storeDetails": {
+      "storeName": "Home Comforts",
+      "description": "Premium furniture to elevate your home style."
+    },
+    "performanceMetrics": {
+      "totalOrders": 500,
+      "totalSales": 40000,
+      "averageRating": 4.8,
+      "reviews": 190
+    }
+  }
+]

@@ -8,7 +8,7 @@ export default function UserReview() {
   const starColors = ["red", "#e67e22", "#f1c40f", "lightgreen", "#1abc9c"];
   return (
     <form className="form-review">
-      <textarea placeholder="Your Review..." rows={5} />
+      <textarea placeholder="Your Review..." rows={5} name="review" />
       <div className="review-stars">
         {Array.from({ length: 5 }, (_, i) => (
           <span

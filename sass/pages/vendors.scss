@@ -1,0 +1,116 @@
+@use "../helpers/mixins" as *;
+@use "../helpers/variables" as *;
+
+.vendors-wrapper {
+  padding: 1rem;
+  margin: 1rem;
+  h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.4rem;
+    margin: 2rem auto;
+    svg {
+      color: $secondaryColor_2;
+    }
+    strong {
+      color: $neutralColor_1;
+    }
+  }
+
+  .all__vendors {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    .vendor__card {
+      border: 0.1rem solid $neutralColor_1;
+      margin: 0.8rem;
+      @include radios(0.5rem);
+      .banner__img {
+        img {
+          width: 100%;
+          height: 13rem;
+          border-radius: 0.5rem 0.5rem 0 0;
+          -webkit-border-radius: 0.5rem 0.5rem 0 0;
+          -moz-border-radius: 0.5rem 0.5rem 0 0;
+          -ms-border-radius: 0.5rem 0.5rem 0 0;
+          -o-border-radius: 0.5rem 0.5rem 0 0;
+        }
+      }
+      .store__logo {
+        position: relative;
+        margin-bottom: 3rem;
+        .img {
+          position: absolute;
+          top: -2rem;
+          left: 2rem;
+          img {
+            width: 4rem;
+            height: 4rem;
+            border: 0.2rem solid $secondaryColor_2;
+            @include radios(50%);
+          }
+        }
+      }
+      .vendor__details {
+        padding: 0 0.8rem;
+        margin-top: 1rem;
+        .store__name {
+          color: $secondaryColor_2;
+          font-size: 1.3rem;
+          font-weight: 800;
+        }
+        .store__desc {
+          color: $neutralColor_1;
+          font-size: 1rem;
+        }
+        .sub__details {
+          li {
+            padding: 0.5rem 0;
+            margin: 0.5rem 0;
+            color: $secondaryColor_2;
+            span {
+              display: flex;
+              align-items: center;
+              gap: 0.2rem;
+              font-size: 1rem;
+              svg {
+                color: $neutralColor_1;
+              }
+            }
+          }
+        }
+      }
+      .store__details {
+        border-top: 0.1rem solid $secondaryColor_2;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        span {
+          padding: 0 0.8rem;
+          &:nth-child(1) {
+            color: $secondaryColor_1;
+          }
+          &:nth-child(2) {
+            color: $accentColor_1;
+          }
+          &:nth-child(3) {
+            color: $secondaryColor_2;
+          }
+          &:nth-child(4) {
+            color: $accentColor_1;
+          }
+          svg {
+            display: block;
+            margin: 0.5rem auto;
+            font-size: 1.2rem;
+          }
+          strong {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

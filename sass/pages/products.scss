@@ -10,54 +10,5 @@
       grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
       gap: 0.5rem;
     }
-    .pagination {
-    }
-  }
-  .filter-container {
-    margin-top: 1rem;
-    background-color: $primaryColor;
-    padding: 1rem;
-    height: 20rem;
-    border-radius: 1rem 0 1rem 0;
-    -webkit-border-radius: 1rem 0 1rem 0;
-    -moz-border-radius: 1rem 0 1rem 0;
-    -ms-border-radius: 1rem 0 1rem 0;
-    -o-border-radius: 1rem 0 1rem 0;
-    .range-container {
-      label {
-        color: $secondaryColor_2;
-        font-size: 1rem;
-        font-weight: 500;
-        margin-bottom: 0.8rem;
-      }
-      .price-range {
-        input {
-          width: 100%;
-        }
-      }
-      .categories-options {
-        margin-top: 2rem;
-        #categories {
-          background-color: $textColor_1;
-          color: $neutralColor_1;
-          padding: 10px;
-          border-radius: 4px;
-          font-size: 16px;
-          outline: none;
-          border: none;
-          cursor: pointer;
-          width: 100%;
-          option {
-            cursor: pointer;
-          }
-        }
-      }
-    }
-  }
-  // Responsive
-  @media (max-width: 772px) {
-    .filter-container {
-      display: none;
-    }
   }
 }

@@ -26,7 +26,7 @@ const Product = ({ product }) => {
           rating: <strong>({product.rating})</strong>
         </span>
         <span className="vendor">
-          vendor: <strong>Ahmed</strong>
+          vendor:<strong>{product.vendor[0].name}</strong>
         </span>
       </div>
       <div className="actions">

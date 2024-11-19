@@ -13,7 +13,6 @@
     "@babel/core": "^7.25.8",
     "@babel/preset-env": "^7.25.8",
     "@babel/preset-react": "^7.25.7",
-    "@google-cloud/translate": "^8.5.0",
     "animate.css": "^4.1.1",
     "babel-loader": "^9.2.1",
     "framer-motion": "^11.11.9",

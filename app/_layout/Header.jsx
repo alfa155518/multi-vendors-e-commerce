@@ -68,7 +68,7 @@ export default function Header() {
           </li>
           <li>
             <FaPersonChalkboard className="menu-icon" />
-            <Link href={"/"}>Vendors</Link>
+            <Link href={"/vendors"}>Vendors</Link>
           </li>
           <li>
             <MdContactSupport className="menu-icon" />

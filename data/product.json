@@ -1,0 +1,3636 @@
+[
+  {
+    "vendor": "673a44150bab97ef79a2cd67",
+    "name": "Dark Chocolate",
+    "description": "Rich and intense dark chocolate with a smooth texture, perfect for those who enjoy a slightly bitter taste.",
+    "price": 49.99,
+    "stock": 100,
+    "category": "chocolate",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/chocolate/wbpz8lguhlrsr0n8co6a",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd67",
+    "name": "Milk Chocolate",
+    "description": "Creamy and sweet milk chocolate, offering a melt-in-your-mouth experience with a hint of cocoa.",
+    "price": 39.99,
+    "stock": 150,
+    "category": "chocolate",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/chocolate/iff6ouo6n0gz6rrxvmq9",
+      "publicId": null
+    },
+    "sales": 10,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd67",
+    "name": "White Chocolate",
+    "description": "Sweet and velvety white chocolate with a buttery, milky flavor, ideal for those who prefer a non-bitter option.",
+    "price": 44.99,
+    "stock": 120,
+    "category": "chocolate",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/chocolate/rfm0z9let5iugui0s27q",
+      "publicId": null
+    },
+    "sales": 50,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd67",
+    "name": "Chocolate with Nuts",
+    "description": "Crunchy chocolate filled with roasted almonds or hazelnuts, blending sweetness with a nutty twist.",
+    "price": 54.99,
+    "stock": 90,
+    "category": "chocolate",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/chocolate/mwxldni7l0q2fqt06rrv",
+      "publicId": null
+    },
+    "sales": 10,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd67",
+    "name": "Chocolate with Caramel",
+    "description": "Decadent chocolate filled with gooey caramel, offering a perfect balance of sweetness and texture.",
+    "price": 59.99,
+    "stock": 85,
+    "category": "chocolate",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/chocolate/mrmitwbf5o46g9xfihfp",
+      "publicId": null
+    },
+    "sales": 8,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd67",
+    "name": "Fruit-Infused Chocolate",
+    "description": "Chocolate combined with dried fruits like berries or orange zest, adding a tangy and fruity flavor.",
+    "price": 52.99,
+    "stock": 110,
+    "category": "chocolate",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/chocolate/u1dutczw2mn5cltxjsst",
+      "publicId": null
+    },
+    "sales": 5,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd67",
+    "name": "Chocolate with Sea Salt",
+    "description": "A smooth blend of chocolate with a sprinkle of sea salt, enhancing both sweetness and savory notes.",
+    "price": 48.99,
+    "stock": 95,
+    "category": "chocolate",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/chocolate/khhu8wsnq7z35kugmzvx",
+      "publicId": null
+    },
+    "sales": 12,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd68",
+    "name": "Aviator Sunglasses",
+    "description": "Iconic aviator frames with tinted lenses and a thin metal frame, offering a cool, classic look.",
+    "price": 129.99,
+    "stock": 50,
+    "category": "Glasses",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/mybdfwpqplgzcvtav9w4",
+      "publicId": null
+    },
+    "sales": 7,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd68",
+    "name": "Round Vintage Glasses",
+    "description": "Retro-inspired round frames with a lightweight design, perfect for a bohemian or intellectual style.",
+    "price": 89.99,
+    "stock": 40,
+    "category": "Glasses",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/fu8ani4wwk6wtsuidmci",
+      "publicId": null
+    },
+    "sales": 30,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd68",
+    "name": "Rimless Glasses",
+    "description": "Lightweight rimless frames that provide an understated and professional appearance.",
+    "price": 89.99,
+    "stock": 55,
+    "category": "Glasses",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/zclk0niw6chwf4kgwvv9",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd68",
+    "name": "Colored Tinted Glasses",
+    "description": "Vibrant lenses in bright colors, combined with a simple frame, adding a playful and trendy twist.",
+    "price": 69.99,
+    "stock": 75,
+    "category": "Glasses",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/x7mfnsqcf37cjvo0kmsj",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd68",
+    "name": "Geometric Glasses",
+    "description": "Unique geometric frames with sharp angles, perfect for those who want an edgy and artistic look.",
+    "price": 99.99,
+    "stock": 65,
+    "category": "Glasses",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/inmaljhkpvnukb1gbaap",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd68",
+    "name": "Oversized Sunglasses",
+    "description": "Large oversized frames that dominate the face, ideal for a bold and glamorous statement.",
+    "price": 149.99,
+    "stock": 40,
+    "category": "Glasses",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/awca5e6onm4ffgsh5jxe",
+      "publicId": null
+    },
+    "sales": 22,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd68",
+    "name": "Clubmaster Glasses",
+    "description": "Retro clubmaster frames with a half-rimmed design, combining vintage charm with modern sophistication.",
+    "price": 119.99,
+    "stock": 50,
+    "category": "Glasses",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/snksqbxyfmajcdtx0hha",
+      "publicId": null
+    },
+    "sales": 44,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd68",
+    "name": "Metal Thin Frames",
+    "description": "Simple metal frames with thin lines, offering a delicate and sleek minimalist style.",
+    "price": 89.99,
+    "stock": 60,
+    "category": "Glasses",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/rppw2dmz5ubf76knregd",
+      "publicId": null
+    },
+    "sales": 11,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Red Lipstick",
+    "description": "Bold, vibrant red lipstick with a creamy texture, perfect for a classic and glamorous look.",
+    "price": 24.99,
+    "stock": 100,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/pfk9xc5gn994bruh2vkl",
+      "publicId": null
+    },
+    "sales": 30,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Matte Foundation",
+    "description": "Full-coverage matte foundation that provides a flawless finish, ideal for long-lasting wear.",
+    "price": 29.99,
+    "stock": 80,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/fznrl7ah9t6tmjvlowsg",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Liquid Eyeliner",
+    "description": "Precision liquid eyeliner with a fine tip, perfect for creating sharp and defined winged lines.",
+    "price": 19.99,
+    "stock": 150,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/b9szqvrk557kgo64b1p6",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Eyeshadow Palette",
+    "description": "A colorful eyeshadow palette with a mix of shimmery and matte shades, suitable for both day and night looks.",
+    "price": 34.99,
+    "stock": 60,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/cxvkjbenh2dmhsdxiorq",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Blush Compact",
+    "description": "Soft, powder blush in a rosy shade that adds a natural, healthy glow to the cheeks.",
+    "price": 18.99,
+    "stock": 120,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/mpcddieen3s4hw5w6gs5",
+      "publicId": null
+    },
+    "sales": 25,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Mascara",
+    "description": "Volumizing black mascara that lengthens and lifts lashes for a dramatic and eye-opening effect.",
+    "price": 22.99,
+    "stock": 90,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/e8pjoehfg4gmpukv61fq",
+      "publicId": null
+    },
+    "sales": 13,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Highlighter Stick",
+    "description": "Creamy highlighter stick that delivers a radiant glow, perfect for enhancing the high points of the face.",
+    "price": 19.99,
+    "stock": 100,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/ipyy3ijglggshiirz95q",
+      "publicId": null
+    },
+    "sales": 15,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Nail Polish",
+    "description": "Glossy nail polish in a vibrant shade, providing a smooth finish and long-lasting color.",
+    "price": 9.99,
+    "stock": 150,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/gji0nxt1dffnzgvfhjbe",
+      "publicId": null
+    },
+    "sales": 50,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Lip Gloss",
+    "description": "Shiny lip gloss with a sheer tint, perfect for adding a touch of sparkle and hydration to the lips.",
+    "price": 14.99,
+    "stock": 110,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/zitbsnv4vz33hsco85tb",
+      "publicId": null
+    },
+    "sales": 31,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Bronzer Compact",
+    "description": "Warm-toned bronzer that gives a sun-kissed glow, ideal for contouring or adding warmth to the skin.",
+    "price": 24.99,
+    "stock": 75,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/ylagaripc6iecsz8hy8y",
+      "publicId": null
+    },
+    "sales": 41,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Makeup Setting Spray",
+    "description": "Lightweight setting spray that locks in makeup for all-day wear, keeping it fresh and smudge-free.",
+    "price": 16.99,
+    "stock": 130,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/w4wsiq9galxgy4migij4",
+      "publicId": null
+    },
+    "sales": 40,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Concealer",
+    "description": "Creamy concealer that covers blemishes and dark circles with ease, providing a smooth and even complexion.",
+    "price": 19.99,
+    "stock": 100,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/rqkig7gxviqqeyq8ooh1",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Brow Pencil",
+    "description": "Fine-tipped brow pencil for filling in and shaping eyebrows, creating a defined and natural look.",
+    "price": 12.99,
+    "stock": 140,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/d5fin4vfaswb6m7hfwes",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Face Primer",
+    "description": "Silky face primer that smooths skin and preps it for foundation, ensuring long-lasting makeup.",
+    "price": 21.99,
+    "stock": 80,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/q16iqylfnkj6n2v84h8f",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6b",
+    "name": "Lip Balm",
+    "description": "Moisturizing lip balm with a hint of tint, perfect for softening and hydrating dry lips.",
+    "price": 8.99,
+    "stock": 150,
+    "category": "Cosmetics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/xsviao97rvzqduumwtcm",
+      "publicId": null
+    },
+    "sales": 8,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "King-Sized Bed",
+    "description": "Spacious king-sized bed with a plush headboard, perfect for luxurious and restful sleep.",
+    "price": 899.99,
+    "stock": 50,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/n2fmapqfmleyyfnuyge2",
+      "publicId": null
+    },
+    "sales": 5,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Wooden Dining Table",
+    "description": "Solid wooden dining table with a polished finish, offering a classic and sturdy design.",
+    "price": 499.99,
+    "stock": 30,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/vlqutoovtqj60guer2tc",
+      "publicId": null
+    },
+    "sales": 2,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Leather Recliner Chair",
+    "description": "Comfortable leather recliner with adjustable backrest, ideal for relaxation and lounging.",
+    "price": 349.99,
+    "stock": 40,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/e2rbpobzsvzdhriv1sme",
+      "publicId": null
+    },
+    "sales": 1,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Modern Sofa",
+    "description": "Sleek modern sofa with clean lines and soft cushions, perfect for contemporary living spaces.",
+    "price": 799.99,
+    "stock": 20,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/l12cdyxelthxvpbxdzht",
+      "publicId": null
+    },
+    "sales": 3,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Queen-Sized Bed",
+    "description": "Cozy queen-sized bed with an upholstered frame, designed for comfort and style.",
+    "price": 699.99,
+    "stock": 35,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/csjng5yq7gtxy8fkoseh",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Coffee Table",
+    "description": "Minimalist coffee table with a glass top and metal legs, perfect for modern living room decor.",
+    "price": 199.99,
+    "stock": 70,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/orhhm2pbrypcvtdyokkz",
+      "publicId": null
+    },
+    "sales": 6,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Accent Chair",
+    "description": "Stylish accent chair with vibrant upholstery, adding a pop of color and personality to any room.",
+    "price": 249.99,
+    "stock": 55,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/otgespeqse3adrl3zhuz",
+      "publicId": null
+    },
+    "sales": 30,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Sectional Sofa",
+    "description": "Large sectional sofa with multiple seating areas, perfect for family gatherings and cozy evenings.",
+    "price": 1099.99,
+    "stock": 15,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/giyljtd3fqt8zxqhmm2d",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Nightstand",
+    "description": "Compact wooden nightstand with drawers, ideal for keeping essentials within reach by the bed.",
+    "price": 129.99,
+    "stock": 90,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/q8emr07iw6v00wyl9dwc",
+      "publicId": null
+    },
+    "sales": 11,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Chaise Lounge",
+    "description": "Elegant chaise lounge with a soft cushion and curved design, perfect for a touch of luxury in any room.",
+    "price": 499.99,
+    "stock": 25,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/bg54privtq7dpp6xp2xc",
+      "publicId": null
+    },
+    "sales": 10,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Dining Chairs",
+    "description": "Set of cushioned dining chairs with wooden legs, providing both comfort and a modern aesthetic.",
+    "price": 399.99,
+    "stock": 50,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/dgisqzm3tajl9b9sv4v2",
+      "publicId": null
+    },
+    "sales": 11,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Bedside Table",
+    "description": "Small bedside table with a sleek design, featuring a drawer for storage and a stylish surface for decor.",
+    "price": 149.99,
+    "stock": 80,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/sv9fx5ziqwynjxwok7wy",
+      "publicId": null
+    },
+    "sales": 12,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Loveseat Sofa",
+    "description": "Compact loveseat sofa with plush seating, perfect for smaller spaces and cozy living areas.",
+    "price": 599.99,
+    "stock": 25,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/giyljtd3fqt8zxqhmm2d",
+      "publicId": null
+    },
+    "sales": 14,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Bar Stool",
+    "description": "Tall wooden bar stool with a comfortable seat, ideal for kitchen islands or bar areas.",
+    "price": 129.99,
+    "stock": 100,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/xbkgchbya8byc1gyz3lp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Glass Dining Table",
+    "description": "Elegant glass dining table with a metal frame, adding sophistication to any dining room.",
+    "price": 599.99,
+    "stock": 30,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/ljjrkupuf2ff7cw5cnys",
+      "publicId": null
+    },
+    "sales": 25,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Ottoman",
+    "description": "Multi-functional ottoman with soft fabric, ideal as a footrest or additional seating in the living room.",
+    "price": 199.99,
+    "stock": 75,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/kfwgjqjvczd3dauwdb1t",
+      "publicId": null
+    },
+    "sales": 30,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Desk Chair",
+    "description": "Ergonomic desk chair with adjustable features, perfect for long hours of work or study.",
+    "price": 249.99,
+    "stock": 60,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/ttjxy9zgurwfptins0lq",
+      "publicId": null
+    },
+    "sales": 10,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6f",
+    "name": "Platform Bed",
+    "description": "Simple platform bed with a low profile and clean design, offering a modern and minimalist look.",
+    "price": 649.99,
+    "stock": 40,
+    "category": "Furniture",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/n2fmapqfmleyyfnuyge2",
+      "publicId": null
+    },
+    "sales": 10,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6a",
+    "name": "Diamond Ring",
+    "description": "A stunning diamond ring with a sparkling solitaire stone, perfect for engagements or special occasions.",
+    "price": 2999.99,
+    "stock": 20,
+    "category": "Jewelry",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/qanw6n4mwcdr0bbs9j2g",
+      "publicId": null
+    },
+    "sales": 13,
+    "reviews": [],
+    "rating": 5.0
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6a",
+    "name": "Gold Hoop Earrings",
+    "description": "Classic gold hoop earrings with a sleek and simple design, ideal for everyday elegance.",
+    "price": 199.99,
+    "stock": 50,
+    "category": "Jewelry",
+    "keywords": ["Jewelry", "earrings", "gold"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/kk0c43hvz7vrzdfogowe",
+      "publicId": null
+    },
+    "sales": 12,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6a",
+    "name": "Silver Bangle",
+    "description": "Minimalist silver bangle with a polished finish, offering a chic and timeless accessory for any outfit.",
+    "price": 129.99,
+    "stock": 75,
+    "category": "Jewelry",
+    "keywords": ["Jewelry", "bangle", "silver"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/mvek30oz7s82abwzlvjp",
+      "publicId": null
+    },
+    "sales": 12,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6a",
+    "name": "Pearl Necklace",
+    "description": "A delicate pearl necklace with a fine chain, adding a touch of sophistication and grace.",
+    "price": 349.99,
+    "stock": 40,
+    "category": "Jewelry",
+    "keywords": ["Jewelry", "necklace", "pearl"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/qtn1xq6ukil9mmqdyu4c",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6a",
+    "name": "Gold Wedding Band",
+    "description": "Simple yet elegant gold wedding band, symbolizing love and commitment with a timeless design.",
+    "price": 499.99,
+    "stock": 100,
+    "category": "Jewelry",
+    "keywords": ["Jewelry", "ring", "gold"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/djqf7oxdimbcjlkrle5g",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6a",
+    "name": "Stud Earrings",
+    "description": "Small diamond stud earrings that add subtle sparkle, perfect for a refined and understated look.",
+    "price": 259.99,
+    "stock": 60,
+    "category": "Jewelry",
+    "keywords": ["Jewelry", "earrings", "diamond"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/ylokauntxnkwjfgyo2gv",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6a",
+    "name": "Charm Bracelet",
+    "description": "A playful charm bracelet with various hanging pendants, adding a personalized and fun element to your style.",
+    "price": 149.99,
+    "stock": 45,
+    "category": "Jewelry",
+    "keywords": ["Jewelry", "bracelet", "charm"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/mvek30oz7s82abwzlvjp",
+      "publicId": null
+    },
+    "sales": 45,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6a",
+    "name": "Statement Necklace",
+    "description": "Bold statement necklace with large, intricate designs, perfect for making a glamorous fashion statement.",
+    "price": 299.99,
+    "stock": 35,
+    "category": "Jewelry",
+    "keywords": ["Jewelry", "necklace", "statement"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/lddpzepyj7fnjzfdu0hm",
+      "publicId": null
+    },
+    "sales": 10,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6a",
+    "name": "Silver Ring",
+    "description": "Sleek silver ring with a modern, minimalist design, ideal for casual or formal wear.",
+    "price": 99.99,
+    "stock": 100,
+    "category": "Jewelry",
+    "keywords": ["Jewelry", "ring", "silver"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/lddpzepyj7fnjzfdu0hm",
+      "publicId": null
+    },
+    "sales": 10,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6a",
+    "name": "Diamond Earrings",
+    "description": "Elegant drop earrings featuring sparkling diamonds, offering a sophisticated and luxurious touch.",
+    "price": 799.99,
+    "stock": 25,
+    "category": "Jewelry",
+    "keywords": ["Jewelry", "earrings", "diamond"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/l7cleylvbfargcebbvti",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6a",
+    "name": "Gold Chain Bracelet",
+    "description": "Delicate gold chain bracelet with a dainty design, perfect for layering or wearing alone.",
+    "price": 179.99,
+    "stock": 60,
+    "category": "Jewelry",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/jhxlrurdentvd9vgs24g",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6a",
+    "name": "Gemstone Pendant Necklace",
+    "description": "A vibrant gemstone pendant hanging from a fine chain, adding a pop of color and elegance.",
+    "price": 349.99,
+    "stock": 50,
+    "category": "Jewelry",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/ozovnabsmisiy9ieogjt",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6a",
+    "name": "Engraved Band",
+    "description": "A personalized engraved ring with intricate details, perfect for commemorating special moments or relationships.",
+    "price": 159.99,
+    "stock": 100,
+    "category": "Jewelry",
+
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/f44jfldcyb6gvgxg9naw",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Laptop",
+    "description": "Sleek, lightweight laptop with a full HD display, perfect for work or entertainment on the go.",
+    "price": 999.99,
+    "stock": 50,
+    "category": "Technology",
+
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/lttrmilhm29tgajicgk2",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Desktop Computer",
+    "description": "Powerful desktop computer with a high-performance processor, ideal for gaming or heavy workloads.",
+    "price": 1299.99,
+    "stock": 30,
+    "category": "Technology",
+    "keywords": ["Electronics", "Computers"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/kcz4fk1cxtgrdtcv4mem",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "External Hard Drive",
+    "description": "Portable external hard drive with 1TB of storage, perfect for backing up files and data.",
+    "price": 79.99,
+    "stock": 100,
+    "category": "Technology",
+    "keywords": ["Storage", "Accessories"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/pcqqn6rqloqkrshixvhw",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "RAM Module",
+    "description": "16GB DDR4 RAM stick, enhancing system performance for multitasking and gaming.",
+    "price": 59.99,
+    "stock": 75,
+    "category": "Technology",
+    "keywords": ["Computer Parts", "Upgrades"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/uypxkqakodyyhkmpbqjr",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "CD/DVD",
+    "description": "Classic writable CD for storing music, videos, or software, offering up to 700MB of space.",
+    "price": 19.99,
+    "stock": 200,
+    "category": "Technology",
+    "keywords": ["Storage", "Media"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/jrnacv3zzcivbrgec9gc",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.2
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Wi-Fi Router",
+    "description": "High-speed dual-band Wi-Fi router, delivering fast and stable internet connection for home use.",
+    "price": 89.99,
+    "stock": 40,
+    "category": "Technology",
+    "keywords": ["Networking", "Accessories"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/oje9hq4wgeouxdfc2g08",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "DSLR Camera",
+    "description": "Professional DSLR camera with a 24MP sensor, perfect for capturing high-quality photos and videos.",
+    "price": 799.99,
+    "stock": 25,
+    "category": "Technology",
+    "keywords": ["Photography", "Cameras"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/wauljxxfjfqorice4ycb",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Wireless Headphones",
+    "description": "Noise-cancelling wireless headphones with long battery life, ideal for uninterrupted music and calls.",
+    "price": 129.99,
+    "stock": 60,
+    "category": "Technology",
+    "keywords": ["Audio", "Accessories"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/v3s8zje0raeb0wfqolbr",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Smartphone",
+    "description": "Sleek smartphone with a large OLED display and advanced camera system for capturing stunning photos.",
+    "price": 799.99,
+    "stock": 70,
+    "category": "Technology",
+    "keywords": ["Electronics", "Mobile"],
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/bthceqaktws3ro84ggis",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Mechanical Keyboard",
+    "description": "High-performance mechanical keyboard with RGB lighting, perfect for gaming enthusiasts.",
+    "price": 109.99,
+    "stock": 45,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/mbejjg8kqvjv8nyolkxq",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with adjustable DPI settings, offering precise control for everyday use.",
+    "price": 49.99,
+    "stock": 90,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/uwk3t0d4khedghcnmysg",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Gaming Laptop",
+    "description": "High-end gaming laptop with a dedicated GPU, delivering immersive gaming experiences and fast processing.",
+    "price": 1499.99,
+    "stock": 20,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/cvinpkogtklhh8xsv85c",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Bluetooth Speaker",
+    "description": "Compact Bluetooth speaker with deep bass and crystal-clear sound, perfect for portable audio.",
+    "price": 89.99,
+    "stock": 55,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/ibugbnpf5kmq2sjaxwe7",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Smartwatch",
+    "description": "Modern smartwatch with health-tracking features, including heart rate monitoring and step counting.",
+    "price": 199.99,
+    "stock": 65,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/p0dxg6aay4rf8xvjlwbu",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "USB Flash Drive",
+    "description": "Compact USB 3.0 flash drive with 64GB storage, offering fast file transfers and easy portability.",
+    "price": 19.99,
+    "stock": 150,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/n7zmkuomi5oh1ub6bbv4",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Solid State Drive (SSD)",
+    "description": "512GB SSD for lightning-fast storage and system boot-up speeds.",
+    "price": 129.99,
+    "stock": 40,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/pcqqn6rqloqkrshixvhw",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Webcam",
+    "description": "HD webcam with a wide-angle lens, perfect for video calls and online meetings.",
+    "price": 69.99,
+    "stock": 80,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/dbe7bndae7w7sdvg6cfd",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Ethernet Router",
+    "description": "High-performance ethernet router with multiple ports, ensuring a stable wired internet connection.",
+    "price": 79.99,
+    "stock": 60,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/oje9hq4wgeouxdfc2g08",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Tablet",
+    "description": "Lightweight tablet with a vivid display and powerful processor, ideal for media consumption and productivity.",
+    "price": 399.99,
+    "stock": 35,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/sxfxeaj63gkdmjma9g34",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Gaming Headset",
+    "description": "Surround sound gaming headset with a noise-cancelling microphone, providing an immersive audio experience.",
+    "price": 89.99,
+    "stock": 50,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/n7zmkuomi5oh1ub6bbv4",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Wireless Earbuds",
+    "description": "Compact wireless earbuds with long battery life and crisp audio quality, perfect for on-the-go listening.",
+    "price": 129.99,
+    "stock": 75,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/lye7ejcbxuwmcxbejpgz",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Smartphone Stand",
+    "description": "Adjustable smartphone stand, ideal for hands-free video calls and content viewing.",
+    "price": 24.99,
+    "stock": 120,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/ibugbnpf5kmq2sjaxwe7",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "External Monitor",
+    "description": "27-inch external monitor with 4K resolution, perfect for professional work or gaming.",
+    "price": 349.99,
+    "stock": 30,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/gcuwcezqyy6gszfd0qoa",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Wireless Charger",
+    "description": "Fast wireless charging pad, compatible with multiple devices for quick and convenient charging.",
+    "price": 39.99,
+    "stock": 95,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/anpkjwbxemlmuunb8yfj",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Graphics Card",
+    "description": "High-performance graphics card with 8GB of VRAM, delivering smooth visuals for gaming and design work.",
+    "price": 499.99,
+    "stock": 20,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/pohvphh5echqa30jc6cj",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Bluetooth Keyboard",
+    "description": "Compact Bluetooth keyboard with a sleek design, ideal for mobile devices and tablets.",
+    "price": 49.99,
+    "stock": 65,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/mbejjg8kqvjv8nyolkxq",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Optical Mouse",
+    "description": "Lightweight optical mouse with smooth tracking and an ergonomic design, perfect for everyday use.",
+    "price": 29.99,
+    "stock": 100,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/uwk3t0d4khedghcnmysg",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Action Camera",
+    "description": "Waterproof action camera with 4K video recording, perfect for capturing adventures and sports activities.",
+    "price": 299.99,
+    "stock": 30,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/c9vn3dyp2sez6zpaeqrz",
+      "publicId": null
+    },
+    "sales": 5,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd69",
+    "name": "Wi-Fi Extender",
+    "description": "Compact Wi-Fi extender that boosts your wireless signal, ensuring coverage in hard-to-reach areas.",
+    "price": 49.99,
+    "stock": 80,
+    "category": "Technology",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/oje9hq4wgeouxdfc2g08",
+      "publicId": null
+    },
+    "sales": 46,
+    "reviews": [],
+    "rating": 4.4
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Smartwatch",
+    "description": "Sleek smartwatch with a vibrant touchscreen, offering fitness tracking and notifications for calls and messages.",
+    "price": 199.99,
+    "stock": 80,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/yai6phvewthbpgv0gsmd",
+      "publicId": null
+    },
+    "sales": 22,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Analog Watch",
+    "description": "Classic analog watch with a polished stainless steel case and a minimalist dial, perfect for formal occasions.",
+    "price": 149.99,
+    "stock": 60,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/dtanjxwxslakbvirn0dm",
+      "publicId": null
+    },
+    "sales": 10,
+    "reviews": [],
+    "rating": 4.4
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Digital Watch",
+    "description": "Modern digital watch featuring a bright LED display and multiple functions like stopwatch and alarm.",
+    "price": 59.99,
+    "stock": 100,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/vknnyqcitbc1ukdxpasd",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.3
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Fitness Tracker",
+    "description": "Lightweight fitness tracker that monitors heart rate and steps, designed for active lifestyles.",
+    "price": 79.99,
+    "stock": 120,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/p0dxg6aay4rf8xvjlwbu",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Diver's Watch",
+    "description": "Robust diver's watch with a unidirectional bezel and water resistance, ideal for underwater adventures.",
+    "price": 249.99,
+    "stock": 40,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/rjqr7yd2yyui6avfunrb",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Luxury Watch",
+    "description": "Elegant luxury watch adorned with diamonds, showcasing sophistication and style for special events.",
+    "price": 899.99,
+    "stock": 15,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/qdf2xtf5robjzcnhtb5b",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Casual Watch",
+    "description": "Versatile casual watch with a fabric strap and colorful dial, perfect for everyday wear.",
+    "price": 39.99,
+    "stock": 150,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/rthcuswzayjtr5cjbtrf",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.2
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Chronograph Watch",
+    "description": "Stylish chronograph watch featuring multiple sub-dials for timing and sports functions.",
+    "price": 299.99,
+    "stock": 35,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/gbe0qrlnezmfjgkditeh",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Leather Strap Watch",
+    "description": "Classic watch with a genuine leather strap, combining timeless design with comfort.",
+    "price": 159.99,
+    "stock": 70,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/byeod3r41sjeizvlvpvr",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Skeleton Watch",
+    "description": "Intricate skeleton watch showcasing the inner mechanics, blending artistry with functionality.",
+    "price": 249.99,
+    "stock": 25,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/aqyqwos7i81hmvs4jthn",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Smart Fitness Watch",
+    "description": "Advanced fitness watch with GPS and health monitoring features, perfect for outdoor activities.",
+    "price": 229.99,
+    "stock": 50,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/s9ix9kfropeqjryzp7cc",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Quartz Watch",
+    "description": "Reliable quartz watch with precise timekeeping and a contemporary design, suitable for all occasions.",
+    "price": 89.99,
+    "stock": 85,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/dgwlutlaexnls68jag88",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.4
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Pilot's Watch",
+    "description": "Bold pilot's watch with large numerals and a durable strap, designed for aviation enthusiasts.",
+    "price": 299.99,
+    "stock": 30,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/gbe0qrlnezmfjgkditeh",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Eco-Friendly Watch",
+    "description": "Sustainable watch made from recycled materials, offering a stylish look while being environmentally friendly.",
+    "price": 129.99,
+    "stock": 60,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/hyxu6libuftr9oe8jgsu",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Headphones",
+    "description": "Comfortable over-ear headphones with noise-cancellation technology, providing immersive sound and a perfect fit for long listening sessions.",
+    "price": 199.99,
+    "stock": 75,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/xzsy7qi36kkxzjhpxkah",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Laptop 1",
+    "description": "Sleek and lightweight laptop featuring a high-resolution display and powerful processor, ideal for both work and entertainment on the go.",
+    "price": 999.99,
+    "stock": 40,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/xku0tjlgng07u5cybdwn",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Laptop 2",
+    "description": "Versatile 2-in-1 laptop with a touchscreen and detachable keyboard, perfect for productivity and casual use in various modes.",
+    "price": 899.99,
+    "stock": 30,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/bwz3zt0hn6bzjd43xoky",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Display Screen",
+    "description": "Ultra-thin 27-inch display screen with vibrant colors and 4K resolution, ideal for gaming, graphic design, or watching movies.",
+    "price": 499.99,
+    "stock": 25,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/pohvphh5echqa30jc6cj",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Charger",
+    "description": "Fast charging adapter with multiple ports, ensuring quick and efficient charging for various devices.",
+    "price": 39.99,
+    "stock": 100,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/en3djwdosnaqpcmxfarg",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.0
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Speaker",
+    "description": "Compact Bluetooth speaker with rich sound quality and a long battery life, perfect for enjoying music at home or on the go.",
+    "price": 79.99,
+    "stock": 120,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/anpkjwbxemlmuunb8yfj",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Camera",
+    "description": "High-definition digital camera with interchangeable lenses, ideal for capturing stunning photos and videos in various settings.",
+    "price": 699.99,
+    "stock": 20,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/gj8xsk3cxjli2ypgx2io",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6c",
+    "name": "Smartphone",
+    "description": "Modern smartphone featuring a large OLED display and advanced camera system, perfect for photography and everyday communication.",
+    "price": 799.99,
+    "stock": 50,
+    "category": "Electronics",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/rxcco3whhmlyidxdrlcq",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Classic Cheeseburger",
+    "description": "Juicy beef patty topped with melted cheddar cheese, fresh lettuce, tomato, and pickles, served on a toasted sesame seed bun.",
+    "price": 9.99,
+    "stock": 30,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/l2hlbklikfbmi9qhjwgu",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Bacon Burger",
+    "description": "Flavorful beef patty layered with crispy bacon, American cheese, and barbecue sauce, creating a smoky and savory delight.",
+    "price": 11.99,
+    "stock": 25,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/k30kqp0darizubglmtzf",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Veggie Burger",
+    "description": "Grilled plant-based patty made from black beans and quinoa, topped with avocado, spinach, and a tangy chipotle mayo on a whole grain bun.",
+    "price": 8.99,
+    "stock": 20,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/eeescaoizxavg7ltcrhc",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Mushroom Swiss Burger",
+    "description": "Succulent beef patty smothered in sautéed mushrooms and creamy Swiss cheese, served with garlic aioli on a brioche bun.",
+    "price": 10.99,
+    "stock": 50,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/dnylgznk7dhepeprcbg2",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Spicy Jalapeño Burger",
+    "description": "Spicy beef patty topped with pepper jack cheese, fresh jalapeños, and a zesty sriracha mayo, offering a fiery kick.",
+    "price": 10.49,
+    "stock": 22,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/mrvduqh0cyub9hidoqta",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "BBQ Burger",
+    "description": "Grilled beef patty drizzled with smoky barbecue sauce, topped with crispy onion rings and cheddar cheese, served on a toasted bun.",
+    "price": 12.99,
+    "stock": 15,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/opcsdt1e7x1lpt3i3nib",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Breakfast Burger",
+    "description": "Savory beef patty topped with a fried egg, crispy bacon, and melted cheese, perfect for a hearty morning meal.",
+    "price": 10.99,
+    "stock": 18,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/zkwodqlbjao7mziirdam",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Hawaiian Burger",
+    "description": "Grilled beef patty topped with sweet pineapple, teriyaki sauce, and tangy Swiss cheese, creating a delicious tropical twist.",
+    "price": 11.49,
+    "stock": 20,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/xlwb42clljzb3c7xkk8j",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Classic Burger Combo",
+    "description": "Juicy cheeseburger served with crispy fries and a refreshing soft drink, perfect for a satisfying meal.",
+    "price": 10.99,
+    "stock": 50,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/yn84loduro2oex6sxfsf",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Chicken Nugget Combo",
+    "description": "Crispy chicken nuggets accompanied by a side of golden fries and a choice of dipping sauce, ideal for a quick snack.",
+    "price": 8.99,
+    "stock": 60,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/kheiofr60bps9afkhlfy",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Fish Sandwich Combo",
+    "description": "Breaded fish fillet sandwich topped with tartar sauce and lettuce, served with onion rings and a lemonade for a refreshing touch.",
+    "price": 11.99,
+    "stock": 45,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/yzsrrfiktp2qjvk5u0wr",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Veggie Wrap Combo",
+    "description": "Fresh veggie wrap filled with colorful vegetables and hummus, paired with a side salad and iced tea for a healthy option.",
+    "price": 9.99,
+    "stock": 35,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/k7tej2zw4nsbvigqgpvo",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "BBQ Chicken Combo",
+    "description": "Grilled BBQ chicken sandwich served with coleslaw and sweet potato fries, offering a deliciously smoky flavor profile.",
+    "price": 12.49,
+    "stock": 40,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/yzsrrfiktp2qjvk5u0wr",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Breakfast Combo",
+    "description": "Fluffy pancakes, scrambled eggs, and crispy bacon served with a side of hash browns and coffee, perfect for a hearty start to the day.",
+    "price": 9.99,
+    "stock": 55,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/qakpttehaml6btu9z9bi",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Lemon Juice",
+    "description": "Refreshing lemon juice served over ice, bursting with zesty flavor and perfect for a hot day, ideal for adding a tangy twist to cocktails.",
+    "price": 3.99,
+    "stock": 75,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/dglrteyx0oxjzknbza71",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Orange Juice",
+    "description": "Freshly squeezed orange juice with a vibrant color and natural sweetness, rich in vitamin C, making it a perfect breakfast companion.",
+    "price": 4.49,
+    "stock": 65,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/b15vfadwwtgphiforqj9",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Pepsi",
+    "description": "Classic Pepsi served chilled, featuring a bold, sweet, and carbonated flavor that’s perfect for quenching thirst and pairing with meals.",
+    "price": 2.49,
+    "stock": 100,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/yg5clhrfax8hr8ghv0gg",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Strawberry Juice",
+    "description": "Sweet and fruity strawberry juice blended to perfection, offering a bright red hue and refreshing taste, perfect for summer sipping.",
+    "price": 4.99,
+    "stock": 50,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/aw8nyv82wjb6uoqjydyk",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Classic French Fries",
+    "description": "Crispy golden-brown French fries, lightly salted and served hot, perfect as a side dish or snack to accompany any meal.",
+    "price": 2.99,
+    "stock": 100,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/waaqagexpdog8pphw0zk",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Loaded Cheese Fries",
+    "description": "Deliciously crispy fries topped with melted cheese, crispy bacon bits, and drizzled with ranch dressing, offering a savory and indulgent treat.",
+    "price": 4.99,
+    "stock": 80,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/dgwcdutvxiugign9jfej",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Sweet Potato Fries",
+    "description": "Crispy sweet potato fries with a slightly sweet flavor, served with a side of tangy dipping sauce, perfect for a healthier alternative to regular fries.",
+    "price": 3.49,
+    "stock": 90,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/bim1xlba5469nvxnnbpm",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Margherita Pizza",
+    "description": "Classic Margherita pizza topped with fresh mozzarella, ripe tomatoes, and fragrant basil, offering a simple yet flavorful experience.",
+    "price": 10.99,
+    "stock": 60,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/wtpqrmaoaovszbu7tizv",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Pepperoni Pizza",
+    "description": "Loaded with spicy pepperoni slices, melted cheese, and zesty tomato sauce on a crispy crust, making it a favorite among pizza lovers.",
+    "price": 11.99,
+    "stock": 50,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/nhpov2zewp2csjupgavg",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Vegetarian Pizza",
+    "description": "Colorful vegetarian pizza topped with bell peppers, onions, mushrooms, and olives, all layered over a rich tomato sauce and mozzarella cheese.",
+    "price": 10.49,
+    "stock": 70,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/ugtdnhbywoolcgsyimxk",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "BBQ Chicken Pizza",
+    "description": "Savory BBQ chicken pizza featuring grilled chicken, red onions, and cilantro, drizzled with barbecue sauce on a cheesy base.",
+    "price": 12.99,
+    "stock": 40,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/ambantewieqctaspvwhz",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Hawaiian Pizza",
+    "description": "Sweet and savory Hawaiian pizza topped with ham, juicy pineapple chunks, and mozzarella cheese, offering a delightful tropical twist.",
+    "price": 11.49,
+    "stock": 55,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/tf3tvbajpszg7tsnx1rg",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Meat Lover's Pizza",
+    "description": "Hearty meat lover's pizza loaded with pepperoni, sausage, bacon, and ham, providing a protein-packed option for meat enthusiasts.",
+    "price": 13.99,
+    "stock": 30,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/jbg239znzfyhjbvyqoct",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "White Pizza",
+    "description": "Creamy white pizza topped with ricotta cheese, garlic, and spinach, drizzled with olive oil for a rich and flavorful experience.",
+    "price": 11.99,
+    "stock": 45,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/dkshn2rwrbsdujovxduh",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Club Sandwich",
+    "description": "A classic club sandwich stacked with layers of turkey, bacon, lettuce, tomato, and mayo, served on toasted bread for a satisfying crunch.",
+    "price": 9.99,
+    "stock": 50,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/tm0mscqrbrttth6si0av",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Grilled Cheese Sandwich",
+    "description": "A comforting grilled cheese sandwich featuring melted cheddar and mozzarella between buttery, toasted bread, perfect for a cozy meal.",
+    "price": 6.99,
+    "stock": 60,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346670/multi-vendor%20E-commerce/foods/mukjgov75cxfej4j61vc.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "BLT Sandwich",
+    "description": "A delicious BLT sandwich made with crispy bacon, fresh lettuce, and juicy tomatoes, all layered between slices of toasted bread.",
+    "price": 8.49,
+    "stock": 45,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346671/multi-vendor%20E-commerce/foods/fqsuuemeuczmfziuck5p.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Chicken Salad Sandwich",
+    "description": "Creamy chicken salad made with diced chicken, mayo, and crunchy celery, served on fresh bread with lettuce and tomato for added freshness.",
+    "price": 7.99,
+    "stock": 40,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346675/multi-vendor%20E-commerce/foods/vflz3niwgxx3tfauengs.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Veggie Sandwich",
+    "description": "A wholesome veggie sandwich loaded with colorful vegetables like cucumbers, bell peppers, and sprouts, spread with hummus on whole grain bread.",
+    "price": 8.99,
+    "stock": 55,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346677/multi-vendor%20E-commerce/foods/qeu0eptfpkbw9gnusgpx.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Philly Cheesesteak Sandwich",
+    "description": "A hearty Philly cheesesteak sandwich filled with tender beef, sautéed onions, and melted cheese, served in a warm hoagie roll for a flavorful bite.",
+    "price": 10.99,
+    "stock": 35,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346678/multi-vendor%20E-commerce/foods/uqtj7pf9hdzgxaimdmfk.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Spaghetti Carbonara",
+    "description": "Classic spaghetti carbonara tossed in a creamy sauce made with eggs, cheese, pancetta, and black pepper, creating a rich and savory flavor.",
+    "price": 12.99,
+    "stock": 40,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346679/multi-vendor%20E-commerce/foods/n6ollpfq66ti7mxdjg6s.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Penne Arrabbiata",
+    "description": "Penne pasta served in a spicy tomato sauce with garlic and red chili flakes, offering a delightful kick for spice lovers.",
+    "price": 11.49,
+    "stock": 45,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346677/multi-vendor%20E-commerce/foods/fnjvkssmy1snthlx1eyb.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Fettuccine Alfredo",
+    "description": "Creamy fettuccine Alfredo coated in a velvety sauce made from butter, cream, and Parmesan cheese, perfect for a comforting meal.",
+    "price": 12.49,
+    "stock": 50,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346676/multi-vendor%20E-commerce/foods/hnzhcvadkznawaqpgyei.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Lasagna",
+    "description": "Layers of pasta, rich meat sauce, and creamy béchamel, topped with melted cheese and baked to perfection for a hearty Italian classic.",
+    "price": 14.99,
+    "stock": 30,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346675/multi-vendor%20E-commerce/foods/magubmvjykra7qzanamt.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Pesto Pasta",
+    "description": "Linguine tossed in a vibrant basil pesto sauce, garnished with pine nuts and Parmesan cheese, providing a fresh and aromatic taste.",
+    "price": 11.99,
+    "stock": 35,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346675/multi-vendor%20E-commerce/foods/magubmvjykra7qzanamt.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Seafood Pasta",
+    "description": "A delightful seafood pasta dish featuring shrimp, scallops, and mussels in a garlic and white wine sauce, served over spaghetti.",
+    "price": 15.99,
+    "stock": 25,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346674/multi-vendor%20E-commerce/foods/aiidwoibajzuik1wegnr.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Macaroni and Cheese",
+    "description": "Cheesy macaroni made with elbow pasta and a creamy cheddar cheese sauce, baked until golden for a comforting side dish.",
+    "price": 9.99,
+    "stock": 60,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346673/multi-vendor%20E-commerce/foods/lsrkiivq1wd5pjl3fvwu.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6e",
+    "name": "Ravioli",
+    "description": "Handmade ravioli filled with ricotta cheese and spinach, served in a light marinara sauce and topped with fresh basil for an elegant touch.",
+    "price": 13.49,
+    "stock": 40,
+    "category": "Foods",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346669/multi-vendor%20E-commerce/foods/swzmw3hdurmdthi8mlhb.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Running Shoes",
+    "description": "Lightweight running shoes with cushioned soles and breathable mesh, designed for comfort and support during workouts or long-distance runs.",
+    "price": 79.99,
+    "stock": 100,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346656/multi-vendor%20E-commerce/fashion/f0npp0vprguz0phhrz4e.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Leather Dress Shoes",
+    "description": "Sleek leather dress shoes with a polished finish and classic lace-up design, perfect for formal occasions and business attire.",
+    "price": 129.99,
+    "stock": 50,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346654/multi-vendor%20E-commerce/fashion/h5ib8irufwudk3zgoitm.jpg",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Sneakers",
+    "description": "Casual sneakers with a comfortable fit and stylish design, ideal for everyday wear or light activities.",
+    "price": 59.99,
+    "stock": 75,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346654/multi-vendor%20E-commerce/fashion/i4me173isfkdidppl6ki.jpg",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Boots",
+    "description": "Durable ankle boots made from premium leather with sturdy soles, offering both style and protection for outdoor adventures.",
+    "price": 99.99,
+    "stock": 40,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346655/multi-vendor%20E-commerce/fashion/df2v2cex5ivkrjar6muj.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Sandals",
+    "description": "Comfortable open-toe sandals with adjustable straps and cushioned footbeds, perfect for warm weather and casual outings.",
+    "price": 39.99,
+    "stock": 120,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346644/multi-vendor%20E-commerce/fashion/fydefgtivctgbxuirbeo.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Stiletto Heels",
+    "description": "Elegant stiletto heels with a sleek design and pointed toe, perfect for formal events or a night out.",
+    "price": 89.99,
+    "stock": 50,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346642/multi-vendor%20E-commerce/fashion/c0ezv85eys6dgedb2kz4.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Block Heels",
+    "description": "Stylish block heels with a comfortable, wide base and ankle strap, offering stability and chic style for all-day wear.",
+    "price": 79.99,
+    "stock": 60,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346642/multi-vendor%20E-commerce/fashion/mz1ciygzxnaocmqnfj0t.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Wedge Heels",
+    "description": "Versatile wedge heels with a cork sole and open toe, ideal for summer outings with both comfort and height.",
+    "price": 69.99,
+    "stock": 40,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346640/multi-vendor%20E-commerce/fashion/stabbmf4ycprio74oqrv.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Platform Heels",
+    "description": "Bold platform heels with a chunky sole and high heel, adding extra height while ensuring comfort and support.",
+    "price": 99.99,
+    "stock": 30,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346638/multi-vendor%20E-commerce/fashion/ia96cixiih1esyemimuq.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Peep-Toe Heels",
+    "description": "Classy peep-toe heels featuring a glossy finish and a medium-height heel, perfect for both formal and semi-casual occasions.",
+    "price": 79.99,
+    "stock": 55,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346638/multi-vendor%20E-commerce/fashion/ia96cixiih1esyemimuq.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Slingback Heels",
+    "description": "Sophisticated slingback heels with a low, comfortable heel and an adjustable strap, offering a timeless and elegant look.",
+    "price": 74.99,
+    "stock": 45,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346638/multi-vendor%20E-commerce/fashion/ia96cixiih1esyemimuq.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Classic Black Sneakers",
+    "description": "Sleek black sneakers with a minimalist design, perfect for pairing with any casual outfit.",
+    "price": 59.99,
+    "stock": 100,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346653/multi-vendor%20E-commerce/fashion/q5gkvflidym9t9vohah5.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Running Sneakers",
+    "description": "Performance-focused running shoes with lightweight mesh and cushioned soles, ideal for long-distance running.",
+    "price": 89.99,
+    "stock": 80,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346653/multi-vendor%20E-commerce/fashion/dfkzzcieclfs0rozf235.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "High-Top Sneakers",
+    "description": "Stylish high-top sneakers with ankle support and a bold design, perfect for streetwear enthusiasts.",
+    "price": 74.99,
+    "stock": 50,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346652/multi-vendor%20E-commerce/fashion/veh4png3qlvtobwstybh.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.4
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Slip-On Sneakers",
+    "description": "Comfortable slip-ons with no laces, featuring a flexible design for easy wear and all-day comfort.",
+    "price": 49.99,
+    "stock": 90,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/vzlefuygwhzglib8drlo.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Retro Sneakers",
+    "description": "Vintage-inspired sneakers with a mix of bright colors and classic details, adding a nostalgic touch to your look.",
+    "price": 69.99,
+    "stock": 60,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346647/multi-vendor%20E-commerce/fashion/wlb6nlyfybt11o0cgync.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.3
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Chunky Sneakers",
+    "description": "Trendy chunky sneakers with an exaggerated sole and bold colors, offering both comfort and a fashion-forward vibe.",
+    "price": 79.99,
+    "stock": 70,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346646/multi-vendor%20E-commerce/fashion/vmumnsyd7s3jxza0hizh.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Skate Sneakers",
+    "description": "Durable skate shoes with reinforced soles and padded tongues, providing comfort and support for skateboarding.",
+    "price": 89.99,
+    "stock": 40,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346645/multi-vendor%20E-commerce/fashion/n8ifk1tvcexkllsjyxp5.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Canvas Sneakers",
+    "description": "Lightweight canvas shoes with a durable rubber sole, ideal for casual outings and everyday wear.",
+    "price": 39.99,
+    "stock": 100,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346644/multi-vendor%20E-commerce/fashion/yymemay6ajl8nbnzjuaz.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Designer Sneakers",
+    "description": "Luxury sneakers crafted from premium materials with sleek detailing, perfect for elevating your fashion game.",
+    "price": 149.99,
+    "stock": 30,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346642/multi-vendor%20E-commerce/fashion/jfxfrf1r8g0e21myrnp0.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Leather Sneakers",
+    "description": "Classic leather sneakers with a smooth finish, combining timeless style with everyday practicality.",
+    "price": 89.99,
+    "stock": 50,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346641/multi-vendor%20E-commerce/fashion/w2x3rd1xmch1mrraafy1.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Patterned Sneakers",
+    "description": "Eye-catching sneakers with vibrant patterns and unique designs, perfect for making a statement.",
+    "price": 69.99,
+    "stock": 60,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346640/multi-vendor%20E-commerce/fashion/yxysfof72lgqczfgxbzo.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.3
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Sport Sneakers",
+    "description": "Multi-functional sport shoes designed for high-intensity activities, with extra cushioning and support.",
+    "price": 99.99,
+    "stock": 40,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346640/multi-vendor%20E-commerce/fashion/flmztherjscinuvfkdfw.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Velcro Sneakers",
+    "description": "Practical velcro sneakers with adjustable straps, offering a modern twist on a classic design.",
+    "price": 59.99,
+    "stock": 70,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346638/multi-vendor%20E-commerce/fashion/mufzbuzec6ggjue0cddr.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Neon Sneakers",
+    "description": "Bright neon sneakers with a glowing finish, perfect for standing out during workouts or casual strolls.",
+    "price": 69.99,
+    "stock": 50,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346656/multi-vendor%20E-commerce/fashion/f0npp0vprguz0phhrz4e.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Breathable Knit Sneakers",
+    "description": "Comfortable knit sneakers with a lightweight, breathable fabric, ideal for hot weather.",
+    "price": 79.99,
+    "stock": 80,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346654/multi-vendor%20E-commerce/fashion/h5ib8irufwudk3zgoitm.jpg",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Platform Sneakers",
+    "description": "Fashion-forward platform sneakers with a raised sole, adding height while maintaining comfort.",
+    "price": 89.99,
+    "stock": 40,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346653/multi-vendor%20E-commerce/fashion/stf4l5cza9ixbskg2df5.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Minimalist Sneakers",
+    "description": "Clean and sleek minimalist sneakers in neutral tones, offering a simple yet elegant everyday look.",
+    "price": 69.99,
+    "stock": 90,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346653/multi-vendor%20E-commerce/fashion/cs7pwauxa9gifyrbhuwp.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Training Sneakers",
+    "description": "High-performance training shoes with extra grip and stability, designed for gym workouts and cross-training.",
+    "price": 99.99,
+    "stock": 50,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346652/multi-vendor%20E-commerce/fashion/veh4png3qlvtobwstybh.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Reflective Sneakers",
+    "description": "Stylish sneakers with reflective detailing, great for night runs or making a bold fashion statement.",
+    "price": 79.99,
+    "stock": 40,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/hjdqc3mld7floccdtmlt.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Eco-Friendly Sneakers",
+    "description": "Sustainable sneakers made from recycled materials, combining style with eco-conscious choices.",
+    "price": 89.99,
+    "stock": 60,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/bmkhluc7pln72qm18qvo.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Comfort Walking Shoes",
+    "description": "Lightweight walking shoes designed for maximum comfort, featuring cushioned soles and breathable fabric.",
+    "price": 69.99,
+    "stock": 50,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346650/multi-vendor%20E-commerce/fashion/aodylscrbbvpwrmu8qtd.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Fashion Ankle Boots",
+    "description": "Trendy ankle boots with a stylish design and durable materials, perfect for adding flair to any outfit.",
+    "price": 99.99,
+    "stock": 30,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346655/multi-vendor%20E-commerce/fashion/df2v2cex5ivkrjar6muj.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Casual Loafers",
+    "description": "Easy-to-wear loafers that offer a relaxed style with a comfortable fit, perfect for casual outings.",
+    "price": 59.99,
+    "stock": 25,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346648/multi-vendor%20E-commerce/fashion/rheq5h2nwdetxm3hsr9i.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.3
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Ballet Flats",
+    "description": "Chic ballet flats with a simple design, offering comfort and style for everyday wear.",
+    "price": 49.99,
+    "stock": 40,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346646/multi-vendor%20E-commerce/fashion/lnwo5zbeaf55hkg43u0n.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.4
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Hiking Boots",
+    "description": "Durable hiking boots designed for rugged terrain, providing support and traction for outdoor adventures.",
+    "price": 119.99,
+    "stock": 20,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346645/multi-vendor%20E-commerce/fashion/a2bq0qzxhy0gys8wjgyo.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Winter Boots",
+    "description": "Insulated winter boots designed to keep feet warm and dry, featuring waterproof materials and thick soles.",
+    "price": 129.99,
+    "stock": 15,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346643/multi-vendor%20E-commerce/fashion/ftc22ylhrbfduibzkcwc.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Dress Sandals",
+    "description": "Elegant dress sandals with a stylish design, perfect for formal occasions or summer parties.",
+    "price": 79.99,
+    "stock": 35,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346644/multi-vendor%20E-commerce/fashion/fydefgtivctgbxuirbeo.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Running Trail Shoes",
+    "description": "Specialized running shoes designed for trail running, featuring rugged soles and enhanced grip.",
+    "price": 89.99,
+    "stock": 45,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346645/multi-vendor%20E-commerce/fashion/n8ifk1tvcexkllsjyxp5.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Crossbody Bag",
+    "description": "A chic crossbody bag with an adjustable strap and sleek design, perfect for hands-free convenience while out and about.",
+    "price": 49.99,
+    "stock": 30,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346636/multi-vendor%20E-commerce/fashion/dqpr2tl5ioftiz9ykpdp.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.4
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Weekend Duffel Bag",
+    "description": "Spacious weekend duffel bag made from high-quality materials, featuring a roomy interior and sturdy handles, perfect for short trips.",
+    "price": 79.99,
+    "stock": 20,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346638/multi-vendor%20E-commerce/fashion/ghfzuwyz4l0uqhrysqh3.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Laptop Messenger Bag",
+    "description": "Stylish laptop messenger bag with padded compartments, designed to keep your tech secure while on the go.",
+    "price": 89.99,
+    "stock": 15,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346640/multi-vendor%20E-commerce/fashion/kjb0vzibdytlgkkujcom.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Bucket Bag",
+    "description": "Trendy bucket bag with a drawstring closure and spacious interior, perfect for adding a touch of style to any outfit.",
+    "price": 69.99,
+    "stock": 25,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346653/multi-vendor%20E-commerce/fashion/eq5k42wvuphw5l1kixua.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.3
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Parka Jacket",
+    "description": "A cozy parka jacket featuring a faux fur-lined hood and multiple pockets, designed for ultimate warmth and style during winter outings.",
+    "price": 129.99,
+    "stock": 20,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346654/multi-vendor%20E-commerce/fashion/ynd0s5ftw8rvtcpuu37t.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Harrington Jacket",
+    "description": "A classic Harrington jacket with a tartan lining and a lightweight design, offering a stylish option for transitional weather.",
+    "price": 89.99,
+    "stock": 15,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346651/multi-vendor%20E-commerce/fashion/wtikzmhvovvehbyadbjj.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.4
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Faux Fur Jacket",
+    "description": "A luxurious faux fur jacket that adds glam to any outfit, featuring a cozy design and elegant silhouette for special occasions.",
+    "price": 149.99,
+    "stock": 10,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346650/multi-vendor%20E-commerce/fashion/sfcvw00fqdvltxtz54i9.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Field Jacket",
+    "description": "A rugged field jacket with multiple cargo pockets and a breathable fabric, perfect for outdoor adventures and casual outings.",
+    "price": 99.99,
+    "stock": 18,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346650/multi-vendor%20E-commerce/fashion/bvbhhtqgfuunv86urtuy.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Utility Jacket",
+    "description": "A versatile utility jacket featuring a relaxed fit and functional pockets, ideal for layering and casual streetwear style.",
+    "price": 79.99,
+    "stock": 22,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346650/multi-vendor%20E-commerce/fashion/ejzr4ton5iit44hymusn.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.3
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Peacoat",
+    "description": "A classic peacoat made from warm wool, featuring double-breasted buttons and a stylish collar, perfect for a sophisticated look.",
+    "price": 139.99,
+    "stock": 12,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/kyhwwyiqpr3znjsfrrbf.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Sherpa Jacket",
+    "description": "A cozy Sherpa jacket with a soft, fluffy lining and a zip-up front, perfect for staying warm and stylish during chilly days.",
+    "price": 99.99,
+    "stock": 25,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346648/multi-vendor%20E-commerce/fashion/m510sxku2ei99nbufp7u.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Vintage Band T-Shirt",
+    "description": "A retro-style band T-shirt featuring classic concert graphics, made from soft, breathable cotton for a comfortable fit.",
+    "price": 29.99,
+    "stock": 30,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346637/multi-vendor%20E-commerce/fashion/ysqul0kppckd9cicorkl.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Pocket T-Shirt",
+    "description": "A casual pocket T-shirt with a small chest pocket detail, made from soft cotton for everyday comfort and style.",
+    "price": 24.99,
+    "stock": 25,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346636/multi-vendor%20E-commerce/fashion/i9vrapki9862ojalyubw.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.4
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Henley T-Shirt",
+    "description": "A stylish Henley T-shirt featuring a button-up neckline and short sleeves, perfect for a smart-casual look.",
+    "price": 34.99,
+    "stock": 20,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346652/multi-vendor%20E-commerce/fashion/pnhchbwpktihqsvyd5hq.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Bodycon Dress",
+    "description": "A stylish bodycon dress designed to hug the curves, featuring a scoop neckline and midi length, perfect for night outs.",
+    "price": 49.99,
+    "stock": 15,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346656/multi-vendor%20E-commerce/fashion/shczgbxsqzmv5lzdm3ng.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Off-Shoulder Dress",
+    "description": "An elegant off-shoulder dress with a fitted bodice and flowing skirt, perfect for summer weddings or brunches.",
+    "price": 54.99,
+    "stock": 12,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346645/multi-vendor%20E-commerce/fashion/mohyraikdx8xxu6qylkv.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Bohemian Dress",
+    "description": "A bohemian-style dress with a relaxed fit, colorful patterns, and bell sleeves, perfect for festivals or casual outings.",
+    "price": 39.99,
+    "stock": 20,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346639/multi-vendor%20E-commerce/fashion/ypp3t3fagjtajno5ub1y.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.4
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Shirt Dress",
+    "description": "A versatile shirt dress with a button-up front and tie waist, offering a casual yet polished look for work or weekends.",
+    "price": 42.99,
+    "stock": 18,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346637/multi-vendor%20E-commerce/fashion/lyj0vyykut602rysq6ll.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Sequin Dress",
+    "description": "A glamorous sequin dress that sparkles with every movement, featuring a fitted design and perfect for parties and events.",
+    "price": 69.99,
+    "stock": 10,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346635/multi-vendor%20E-commerce/fashion/yykcxgghiko9iizy1euy.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "T-shirt Dress",
+    "description": "A casual T-shirt dress made from soft cotton with a relaxed fit, perfect for everyday wear or lounging at home.",
+    "price": 29.99,
+    "stock": 25,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346656/multi-vendor%20E-commerce/fashion/shczgbxsqzmv5lzdm3ng.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.3
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Silk Shawl",
+    "description": "An elegant silk shawl with a smooth finish and rich colors, perfect for special occasions or formal events.",
+    "price": 59.99,
+    "stock": 10,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346635/multi-vendor%20E-commerce/fashion/vi32he3v6rh9qr6hznpr.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Knitted Shawl",
+    "description": "A cozy knitted shawl with a chunky texture, providing warmth and comfort, ideal for casual outings or lounging at home.",
+    "price": 34.99,
+    "stock": 15,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346651/multi-vendor%20E-commerce/fashion/sjxbvnwvgiqkht1qcxyp.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Official Team Jersey",
+    "description": "An official team jersey made from breathable fabric, featuring the team logo and colors, perfect for showing your support during matches.",
+    "price": 49.99,
+    "stock": 25,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346655/multi-vendor%20E-commerce/fashion/oeervymf3ed8elpcmxm4.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Graphic Football Tee",
+    "description": "A stylish graphic T-shirt with a football theme, made from soft cotton, ideal for casual wear or training sessions.",
+    "price": 29.99,
+    "stock": 30,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346637/multi-vendor%20E-commerce/fashion/np3rxovz8bi6mwbqeal1.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Baseball Cap",
+    "description": "A classic baseball cap with a curved brim and adjustable back, perfect for casual outings and sun protection.",
+    "price": 19.99,
+    "stock": 100,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346639/multi-vendor%20E-commerce/fashion/m06vmbxkjuyqkwuix1sz.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "White Dress Shirt",
+    "description": "A crisp white dress shirt with a classic collar and button-down front, perfect for formal occasions or professional settings.",
+    "price": 39.99,
+    "stock": 50,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346637/multi-vendor%20E-commerce/fashion/tdrhzzfwbi6hgpatptjk.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Plaid Flannel Shirt",
+    "description": "A cozy plaid flannel shirt in red and black, offering warmth and casual style for a laid-back look.",
+    "price": 29.99,
+    "stock": 70,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346636/multi-vendor%20E-commerce/fashion/hmkebt6fygovinpwpdxg.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Striped Button-Up Shirt",
+    "description": "A slim-fit striped button-up shirt with a sharp collar, ideal for a polished business-casual outfit.",
+    "price": 34.99,
+    "stock": 60,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346636/multi-vendor%20E-commerce/fashion/oa9iopspphqbqu1vx3lo.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Denim Shirt",
+    "description": "A light blue denim shirt with a relaxed fit and chest pockets, perfect for a casual, everyday look.",
+    "price": 32.99,
+    "stock": 80,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346638/multi-vendor%20E-commerce/fashion/sxxfspx4wzij4f06dghh.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.4
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Oxford Shirt",
+    "description": "A tailored Oxford shirt in light blue, featuring a button-down collar and a crisp finish, suitable for both work and casual wear.",
+    "price": 35.99,
+    "stock": 65,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346639/multi-vendor%20E-commerce/fashion/s1qbauhugtxgc1d8ggxa.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.7
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Hawaiian Shirt",
+    "description": "A vibrant Hawaiian shirt with tropical floral prints, ideal for vacation or summer outings.",
+    "price": 27.99,
+    "stock": 90,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346640/multi-vendor%20E-commerce/fashion/xrcnhmldsymcbm8syn9e.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.3
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Checked Shirt",
+    "description": "A casual checked shirt in a mix of navy and white, offering a laid-back yet stylish option for everyday wear.",
+    "price": 30.99,
+    "stock": 75,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346641/multi-vendor%20E-commerce/fashion/deiurzhdg85zd63zep1t.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Short-Sleeve Shirt",
+    "description": "A lightweight short-sleeve shirt with a casual fit and simple design, great for warm weather and relaxed occasions.",
+    "price": 24.99,
+    "stock": 100,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346643/multi-vendor%20E-commerce/fashion/bogy9pvr2ib1fz3t4mkn.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Linen Shirt",
+    "description": "A breathable linen shirt in beige, perfect for staying cool and comfortable in hot climates.",
+    "price": 28.99,
+    "stock": 50,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346643/multi-vendor%20E-commerce/fashion/bogy9pvr2ib1fz3t4mkn.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Printed Shirt",
+    "description": "A bold printed shirt with eye-catching patterns, designed to make a statement while keeping things casual.",
+    "price": 26.99,
+    "stock": 55,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346642/multi-vendor%20E-commerce/fashion/gvmo8c9gsfy7z6vpxltc.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.4
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Black Dress Shirt",
+    "description": "A sleek black dress shirt with a tailored fit, perfect for formal events or evening outings.",
+    "price": 39.99,
+    "stock": 40,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346647/multi-vendor%20E-commerce/fashion/mu3qn0ucce773ibaypvd.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Pinstripe Shirt",
+    "description": "A professional pinstripe shirt with a slim fit and crisp collar, great for business meetings or office wear.",
+    "price": 37.99,
+    "stock": 55,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346647/multi-vendor%20E-commerce/fashion/ikhwtsvfwfdzgrgnpo3p.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Chambray Shirt",
+    "description": "A soft chambray shirt in light blue, offering a lightweight alternative to denim for a relaxed yet polished look.",
+    "price": 30.99,
+    "stock": 70,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346648/multi-vendor%20E-commerce/fashion/ecynygq4yscvrjiajnle.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Polka Dot Shirt",
+    "description": "A playful polka dot shirt with a slim fit and button-down front, adding a touch of fun to any outfit.",
+    "price": 29.99,
+    "stock": 80,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/mtifqj5qszcfrtize4ds.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.3
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Military-Style Shirt",
+    "description": "A military-inspired shirt in olive green with epaulets and chest pockets, offering a rugged and utilitarian style.",
+    "price": 33.99,
+    "stock": 60,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/fu2lyzqetvachvutwjhx.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Formal Tuxedo Shirt",
+    "description": "A crisp white tuxedo shirt with pleated front detailing, designed for formal events and black-tie occasions.",
+    "price": 49.99,
+    "stock": 30,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/kyhwwyiqpr3znjsfrrbf.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.8
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Embroidered Shirt",
+    "description": "A shirt featuring delicate embroidery on the front, adding a touch of elegance and detail to the design.",
+    "price": 36.99,
+    "stock": 50,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346650/multi-vendor%20E-commerce/fashion/uppzmt5zvndpkizjlchw.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Western Shirt",
+    "description": "A classic Western shirt with contrast stitching and snap buttons, offering a rugged, cowboy-inspired look.",
+    "price": 29.99,
+    "stock": 75,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346651/multi-vendor%20E-commerce/fashion/rp1ha488nedrjlyey2yv.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.4
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Silk Shirt",
+    "description": "A luxurious silk shirt in a deep, rich color, perfect for evening wear or special occasions.",
+    "price": 59.99,
+    "stock": 25,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346654/multi-vendor%20E-commerce/fashion/ynd0s5ftw8rvtcpuu37t.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.9
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Mandarin Collar Shirt",
+    "description": "A modern shirt with a mandarin collar and clean lines, offering a minimalist and contemporary style.",
+    "price": 32.99,
+    "stock": 55,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346652/multi-vendor%20E-commerce/fashion/nleu4wppnl9pbugkfarp.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Two-Tone Shirt",
+    "description": "A stylish two-tone shirt with contrasting colors on the sleeves and body, adding a unique twist to a classic design.",
+    "price": 34.99,
+    "stock": 40,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346652/multi-vendor%20E-commerce/fashion/bc9cpn7neobtncpfcnoz.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.5
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Plaid Western Shirt",
+    "description": "A plaid Western-style shirt with snap buttons and pointed yokes, ideal for a casual, rustic look.",
+    "price": 28.99,
+    "stock": 65,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346650/multi-vendor%20E-commerce/fashion/uppzmt5zvndpkizjlchw.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.4
+  },
+  {
+    "vendor": "673a44150bab97ef79a2cd6d",
+    "name": "Oversized Shirt",
+    "description": "A loose-fitting oversized shirt with a relaxed silhouette, perfect for layering or creating a casual, effortless vibe.",
+    "price": 25.99,
+    "stock": 80,
+    "category": "Fashion",
+    "photo": {
+      "url": "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/fu2lyzqetvachvutwjhx.webp",
+      "publicId": null
+    },
+    "sales": 20,
+    "reviews": [],
+    "rating": 4.6
+  }
+]

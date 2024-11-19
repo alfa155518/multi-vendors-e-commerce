@@ -13,7 +13,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/chocolate/wbpz8lguhlrsr0n8co6a",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -30,7 +31,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/chocolate/iff6ouo6n0gz6rrxvmq9",
       publicId: null,
     },
-    isActive: true,
+    sales: 10,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -47,7 +49,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/chocolate/rfm0z9let5iugui0s27q",
       publicId: null,
     },
-    isActive: true,
+    sales: 50,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -64,7 +67,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/chocolate/mwxldni7l0q2fqt06rrv",
       publicId: null,
     },
-    isActive: true,
+    sales: 10,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -81,7 +85,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/chocolate/mrmitwbf5o46g9xfihfp",
       publicId: null,
     },
-    isActive: true,
+    sales: 8,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -98,7 +103,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/chocolate/u1dutczw2mn5cltxjsst",
       publicId: null,
     },
-    isActive: true,
+    sales: 5,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -115,7 +121,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/chocolate/khhu8wsnq7z35kugmzvx",
       publicId: null,
     },
-    isActive: true,
+    sales: 12,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -132,7 +139,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/mybdfwpqplgzcvtav9w4",
       publicId: null,
     },
-    isActive: true,
+    sales: 7,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -149,7 +157,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/fu8ani4wwk6wtsuidmci",
       publicId: null,
     },
-    isActive: true,
+    sales: 30,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -166,7 +175,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/vfowtrkmaiepwgzokzdj",
       publicId: null,
     },
-    isActive: true,
+    sales: 4,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -183,7 +193,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/gqz2d8pwsucjintmnjrf",
       publicId: null,
     },
-    isActive: true,
+    sales: 10,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -200,7 +211,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/pvdsloi7xqpucqblziii",
       publicId: null,
     },
-    isActive: true,
+    sales: 30,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -217,7 +229,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/lc164lbi0ogyduvobyix",
       publicId: null,
     },
-    isActive: true,
+    sales: 33,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -234,7 +247,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/ezusj7a9titncgstqopa",
       publicId: null,
     },
-    isActive: true,
+    sales: 22,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -251,7 +265,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/zclk0niw6chwf4kgwvv9",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -268,7 +283,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/x7mfnsqcf37cjvo0kmsj",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -285,7 +301,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/inmaljhkpvnukb1gbaap",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -302,7 +319,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/awca5e6onm4ffgsh5jxe",
       publicId: null,
     },
-    isActive: true,
+    sales: 22,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -319,7 +337,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/snksqbxyfmajcdtx0hha",
       publicId: null,
     },
-    isActive: true,
+    sales: 44,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -336,7 +355,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/glasses/rppw2dmz5ubf76knregd",
       publicId: null,
     },
-    isActive: true,
+    sales: 11,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -353,7 +373,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/pfk9xc5gn994bruh2vkl",
       publicId: null,
     },
-    isActive: true,
+    sales: 30,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -370,7 +391,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/fznrl7ah9t6tmjvlowsg",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -387,7 +409,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/b9szqvrk557kgo64b1p6",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -404,7 +427,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/cxvkjbenh2dmhsdxiorq",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -421,7 +445,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/mpcddieen3s4hw5w6gs5",
       publicId: null,
     },
-    isActive: true,
+    sales: 25,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -438,7 +463,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/e8pjoehfg4gmpukv61fq",
       publicId: null,
     },
-    isActive: true,
+    sales: 13,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -455,7 +481,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/ipyy3ijglggshiirz95q",
       publicId: null,
     },
-    isActive: true,
+    sales: 15,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -472,7 +499,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/rcadxmx0rqu0ptvit2ik",
       publicId: null,
     },
-    isActive: true,
+    sales: 21,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -489,7 +517,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/zitbsnv4vz33hsco85tb",
       publicId: null,
     },
-    isActive: true,
+    sales: 31,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -506,7 +535,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/ylagaripc6iecsz8hy8y",
       publicId: null,
     },
-    isActive: true,
+    sales: 41,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -523,7 +553,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/w4wsiq9galxgy4migij4",
       publicId: null,
     },
-    isActive: true,
+    sales: 40,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -540,7 +571,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/rqkig7gxviqqeyq8ooh1",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -557,7 +589,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/d5fin4vfaswb6m7hfwes",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -574,7 +607,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/q16iqylfnkj6n2v84h8f",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -591,7 +625,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/cosmetics/xsviao97rvzqduumwtcm",
       publicId: null,
     },
-    isActive: true,
+    sales: 8,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -608,7 +643,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/n2fmapqfmleyyfnuyge2",
       publicId: null,
     },
-    isActive: true,
+    sales: 5,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -625,7 +661,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/vlqutoovtqj60guer2tc",
       publicId: null,
     },
-    isActive: true,
+    sales: 2,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -642,7 +679,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/e2rbpobzsvzdhriv1sme",
       publicId: null,
     },
-    isActive: true,
+    sales: 1,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -659,7 +697,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/l12cdyxelthxvpbxdzht",
       publicId: null,
     },
-    isActive: true,
+    sales: 3,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -676,7 +715,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/csjng5yq7gtxy8fkoseh",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -693,7 +733,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/orhhm2pbrypcvtdyokkz",
       publicId: null,
     },
-    isActive: true,
+    sales: 6,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -710,7 +751,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/otgespeqse3adrl3zhuz",
       publicId: null,
     },
-    isActive: true,
+    sales: 30,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -727,7 +769,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/giyljtd3fqt8zxqhmm2d",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -744,7 +787,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/q8emr07iw6v00wyl9dwc",
       publicId: null,
     },
-    isActive: true,
+    sales: 11,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -761,7 +805,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/bg54privtq7dpp6xp2xc",
       publicId: null,
     },
-    isActive: true,
+    sales: 10,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -778,7 +823,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/dgisqzm3tajl9b9sv4v2",
       publicId: null,
     },
-    isActive: true,
+    sales: 11,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -795,7 +841,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/sv9fx5ziqwynjxwok7wy",
       publicId: null,
     },
-    isActive: true,
+    sales: 12,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -812,7 +859,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/giyljtd3fqt8zxqhmm2d",
       publicId: null,
     },
-    isActive: true,
+    sales: 14,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -829,7 +877,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/xbkgchbya8byc1gyz3lp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -846,7 +895,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/ljjrkupuf2ff7cw5cnys",
       publicId: null,
     },
-    isActive: true,
+    sales: 25,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -863,7 +913,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/kfwgjqjvczd3dauwdb1t",
       publicId: null,
     },
-    isActive: true,
+    sales: 30,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -880,7 +931,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/ttjxy9zgurwfptins0lq",
       publicId: null,
     },
-    isActive: true,
+    sales: 10,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -897,7 +949,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/furniture/n2fmapqfmleyyfnuyge2",
       publicId: null,
     },
-    isActive: true,
+    sales: 10,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -914,7 +967,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/qanw6n4mwcdr0bbs9j2g",
       publicId: null,
     },
-    isActive: true,
+    sales: 13,
+    reviews: [],
     rating: 5.0,
   },
   {
@@ -931,7 +985,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/kk0c43hvz7vrzdfogowe",
       publicId: null,
     },
-    isActive: true,
+    sales: 12,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -948,7 +1003,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/mvek30oz7s82abwzlvjp",
       publicId: null,
     },
-    isActive: true,
+    sales: 12,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -965,7 +1021,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/qtn1xq6ukil9mmqdyu4c",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -982,7 +1039,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/djqf7oxdimbcjlkrle5g",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -999,7 +1057,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/ylokauntxnkwjfgyo2gv",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -1016,7 +1075,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/mvek30oz7s82abwzlvjp",
       publicId: null,
     },
-    isActive: true,
+    sales: 45,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -1033,7 +1093,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/lddpzepyj7fnjzfdu0hm",
       publicId: null,
     },
-    isActive: true,
+    sales: 10,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -1050,7 +1111,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/udz80neoewo5v95n4bgn",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -1067,7 +1129,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/l7cleylvbfargcebbvti",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -1084,7 +1147,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/jhxlrurdentvd9vgs24g",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -1101,7 +1165,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/ozovnabsmisiy9ieogjt",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -1118,7 +1183,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/jewelry/f44jfldcyb6gvgxg9naw",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -1135,7 +1201,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/lttrmilhm29tgajicgk2",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -1152,7 +1219,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/kcz4fk1cxtgrdtcv4mem",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -1169,7 +1237,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/pcqqn6rqloqkrshixvhw",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -1186,7 +1255,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/uypxkqakodyyhkmpbqjr",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -1203,7 +1273,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/jrnacv3zzcivbrgec9gc",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.2,
   },
   {
@@ -1220,7 +1291,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/oje9hq4wgeouxdfc2g08",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -1237,7 +1309,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/wauljxxfjfqorice4ycb",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -1254,7 +1327,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/v3s8zje0raeb0wfqolbr",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -1271,7 +1345,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/bthceqaktws3ro84ggis",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -1288,7 +1363,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/mbejjg8kqvjv8nyolkxq",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -1305,7 +1381,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/uwk3t0d4khedghcnmysg",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -1322,7 +1399,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/cvinpkogtklhh8xsv85c",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -1339,7 +1417,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/ibugbnpf5kmq2sjaxwe7",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -1356,7 +1435,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/p0dxg6aay4rf8xvjlwbu",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -1373,7 +1453,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/n7zmkuomi5oh1ub6bbv4",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -1390,7 +1471,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/pcqqn6rqloqkrshixvhw",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -1407,7 +1489,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/dbe7bndae7w7sdvg6cfd",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -1424,7 +1507,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/oje9hq4wgeouxdfc2g08",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -1441,7 +1525,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/sxfxeaj63gkdmjma9g34",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -1458,7 +1543,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/n7zmkuomi5oh1ub6bbv4",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -1475,7 +1561,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/lye7ejcbxuwmcxbejpgz",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -1492,7 +1579,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/ibugbnpf5kmq2sjaxwe7",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -1509,7 +1597,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/g0nqe2gci4xns9btleaw",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -1526,7 +1615,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/anpkjwbxemlmuunb8yfj",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -1543,7 +1633,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/pohvphh5echqa30jc6cj",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -1560,7 +1651,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/mbejjg8kqvjv8nyolkxq",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -1577,7 +1669,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/uwk3t0d4khedghcnmysg",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -1594,7 +1687,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/c9vn3dyp2sez6zpaeqrz",
       publicId: null,
     },
-    isActive: true,
+    sales: 5,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -1611,7 +1705,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/technology/oje9hq4wgeouxdfc2g08",
       publicId: null,
     },
-    isActive: true,
+    sales: 46,
+    reviews: [],
     rating: 4.4,
   },
   {
@@ -1628,7 +1723,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/yai6phvewthbpgv0gsmd",
       publicId: null,
     },
-    isActive: true,
+    sales: 22,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -1645,7 +1741,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/dtanjxwxslakbvirn0dm",
       publicId: null,
     },
-    isActive: true,
+    sales: 10,
+    reviews: [],
     rating: 4.4,
   },
   {
@@ -1662,7 +1759,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/vknnyqcitbc1ukdxpasd",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.3,
   },
   {
@@ -1679,7 +1777,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/p0dxg6aay4rf8xvjlwbu",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -1696,7 +1795,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/rjqr7yd2yyui6avfunrb",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -1713,7 +1813,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/qdf2xtf5robjzcnhtb5b",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -1730,7 +1831,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/rthcuswzayjtr5cjbtrf",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.2,
   },
   {
@@ -1747,7 +1849,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/gbe0qrlnezmfjgkditeh",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -1764,7 +1867,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/byeod3r41sjeizvlvpvr",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -1781,7 +1885,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/aqyqwos7i81hmvs4jthn",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -1798,7 +1903,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/s9ix9kfropeqjryzp7cc",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -1815,7 +1921,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/dgwlutlaexnls68jag88",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.4,
   },
   {
@@ -1832,7 +1939,8 @@ const products = [
       url: "",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -1849,7 +1957,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/hyxu6libuftr9oe8jgsu",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -1866,7 +1975,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/xzsy7qi36kkxzjhpxkah",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -1883,7 +1993,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/xku0tjlgng07u5cybdwn",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -1900,7 +2011,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/bwz3zt0hn6bzjd43xoky",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -1917,7 +2029,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/pohvphh5echqa30jc6cj",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -1949,7 +2062,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/anpkjwbxemlmuunb8yfj",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -1966,7 +2080,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/gj8xsk3cxjli2ypgx2io",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -1983,7 +2098,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/electronic/rxcco3whhmlyidxdrlcq",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -2000,7 +2116,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/l2hlbklikfbmi9qhjwgu",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -2017,7 +2134,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/k30kqp0darizubglmtzf",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2034,7 +2152,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/eeescaoizxavg7ltcrhc",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -2051,7 +2170,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/rfoh9xofkmsqu0eckkdh",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -2068,7 +2188,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/mrvduqh0cyub9hidoqta",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -2085,7 +2206,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/opcsdt1e7x1lpt3i3nib",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2102,7 +2224,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/zkwodqlbjao7mziirdam",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -2119,7 +2242,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/xlwb42clljzb3c7xkk8j",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -2136,7 +2260,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/yn84loduro2oex6sxfsf",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -2153,7 +2278,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/kheiofr60bps9afkhlfy",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -2170,7 +2296,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/yzsrrfiktp2qjvk5u0wr",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2187,7 +2314,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/k7tej2zw4nsbvigqgpvo",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -2204,7 +2332,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/yzsrrfiktp2qjvk5u0wr",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -2229,7 +2358,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/qakpttehaml6btu9z9bi",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -2246,7 +2376,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/dglrteyx0oxjzknbza71",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2263,7 +2394,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/b15vfadwwtgphiforqj9",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -2280,7 +2412,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/yg5clhrfax8hr8ghv0gg",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -2297,7 +2430,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/aw8nyv82wjb6uoqjydyk",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -2314,7 +2448,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/waaqagexpdog8pphw0zk",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2331,7 +2466,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/dgwcdutvxiugign9jfej",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -2348,7 +2484,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/bim1xlba5469nvxnnbpm",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -2365,7 +2502,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/wtpqrmaoaovszbu7tizv",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -2382,7 +2520,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/nhpov2zewp2csjupgavg",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -2399,7 +2538,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/ugtdnhbywoolcgsyimxk",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2416,7 +2556,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/ambantewieqctaspvwhz",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -2433,7 +2574,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/tf3tvbajpszg7tsnx1rg",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -2450,7 +2592,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/jbg239znzfyhjbvyqoct",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2467,7 +2610,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/dkshn2rwrbsdujovxduh",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -2484,7 +2628,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/f_auto,q_auto/v1/multi-vendor%20E-commerce/foods/tm0mscqrbrttth6si0av",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -2501,7 +2646,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346670/multi-vendor%20E-commerce/foods/mukjgov75cxfej4j61vc.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2518,7 +2664,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346671/multi-vendor%20E-commerce/foods/fqsuuemeuczmfziuck5p.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -2535,7 +2682,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346675/multi-vendor%20E-commerce/foods/vflz3niwgxx3tfauengs.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -2552,7 +2700,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346677/multi-vendor%20E-commerce/foods/qeu0eptfpkbw9gnusgpx.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2569,7 +2718,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346678/multi-vendor%20E-commerce/foods/uqtj7pf9hdzgxaimdmfk.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -2586,7 +2736,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346679/multi-vendor%20E-commerce/foods/n6ollpfq66ti7mxdjg6s.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -2603,7 +2754,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346677/multi-vendor%20E-commerce/foods/fnjvkssmy1snthlx1eyb.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2620,7 +2772,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346676/multi-vendor%20E-commerce/foods/hnzhcvadkznawaqpgyei.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -2637,7 +2790,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346675/multi-vendor%20E-commerce/foods/magubmvjykra7qzanamt.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -2654,7 +2808,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346675/multi-vendor%20E-commerce/foods/magubmvjykra7qzanamt.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2671,7 +2826,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346674/multi-vendor%20E-commerce/foods/aiidwoibajzuik1wegnr.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -2688,7 +2844,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346673/multi-vendor%20E-commerce/foods/lsrkiivq1wd5pjl3fvwu.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -2705,7 +2862,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346669/multi-vendor%20E-commerce/foods/swzmw3hdurmdthi8mlhb.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -2722,7 +2880,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346656/multi-vendor%20E-commerce/fashion/f0npp0vprguz0phhrz4e.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2739,7 +2898,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346654/multi-vendor%20E-commerce/fashion/h5ib8irufwudk3zgoitm.jpg",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -2756,7 +2916,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346654/multi-vendor%20E-commerce/fashion/i4me173isfkdidppl6ki.jpg",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -2773,7 +2934,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346655/multi-vendor%20E-commerce/fashion/df2v2cex5ivkrjar6muj.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2790,7 +2952,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346644/multi-vendor%20E-commerce/fashion/fydefgtivctgbxuirbeo.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -2807,7 +2970,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346642/multi-vendor%20E-commerce/fashion/c0ezv85eys6dgedb2kz4.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -2824,7 +2988,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346642/multi-vendor%20E-commerce/fashion/mz1ciygzxnaocmqnfj0t.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -2841,7 +3006,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346640/multi-vendor%20E-commerce/fashion/stabbmf4ycprio74oqrv.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2858,7 +3024,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346638/multi-vendor%20E-commerce/fashion/ia96cixiih1esyemimuq.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -2875,7 +3042,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346638/multi-vendor%20E-commerce/fashion/ia96cixiih1esyemimuq.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -2892,7 +3060,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346638/multi-vendor%20E-commerce/fashion/ia96cixiih1esyemimuq.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -2909,7 +3078,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346653/multi-vendor%20E-commerce/fashion/q5gkvflidym9t9vohah5.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -2926,7 +3096,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346653/multi-vendor%20E-commerce/fashion/dfkzzcieclfs0rozf235.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -2943,7 +3114,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346652/multi-vendor%20E-commerce/fashion/veh4png3qlvtobwstybh.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.4,
   },
   {
@@ -2960,7 +3132,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/vzlefuygwhzglib8drlo.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -2977,7 +3150,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346647/multi-vendor%20E-commerce/fashion/wlb6nlyfybt11o0cgync.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.3,
   },
   {
@@ -2994,7 +3168,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346646/multi-vendor%20E-commerce/fashion/vmumnsyd7s3jxza0hizh.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -3011,7 +3186,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346645/multi-vendor%20E-commerce/fashion/n8ifk1tvcexkllsjyxp5.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3028,7 +3204,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346644/multi-vendor%20E-commerce/fashion/yymemay6ajl8nbnzjuaz.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -3045,7 +3222,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346642/multi-vendor%20E-commerce/fashion/jfxfrf1r8g0e21myrnp0.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -3062,7 +3240,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346641/multi-vendor%20E-commerce/fashion/w2x3rd1xmch1mrraafy1.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -3079,7 +3258,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346641/multi-vendor%20E-commerce/fashion/e33zwhdbcanid1bsrhqv.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.4,
   },
   {
@@ -3096,7 +3276,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346640/multi-vendor%20E-commerce/fashion/flmztherjscinuvfkdfw.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -3113,7 +3294,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346638/multi-vendor%20E-commerce/fashion/mufzbuzec6ggjue0cddr.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3130,7 +3312,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346656/multi-vendor%20E-commerce/fashion/f0npp0vprguz0phhrz4e.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -3147,7 +3330,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346654/multi-vendor%20E-commerce/fashion/h5ib8irufwudk3zgoitm.jpg",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3164,7 +3348,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346653/multi-vendor%20E-commerce/fashion/stf4l5cza9ixbskg2df5.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -3181,7 +3366,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346653/multi-vendor%20E-commerce/fashion/cs7pwauxa9gifyrbhuwp.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -3198,7 +3384,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346652/multi-vendor%20E-commerce/fashion/veh4png3qlvtobwstybh.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -3215,7 +3402,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/hjdqc3mld7floccdtmlt.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3232,7 +3420,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/bmkhluc7pln72qm18qvo.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -3249,7 +3438,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346650/multi-vendor%20E-commerce/fashion/aodylscrbbvpwrmu8qtd.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -3266,7 +3456,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346655/multi-vendor%20E-commerce/fashion/df2v2cex5ivkrjar6muj.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3283,7 +3474,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346648/multi-vendor%20E-commerce/fashion/rheq5h2nwdetxm3hsr9i.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.3,
   },
   {
@@ -3300,7 +3492,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346646/multi-vendor%20E-commerce/fashion/lnwo5zbeaf55hkg43u0n.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.4,
   },
   {
@@ -3317,7 +3510,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346646/multi-vendor%20E-commerce/fashion/vitrn9gmki7r59mdqv61.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -3334,7 +3528,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346643/multi-vendor%20E-commerce/fashion/ftc22ylhrbfduibzkcwc.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -3351,7 +3546,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346644/multi-vendor%20E-commerce/fashion/fydefgtivctgbxuirbeo.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -3368,7 +3564,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346645/multi-vendor%20E-commerce/fashion/n8ifk1tvcexkllsjyxp5.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3385,7 +3582,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346636/multi-vendor%20E-commerce/fashion/dqpr2tl5ioftiz9ykpdp.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.4,
   },
   {
@@ -3402,7 +3600,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346638/multi-vendor%20E-commerce/fashion/ghfzuwyz4l0uqhrysqh3.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -3419,7 +3618,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346640/multi-vendor%20E-commerce/fashion/kjb0vzibdytlgkkujcom.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3436,7 +3636,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346653/multi-vendor%20E-commerce/fashion/eq5k42wvuphw5l1kixua.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.3,
   },
   {
@@ -3453,7 +3654,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346654/multi-vendor%20E-commerce/fashion/ynd0s5ftw8rvtcpuu37t.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -3470,7 +3672,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346651/multi-vendor%20E-commerce/fashion/wtikzmhvovvehbyadbjj.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.4,
   },
   {
@@ -3487,7 +3690,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346650/multi-vendor%20E-commerce/fashion/sfcvw00fqdvltxtz54i9.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -3504,7 +3708,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346650/multi-vendor%20E-commerce/fashion/bvbhhtqgfuunv86urtuy.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3521,7 +3726,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346650/multi-vendor%20E-commerce/fashion/ejzr4ton5iit44hymusn.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.3,
   },
   {
@@ -3538,7 +3744,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/kyhwwyiqpr3znjsfrrbf.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -3555,7 +3762,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346648/multi-vendor%20E-commerce/fashion/m510sxku2ei99nbufp7u.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3572,7 +3780,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346637/multi-vendor%20E-commerce/fashion/ysqul0kppckd9cicorkl.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -3589,7 +3798,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346636/multi-vendor%20E-commerce/fashion/i9vrapki9862ojalyubw.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.4,
   },
   {
@@ -3606,7 +3816,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346652/multi-vendor%20E-commerce/fashion/pnhchbwpktihqsvyd5hq.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -3623,7 +3834,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346656/multi-vendor%20E-commerce/fashion/shczgbxsqzmv5lzdm3ng.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3640,7 +3852,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346645/multi-vendor%20E-commerce/fashion/mohyraikdx8xxu6qylkv.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -3657,7 +3870,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346639/multi-vendor%20E-commerce/fashion/ypp3t3fagjtajno5ub1y.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.4,
   },
   {
@@ -3674,7 +3888,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346637/multi-vendor%20E-commerce/fashion/lyj0vyykut602rysq6ll.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3691,7 +3906,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346635/multi-vendor%20E-commerce/fashion/yykcxgghiko9iizy1euy.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -3708,7 +3924,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346656/multi-vendor%20E-commerce/fashion/shczgbxsqzmv5lzdm3ng.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.3,
   },
   {
@@ -3725,7 +3942,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346635/multi-vendor%20E-commerce/fashion/vi32he3v6rh9qr6hznpr.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -3742,7 +3960,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346651/multi-vendor%20E-commerce/fashion/sjxbvnwvgiqkht1qcxyp.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3759,7 +3978,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346655/multi-vendor%20E-commerce/fashion/oeervymf3ed8elpcmxm4.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -3776,7 +3996,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346637/multi-vendor%20E-commerce/fashion/np3rxovz8bi6mwbqeal1.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -3793,7 +4014,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346639/multi-vendor%20E-commerce/fashion/m06vmbxkjuyqkwuix1sz.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3810,7 +4032,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346637/multi-vendor%20E-commerce/fashion/tdrhzzfwbi6hgpatptjk.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -3827,7 +4050,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346636/multi-vendor%20E-commerce/fashion/hmkebt6fygovinpwpdxg.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3844,7 +4068,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346636/multi-vendor%20E-commerce/fashion/oa9iopspphqbqu1vx3lo.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -3861,7 +4086,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346638/multi-vendor%20E-commerce/fashion/sxxfspx4wzij4f06dghh.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.4,
   },
   {
@@ -3878,7 +4104,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346639/multi-vendor%20E-commerce/fashion/s1qbauhugtxgc1d8ggxa.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.7,
   },
   {
@@ -3895,7 +4122,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346640/multi-vendor%20E-commerce/fashion/xrcnhmldsymcbm8syn9e.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.3,
   },
   {
@@ -3912,7 +4140,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346641/multi-vendor%20E-commerce/fashion/deiurzhdg85zd63zep1t.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -3929,7 +4158,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346643/multi-vendor%20E-commerce/fashion/bogy9pvr2ib1fz3t4mkn.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -3946,7 +4176,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346643/multi-vendor%20E-commerce/fashion/bogy9pvr2ib1fz3t4mkn.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -3963,7 +4194,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346645/multi-vendor%20E-commerce/fashion/sdxgwllufnsjuo6ll492.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.4,
   },
   {
@@ -3980,7 +4212,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346647/multi-vendor%20E-commerce/fashion/mu3qn0ucce773ibaypvd.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -3997,7 +4230,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346647/multi-vendor%20E-commerce/fashion/ikhwtsvfwfdzgrgnpo3p.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -4014,7 +4248,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346648/multi-vendor%20E-commerce/fashion/ecynygq4yscvrjiajnle.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -4031,7 +4266,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/mtifqj5qszcfrtize4ds.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.3,
   },
   {
@@ -4048,7 +4284,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/fu2lyzqetvachvutwjhx.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -4065,7 +4302,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/kyhwwyiqpr3znjsfrrbf.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.8,
   },
   {
@@ -4082,7 +4320,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346650/multi-vendor%20E-commerce/fashion/uppzmt5zvndpkizjlchw.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -4099,7 +4338,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346651/multi-vendor%20E-commerce/fashion/rp1ha488nedrjlyey2yv.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.4,
   },
   {
@@ -4116,7 +4356,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346654/multi-vendor%20E-commerce/fashion/ynd0s5ftw8rvtcpuu37t.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.9,
   },
   {
@@ -4133,7 +4374,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346652/multi-vendor%20E-commerce/fashion/nleu4wppnl9pbugkfarp.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
   {
@@ -4150,7 +4392,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346652/multi-vendor%20E-commerce/fashion/bc9cpn7neobtncpfcnoz.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.5,
   },
   {
@@ -4167,7 +4410,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346650/multi-vendor%20E-commerce/fashion/uppzmt5zvndpkizjlchw.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.4,
   },
   {
@@ -4184,7 +4428,8 @@ const products = [
       url: "https://res.cloudinary.com/duumkzqwx/image/upload/v1728346649/multi-vendor%20E-commerce/fashion/fu2lyzqetvachvutwjhx.webp",
       publicId: null,
     },
-    isActive: true,
+    sales: 20,
+    reviews: [],
     rating: 4.6,
   },
 ];
