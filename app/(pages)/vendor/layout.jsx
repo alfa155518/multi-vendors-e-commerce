@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import DefaultVendor from "@/public/images/users/default.WebP";
-import DefaultBanner from "@/public/images/stores/default-banner.webp";
+import DefaultBanner from "../../../public/images/stores/default-banner.webp";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import { useContext } from "react";

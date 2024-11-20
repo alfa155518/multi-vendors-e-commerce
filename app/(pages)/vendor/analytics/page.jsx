@@ -5,9 +5,6 @@ import VendorTopSelling from "@/app/_sections/VendorTopSelling";
 import { motion } from "framer-motion";
 import { useContext } from "react";
 
-const TOTAL_ORDERS_BASE = 1000;
-const REVIEWS_BASE = 500;
-
 export default function Analytics() {
   const { singleVendor } = useContext(VendorsContext);
   const { performanceMetrics } = singleVendor || {};
@@ -15,9 +12,9 @@ export default function Analytics() {
   const totalOrders = performanceMetrics?.totalOrders || 0;
   const reviews = performanceMetrics?.reviews || 0;
 
-  const orderPercentage = ((totalOrders / TOTAL_ORDERS_BASE) * 100).toFixed(2);
+  const orderPercentage = ((totalOrders / 1000) * 100).toFixed(2);
   const salesPercentage = orderPercentage; // Use the same calculation as orderPercentage
-  const reviewsPercentage = ((reviews / REVIEWS_BASE) * 100).toFixed(2);
+  const reviewsPercentage = ((reviews / 500) * 100).toFixed(2);
 
   const [salesRef, salesInView] = useInViewAnimation();
   const [satisfactionRef, satisfactionInView] = useInViewAnimation();
