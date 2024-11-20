@@ -2,30 +2,41 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import DefaultVendor from "@/public/images/users/default.WebP";
+import DefaultBanner from "@/public/images/stores/default-banner.webp";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import { useContext } from "react";
-import { vendorContext } from "@/app/_context/vendorManagement";
+import { VendorsContext } from "@/app/_context/vendorsManagement";
 import useInViewAnimation from "@/app/_hooks/useInViewAnimation";
 import EditBtn from "@/app/_components/EditBtn";
 import LazyLoadImageAnimation from "@/app/_components/ImageAnimation";
 import "../../../css/vendor.css";
+import Loading from "@/app/_components/Laoding";
 
 export default function VendorLayout({ children }) {
-  const { vendor } = useContext(vendorContext);
+  const { singleVendor } = useContext(VendorsContext);
+  const { storeBanner, storeDetails, name } = singleVendor || {};
+  const { storeName } = storeDetails || {};
   const activeLink = usePathname();
   const [ref, inView] = useInViewAnimation();
+
+  // Early return if singleVendor is not available
+  if (!singleVendor) {
+    return <Loading />; // or some fallback UI
+  }
+
   return (
     <div
       ref={ref}
-      className={`vendor-profile  ${
+      className={`vendor-profile ${
         inView ? "animate__animated animate__flash" : ""
       }`}>
       <section className="vendor-banner relative">
         <Image
-          className=" object-cover -z-10"
-          src={vendor.storeBanner.url}
-          alt="Vendor Logo"
+          className="object-cover -z-10"
+          src={storeBanner?.url || DefaultBanner}
+          alt="Vendor Banner"
           fill
           priority={true}
         />
@@ -33,15 +44,14 @@ export default function VendorLayout({ children }) {
         <div className="store-details">
           <div className="store-logo">
             <LazyLoadImageAnimation
-              src={vendor.storeLogo.url}
+              src={singleVendor?.storeLogo?.url || DefaultVendor}
               alt="Vendor Logo"
               width={100}
               height={100}
             />
-
             <div className="sub-details">
-              <h2 className="store-name">{vendor.storeDetails.storeName}</h2>
-              <h3 className="vendor-name">{vendor.name}</h3>
+              <h2 className="store-name">{storeName}</h2>
+              <h3 className="vendor-name">{name}</h3>
             </div>
           </div>
           <div className="btn-update">

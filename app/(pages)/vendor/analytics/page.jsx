@@ -1,39 +1,48 @@
 "use client";
-
+import { VendorsContext } from "@/app/_context/vendorsManagement";
 import useInViewAnimation from "@/app/_hooks/useInViewAnimation";
 import VendorTopSelling from "@/app/_sections/VendorTopSelling";
 import { motion } from "framer-motion";
+import { useContext } from "react";
+
+const TOTAL_ORDERS_BASE = 1000;
+const REVIEWS_BASE = 500;
 
 export default function Analytics() {
-  const progressData = {
-    orders: 80, // 80% progress for orders
-    sales: 65, // 65% progress for sales
-    rating: 90, // 90% progress for rating
-    reviews: 75, // 75% progress for reviews
-  };
-  const [ref, inView] = useInViewAnimation();
+  const { singleVendor } = useContext(VendorsContext);
+  const { performanceMetrics } = singleVendor || {};
+
+  const totalOrders = performanceMetrics?.totalOrders || 0;
+  const reviews = performanceMetrics?.reviews || 0;
+
+  const orderPercentage = ((totalOrders / TOTAL_ORDERS_BASE) * 100).toFixed(2);
+  const salesPercentage = orderPercentage; // Use the same calculation as orderPercentage
+  const reviewsPercentage = ((reviews / REVIEWS_BASE) * 100).toFixed(2);
+
+  const [salesRef, salesInView] = useInViewAnimation();
+  const [satisfactionRef, satisfactionInView] = useInViewAnimation();
 
   return (
     <>
       <section className="analytics">
         <div className="sub-analytics">
           <div
-            ref={ref}
+            ref={salesRef}
             className={`sales-performance ${
-              inView ? "animate__animated animate__slideInLeft" : ""
+              salesInView ? "animate__animated animate__slideInLeft" : ""
             }`}>
             <h2>Sales Performance</h2>
             {/* Orders */}
             <div className="progress">
               <div className="info">
                 <span>Total Orders</span>
-                <span>1,250</span>
+                <span>{totalOrders.toLocaleString()}</span>
               </div>
               <div className="outer-bar">
                 <motion.div
                   className="inner-bar"
                   initial={{ width: "0%", height: "100%" }}
-                  animate={{ width: `${progressData.orders}%`, height: "100%" }}
+                  animate={{ width: `${orderPercentage}%`, height: "100%" }}
                   transition={{ duration: 2 }}
                 />
               </div>
@@ -42,22 +51,26 @@ export default function Analytics() {
             <div className="progress">
               <div className="info">
                 <span>Total Sales</span>
-                <span>$175,000</span>
+                <span>
+                  ${(performanceMetrics?.totalSales || 0).toLocaleString()}
+                </span>
               </div>
               <div className="outer-bar">
                 <motion.div
                   className="inner-bar"
                   initial={{ width: "0%", height: "100%" }}
-                  animate={{ width: `${progressData.sales}%`, height: "100%" }}
-                  transition={{ duration: 1 }}
+                  animate={{ width: `${salesPercentage}%`, height: "100%" }}
+                  transition={{ duration: 2 }} // Consistent animation duration
                 />
               </div>
             </div>
           </div>
           <div
-            ref={ref}
+            ref={satisfactionRef}
             className={`customer-satisfaction ce ${
-              inView ? "animate__animated animate__slideInRight" : ""
+              satisfactionInView
+                ? "animate__animated animate__slideInRight"
+                : ""
             }`}>
             <h2>Customer Satisfaction</h2>
             {/* Rating */}
@@ -70,8 +83,8 @@ export default function Analytics() {
                 <motion.div
                   className="inner-bar"
                   initial={{ width: "0%", height: "100%" }}
-                  animate={{ width: `${progressData.rating}%`, height: "100%" }}
-                  transition={{ duration: 3 }}
+                  animate={{ width: `${reviewsPercentage}%`, height: "100%" }}
+                  transition={{ duration: 2 }} // Consistent animation duration
                 />
               </div>
             </div>
@@ -79,17 +92,14 @@ export default function Analytics() {
             <div className="progress">
               <div className="info">
                 <span>Total Reviews</span>
-                <span>980</span>
+                <span>{reviews.toLocaleString()}</span>
               </div>
               <div className="outer-bar">
                 <motion.div
                   className="inner-bar"
                   initial={{ width: "0%", height: "100%" }}
-                  animate={{
-                    width: `${progressData.reviews}%`,
-                    height: "100%",
-                  }}
-                  transition={{ duration: 2 }}
+                  animate={{ width: `${reviewsPercentage}%`, height: "100%" }}
+                  transition={{ duration: 2 }} // Consistent animation duration
                 />
               </div>
             </div>
