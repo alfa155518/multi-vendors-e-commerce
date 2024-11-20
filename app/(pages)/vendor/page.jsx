@@ -51,8 +51,7 @@ export default function Vendor() {
             <li>
               <IoStar />
               <span>
-                Rating:{" "}
-                {singleVendor?.performanceMetrics?.averageRating || "N/A"}
+                Rating: {singleVendor?.performanceMetrics?.averageRating}
               </span>
             </li>
           </ul>
