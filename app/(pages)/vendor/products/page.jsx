@@ -16,7 +16,7 @@ export default function Products() {
   return (
     <section className="products">
       <h2>Products ({products.length})</h2>
-      {products.length > 0 ? (
+      {products ? (
         <table
           ref={ref}
           className={inView ? "animate__animated animate__fadeInDown" : ""}>

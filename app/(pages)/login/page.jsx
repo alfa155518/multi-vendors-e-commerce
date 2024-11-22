@@ -4,6 +4,7 @@ import * as motion from "framer-motion/client";
 import SendButton from "../../_components/SendButton";
 import Loading from "@/app/_components/Laoding";
 import useLogin from "@/app/_hooks/useLogin";
+import Link from "next/link";
 
 export default function Login() {
   // Custom Hook Login
@@ -49,6 +50,12 @@ export default function Login() {
           className={getInputClass(formData.password)}
         />
         <SendButton>Login</SendButton>
+        <p className="account-link">
+          Don`t have an account?
+          <Link href="/signup" aria-label="Login to your account">
+            Signup
+          </Link>
+        </p>
       </motion.form>
     </div>
   );

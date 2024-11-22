@@ -13,17 +13,17 @@ import EditBtn from "@/app/_components/EditBtn";
 import LazyLoadImageAnimation from "@/app/_components/ImageAnimation";
 import "../../../css/vendor.css";
 import Loading from "@/app/_components/Laoding";
+import LogoutBtn from "@/app/_components/LogoutBtn";
 
 export default function VendorLayout({ children }) {
-  const { singleVendor } = useContext(VendorsContext);
+  const { singleVendor, logout } = useContext(VendorsContext);
   const { storeBanner, storeDetails, name } = singleVendor || {};
   const { storeName } = storeDetails || {};
   const activeLink = usePathname();
   const [ref, inView] = useInViewAnimation();
-
   // Early return if singleVendor is not available
   if (!singleVendor) {
-    return <Loading />; // or some fallback UI
+    return <Loading />;
   }
 
   return (
@@ -54,40 +54,47 @@ export default function VendorLayout({ children }) {
               <h3 className="vendor-name">{name}</h3>
             </div>
           </div>
-          <div className="btn-update">
-            <EditBtn page={"/"} />
+          <div className="actions">
+            <div className="btn-update">
+              <EditBtn page={"/vendor/update"} />
+            </div>
+            <button className="btn-logout" onClick={(e) => logout(e)}>
+              <LogoutBtn>Logout</LogoutBtn>
+            </button>
           </div>
         </div>
       </section>
-
       {/* Vendor Nav */}
-      <nav
-        ref={ref}
-        className={`${inView ? "animate__animated animate__zoomIn" : ""}`}>
-        <ul className="vendor-links">
-          <li className={activeLink === "/vendor" ? "active" : ""}>
-            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-              <Link href="/vendor">Overview</Link>
-            </motion.div>
-          </li>
-          <li className={activeLink === "/vendor/products" ? "active" : ""}>
-            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-              <Link href="/vendor/products">Products</Link>
-            </motion.div>
-          </li>
-          <li className={activeLink === "/vendor/orders" ? "active" : ""}>
-            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-              <Link href="/vendor/orders">Orders</Link>
-            </motion.div>
-          </li>
-          <li className={activeLink === "/vendor/analytics" ? "active" : ""}>
-            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-              <Link href="/vendor/analytics">Analytics</Link>
-            </motion.div>
-          </li>
-        </ul>
-      </nav>
-
+      {activeLink === "/vendor/update" ? (
+        ""
+      ) : (
+        <nav
+          ref={ref}
+          className={`${inView ? "animate__animated animate__zoomIn" : ""}`}>
+          <ul className="vendor-links">
+            <li className={activeLink === "/vendor" ? "active" : ""}>
+              <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+                <Link href="/vendor">Overview</Link>
+              </motion.div>
+            </li>
+            <li className={activeLink === "/vendor/products" ? "active" : ""}>
+              <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+                <Link href="/vendor/products">Products</Link>
+              </motion.div>
+            </li>
+            <li className={activeLink === "/vendor/orders" ? "active" : ""}>
+              <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+                <Link href="/vendor/orders">Orders</Link>
+              </motion.div>
+            </li>
+            <li className={activeLink === "/vendor/analytics" ? "active" : ""}>
+              <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+                <Link href="/vendor/analytics">Analytics</Link>
+              </motion.div>
+            </li>
+          </ul>
+        </nav>
+      )}
       {children}
     </div>
   );

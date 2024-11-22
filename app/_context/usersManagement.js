@@ -46,7 +46,7 @@ export default function UsersManageMent({ children }) {
       }
     }
     fetchUserData();
-  }, []);
+  }, [API, token]);
 
   return (
     <UserContext.Provider value={{ reviews, userData, token }}>

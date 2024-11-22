@@ -4,7 +4,6 @@ export async function UpdateDetails(
   { name, email, photo, role },
   token,
   setLoading,
-  hasVendorAccount
 ) {
   try {
     setLoading(true);

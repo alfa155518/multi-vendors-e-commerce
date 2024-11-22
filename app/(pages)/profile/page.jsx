@@ -54,7 +54,7 @@ export default function Profile() {
             </button>
           ) : (
             <button className="btn" aria-label="vendor register">
-              <Link href={"/vendor/register"} aria-label="vendor register">
+              <Link href={"/register"} aria-label="vendor register">
                 Create Vendor Account
               </Link>
             </button>
