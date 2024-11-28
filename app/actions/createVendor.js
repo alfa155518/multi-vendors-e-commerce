@@ -43,7 +43,6 @@ export default async function createVendor(
         "You can now manage your store"
       );
     } else {
-      console.log(data);
       return Notification(
         "error",
         "An error occurred",

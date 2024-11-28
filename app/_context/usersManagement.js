@@ -1,6 +1,6 @@
 "use client";
 import { createContext, useEffect, useState } from "react";
-import AllReviews from "@/data/reviews";
+
 import React from "react";
 import Cookies from "js-cookie";
 
@@ -10,8 +10,6 @@ export default function UsersManageMent({ children }) {
   const token = Cookies.get("token") ? JSON.parse(Cookies.get("token")) : null;
 
   const API = process.env.NEXT_PUBLIC_API_URL;
-
-  const [reviews, setReviews] = useState(AllReviews);
 
   const [userData, setUserData] = useState(null);
 
@@ -49,7 +47,7 @@ export default function UsersManageMent({ children }) {
   }, [API, token]);
 
   return (
-    <UserContext.Provider value={{ reviews, userData, token }}>
+    <UserContext.Provider value={{ userData, token }}>
       {children}
     </UserContext.Provider>
   );

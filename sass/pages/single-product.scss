@@ -1,5 +1,13 @@
 @use "../helpers/mixins" as *;
 @use "../helpers/variables" as *;
+.reviews__container {
+  @include transition(1s);
+  top: -200rem;
+  &.active__popup {
+    top: 0 !important;
+    @include transition(1s);
+  }
+}
 .product-wrapper {
   .single-product {
     padding: 2rem 5rem;
@@ -76,14 +84,18 @@
       }
     }
   }
-  .reviews {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  .reviews-wrapper {
     background-image: url("/static.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 3rem 0;
-    text-align: center;
+
+    .reviews {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+      margin: 3rem 0;
+      text-align: center;
+      place-items: center;
+    }
   }
   .suggested-products {
     display: grid;
@@ -103,9 +115,9 @@
       flex-direction: column;
     }
   }
-  @media (max-width: 992px) {
+  @media (max-width: 470px) {
     .reviews {
-      grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)) !important;
     }
   }
 }

@@ -2,18 +2,26 @@
 @use "../helpers/mixins" as *;
 
 .review {
-  background-color: $primaryColor;
+  background-color: #303235;
   margin: 1rem;
   position: relative;
   @include secondRadios;
   .user-img {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-bottom: 1rem;
     img {
       width: 20%;
       height: 20%;
       @include radios(50%);
+    }
+    .user-name {
+      color: $secondaryColor_2;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-top: 1rem;
     }
   }
   .rating {

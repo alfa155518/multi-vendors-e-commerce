@@ -1,0 +1,197 @@
+.reviews__popup__wrapper {
+  position: relative;
+  margin: 0.5rem;
+  top: -500rem;
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+}
+.reviews__popup__wrapper.active__popup {
+  top: 30rem !important;
+  transition: 1.5s ease-in-out;
+  -webkit-transition: 1.5s ease-in-out;
+  -moz-transition: 1.5s ease-in-out;
+  -ms-transition: 1.5s ease-in-out;
+  -o-transition: 1.5s ease-in-out;
+}
+.reviews__popup__wrapper .btn-close {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+}
+.reviews__popup__wrapper .reviews__popup {
+  position: absolute;
+  background-color: #ecf0f1;
+  top: 50%;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+.reviews__popup__wrapper .reviews__popup .reviews__analytics h2 {
+  color: #e67e22;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.reviews__popup__wrapper .reviews__popup .reviews__analytics .all__distribution .distribution {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reviews__popup__wrapper .reviews__popup .reviews__analytics .all__distribution .distribution strong {
+  margin-top: -2rem;
+  font-size: 1rem;
+  color: #34495e;
+}
+.reviews__popup__wrapper .reviews__popup .reviews__analytics .all__distribution .distribution .progress-bar-container {
+  width: 100%;
+  padding: 1rem;
+}
+.reviews__popup__wrapper .reviews__popup .reviews__analytics .all__distribution .distribution .progress-bar-container .progress-bar-track {
+  width: 100%;
+  height: 1rem;
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 0 5px #e67e22;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.reviews__popup__wrapper .reviews__popup .reviews__analytics .all__distribution .distribution .progress-bar-container .progress-bar-track .progress-bar-fill {
+  height: 100%;
+  background-color: #f1c40f;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.reviews__popup__wrapper .reviews__popup .reviews__analytics .all__distribution .distribution .progress-bar-container .progress-bar-text {
+  text-align: right;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #1abc9c;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.reviews__popup__wrapper .reviews__popup .reviews__analytics .all__distribution .distribution .progress-bar-container .progress-bar-text.visible {
+  opacity: 1;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review {
+  background-color: #ffffff;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .details {
+  display: flex;
+  justify-content: space-between;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .details .user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .details .user img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .details .user .info {
+  display: flex;
+  flex-direction: column;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .details .user .info .review__name {
+  color: #e67e22;
+  font-size: 1rem;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .details .user .info .review__name,
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .details .user .info .review__date {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .details .user .info .review__date {
+  color: #1abc9c;
+  font-size: 0.8rem;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .details .stars {
+  display: flex;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .details .stars span {
+  color: #e67e22;
+  font-size: 1rem;
+  margin: 0 0.2rem;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .comment {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .comment p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #e67e22;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .actions {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .actions .like,
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .actions .dislike {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .actions .like.marked,
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .actions .dislike.marked {
+  pointer-events: none;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .actions .like svg,
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .actions .dislike svg {
+  font-size: 1.3rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .actions .like span,
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .actions .dislike span {
+  color: #e67e22;
+  font-size: 0.8rem;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .actions .dislike:hover svg {
+  color: #cd0000;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .actions .like:hover svg {
+  color: #1abc9c;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .actions .like.marked {
+  color: #1abc9c;
+}
+.reviews__popup__wrapper .reviews__popup .all__reviews .single__review .actions .dislike.marked {
+  color: #cd0000;
+}

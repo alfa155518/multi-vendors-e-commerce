@@ -16,6 +16,7 @@ import { ProductProvider } from "./_context/manageProducts";
 import UsersManageMent from "./_context/usersManagement";
 import VendorManageMent from "./_context/vendorManagement";
 import VendorsManagement from "./_context/vendorsManagement";
+import ReviewsManagement from "./_context/reviewsManagement";
 
 // MetaData
 export const metadata = {
@@ -29,9 +30,7 @@ export const metadata = {
   authors: [
     { name: "Ahmed", url: "https://multi-vendors-e-commerce.vercel.app/" },
   ],
-  viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
-  themeColor: "#ffffff",
   openGraph: {
     type: "website",
     url: "https://multi-vendors-e-commerce.vercel.app/",
@@ -56,12 +55,14 @@ export default function RootLayout({ children }) {
         <VendorsManagement>
           <ProductProvider>
             <UsersManageMent>
-              <AnimatePresencePages>
-                <Header />
-                <main>{children}</main>
-                <Footer />
-                <BtnToTop />
-              </AnimatePresencePages>
+              <ReviewsManagement>
+                <AnimatePresencePages>
+                  <Header />
+                  <main>{children}</main>
+                  <Footer />
+                  <BtnToTop />
+                </AnimatePresencePages>
+              </ReviewsManagement>
             </UsersManageMent>
           </ProductProvider>
         </VendorsManagement>

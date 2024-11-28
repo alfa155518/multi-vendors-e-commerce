@@ -1,14 +1,49 @@
-import { useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import SendButton from "./SendButton";
 import { FaStar } from "react-icons/fa6";
 import { FaRegStar } from "react-icons/fa6";
-export default function UserReview() {
+import { ReviewsContext } from "../_context/reviewsManagement";
+import { postReview } from "../actions/reviews";
+import Notification from "./Notification";
+export default function UserReview({ product }) {
   const [hoveredRating, setHoveredRating] = useState(0);
-  const [selectedRating, setSelectedRating] = useState(0);
   const starColors = ["red", "#e67e22", "#f1c40f", "lightgreen", "#1abc9c"];
+
+  let { review, setReview, handleInputChange, token } =
+    useContext(ReviewsContext);
+
+  // Initialize productId in the context state
+  useEffect(() => {
+    setReview((prev) => ({
+      ...prev,
+      product,
+    }));
+  }, [product, setReview]);
+
+  // Handle Submit Review
+  const submitReview = async (e) => {
+    e.preventDefault();
+    try {
+      await postReview(review, token, Notification);
+      setReview({
+        product: "",
+        rating: 0,
+        message: "",
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   return (
     <form className="form-review">
-      <textarea placeholder="Your Review..." rows={5} name="review" />
+      <textarea
+        placeholder="Your Review..."
+        rows={5}
+        value={review.message}
+        onChange={handleInputChange}
+        name="message"
+      />
       <div className="review-stars">
         {Array.from({ length: 5 }, (_, i) => (
           <span
@@ -16,18 +51,25 @@ export default function UserReview() {
             key={i}
             onMouseEnter={() => setHoveredRating(i + 1)}
             onMouseLeave={() => setHoveredRating(0)}
-            onClick={() => setSelectedRating(i + 1)}
+            onClick={() =>
+              setReview((prev) => ({
+                ...prev,
+                rating: i + 1,
+              }))
+            }
             style={{
               color:
-                selectedRating > i || hoveredRating > i
+                review.rating > i || hoveredRating > i
                   ? starColors[i]
                   : "white",
             }}>
-            {i < (hoveredRating || selectedRating) ? <FaStar /> : <FaRegStar />}
+            {i < (hoveredRating || review.rating) ? <FaStar /> : <FaRegStar />}
           </span>
         ))}
       </div>
-      <SendButton>Send</SendButton>
+      <div onClick={submitReview} role="button" tabIndex={0}>
+        <SendButton>Send</SendButton>
+      </div>
     </form>
   );
 }

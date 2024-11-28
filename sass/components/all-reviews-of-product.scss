@@ -1,0 +1,177 @@
+@use "../helpers/mixins" as *;
+@use "../helpers/variables" as *;
+
+.reviews__popup__wrapper {
+  position: relative;
+  margin: 0.5rem;
+  top: -500rem;
+  @include transition(1s);
+  &.active__popup {
+    top: 30rem !important;
+    @include transition(1.5s);
+  }
+  .btn-close {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+  }
+  .reviews__popup {
+    position: absolute;
+    background-color: $neutralColor_1;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    padding: 1rem;
+    @include radios(0.3rem);
+    @include transition(0.5s);
+
+    // * Reviews Analytics *
+    .reviews__analytics {
+      h2 {
+        color: $secondaryColor_2;
+        font-size: 1.6rem;
+        font-weight: 800;
+      }
+      .all__distribution {
+        .distribution {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          strong {
+            margin-top: -2rem;
+            font-size: 1rem;
+            color: $textColor_1;
+          }
+          .progress-bar-container {
+            width: 100%;
+            padding: 1rem;
+            .progress-bar-track {
+              width: 100%;
+              height: 1rem;
+              background: $neutralColor_2;
+              overflow: hidden;
+              box-shadow: 0 0 5px $secondaryColor_2;
+              @include radios(0.5rem);
+              .progress-bar-fill {
+                height: 100%;
+                background-color: $accentColor_1;
+                @include radios(0.5rem);
+              }
+            }
+
+            .progress-bar-text {
+              text-align: right;
+              margin-top: 0.5rem;
+              font-size: 0.9rem;
+              font-weight: bold;
+              color: $secondaryColor_1;
+              opacity: 0;
+              transition: opacity 0.4s ease-in-out;
+
+              &.visible {
+                opacity: 1;
+              }
+            }
+          }
+        }
+      }
+    }
+    // * All Reviews *
+    .all__reviews {
+      .single__review {
+        background-color: $neutralColor_2;
+        margin: 2rem auto;
+        padding: 1rem;
+        @include radios(0.5rem);
+        .details {
+          display: flex;
+          // align-items: center;
+          justify-content: space-between;
+          .user {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            img {
+              @include radios(50%);
+            }
+            .info {
+              display: flex;
+              flex-direction: column;
+              .review__name {
+                color: $secondaryColor_2;
+                font-size: 1rem;
+              }
+              .review__name,
+              .review__date {
+                font-weight: 500;
+                text-transform: capitalize;
+              }
+              .review__date {
+                color: $secondaryColor_1;
+                font-size: 0.8rem;
+              }
+            }
+          }
+          .stars {
+            display: flex;
+            span {
+              color: $secondaryColor_2;
+              font-size: 1rem;
+              margin: 0 0.2rem;
+            }
+          }
+        }
+        .comment {
+          margin: 0.5rem;
+          padding: 0.5rem;
+          p {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: $secondaryColor_2;
+          }
+        }
+        .actions {
+          display: flex;
+          align-items: center;
+          gap: 2rem;
+          .like,
+          .dislike {
+            &.marked {
+              pointer-events: none;
+            }
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            @include transition(0.3s);
+            svg {
+              font-size: 1.3rem;
+              font-weight: 900;
+              cursor: pointer;
+            }
+            span {
+              color: $secondaryColor_2;
+              font-size: 0.8rem;
+            }
+          }
+          .dislike:hover svg {
+            color: $dangerColor;
+          }
+          .like:hover svg {
+            color: $secondaryColor_1;
+          }
+          .like {
+            &.marked {
+              color: $secondaryColor_1;
+            }
+          }
+          .dislike {
+            &.marked {
+              color: $dangerColor;
+            }
+          }
+        }
+      }
+    }
+  }
+}
