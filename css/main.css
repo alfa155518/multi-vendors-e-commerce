@@ -779,56 +779,57 @@ header .profile-img img {
   transition-duration: 0.3s;
 }
 
-.remove-button {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #e67e22;
+.delete__btn {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: red;
   border: none;
-  font-weight: 600;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  background: #e62222;
+}
+.delete__btn,
+.delete__btn span {
+  transition: 200ms;
+}
+.delete__btn .text {
+  transform: translateX(35px);
+  color: white;
+  font-weight: bold;
+}
+.delete__btn .icon {
+  position: absolute;
+  border-left: 1px solid #cd0000;
+  transform: translateX(110px);
+  height: 40px;
+  width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
-  cursor: pointer;
-  transition-duration: 0.3s;
-  overflow: hidden;
-  position: relative;
 }
-.remove-button .delete-svgIcon {
+.delete__btn svg {
   width: 15px;
-  transition-duration: 0.3s;
+  fill: #eee;
 }
-.remove-button .delete-svgIcon path {
-  fill: #ffffff;
+.delete__btn:hover {
+  background: #ff3636;
 }
-.remove-button:hover {
-  width: 90px;
-  border-radius: 50px;
-  transition-duration: 0.3s;
-  background-color: #cd0000;
-  align-items: center;
+.delete__btn:hover .text {
+  color: transparent;
 }
-.remove-button:hover .delete-svgIcon {
-  width: 20px;
-  transition-duration: 0.3s;
-  transform: translateY(60%);
-  transform: rotate(360deg);
+.delete__btn:hover .icon {
+  width: 150px;
+  border-left: none;
+  transform: translateX(0);
 }
-.remove-button::before {
-  display: none;
-  content: "Delete";
-  color: #ffffff;
-  transition-duration: 0.3s;
-  font-size: 2px;
+.delete__btn:focus {
+  outline: none;
 }
-.remove-button:hover::before {
-  display: block;
-  padding-right: 10px;
-  font-size: 13px;
-  opacity: 1;
-  transform: translateY(0px);
-  transition-duration: 0.3s;
+.delete__btn:active .icon svg {
+  transform: scale(0.8);
 }
 
 .btn-add .button {
@@ -1291,6 +1292,167 @@ header .profile-img img {
   -o-border-radius: 1rem 0rem 1rem 0rem;
 }
 
+.dotted__container {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  background-color: #000000;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.dotted__container .dotted__loader {
+  width: 100%;
+  position: relative;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --color: hsl(0, 0%, 87%);
+  --animation: 2s ease-in-out infinite;
+}
+.dotted__container .dotted__loader .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: solid 2px var(--color);
+  border-radius: 50%;
+  margin: 0 10px;
+  background-color: transparent;
+  animation: circle-keys var(--animation);
+}
+.dotted__container .dotted__loader .circle .dot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--color);
+  animation: dot-keys var(--animation);
+}
+.dotted__container .dotted__loader .circle .outline {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  animation: outline-keys var(--animation);
+}
+.dotted__container .dotted__loader .circle:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.dotted__container .dotted__loader .circle:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.dotted__container .dotted__loader .circle:nth-child(4) {
+  animation-delay: 0.9s;
+}
+.dotted__container .dotted__loader .circle:nth-child(5) {
+  animation-delay: 1.2s;
+}
+.dotted__container .dotted__loader .circle:nth-child(2) .dot {
+  animation-delay: 0.3s;
+}
+.dotted__container .dotted__loader .circle:nth-child(3) .dot {
+  animation-delay: 0.6s;
+}
+.dotted__container .dotted__loader .circle:nth-child(4) .dot {
+  animation-delay: 0.9s;
+}
+.dotted__container .dotted__loader .circle:nth-child(5) .dot {
+  animation-delay: 1.2s;
+}
+.dotted__container .dotted__loader .circle:nth-child(1) .outline {
+  animation-delay: 0.9s;
+}
+.dotted__container .dotted__loader .circle:nth-child(2) .outline {
+  animation-delay: 1.2s;
+}
+.dotted__container .dotted__loader .circle:nth-child(3) .outline {
+  animation-delay: 1.5s;
+}
+.dotted__container .dotted__loader .circle:nth-child(4) .outline {
+  animation-delay: 1.8s;
+}
+.dotted__container .dotted__loader .circle:nth-child(5) .outline {
+  animation-delay: 2.1s;
+}
+
+@keyframes circle-keys {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
+@keyframes dot-keys {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+  50% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
+@keyframes outline-keys {
+  0% {
+    transform: scale(0);
+    outline: solid 20px var(--color);
+    outline-offset: 0;
+    opacity: 1;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+    outline: solid 0 transparent;
+    outline-offset: 20px;
+    opacity: 0;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
 footer {
   position: relative;
   display: flex;
@@ -1362,8 +1524,21 @@ body {
   background-color: #000000;
 }
 
-input {
+input,
+textarea,
+button,
+select {
   @apply outline-none;
+}
+
+::-moz-selection {
+  background-color: #e67e22;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #e67e22;
+  color: #ffffff;
 }
 
 ul {
@@ -1383,3 +1558,42 @@ ul {
   width: 50% !important;
   left: -21px !important;
 }
+
+.save__button {
+  background: linear-gradient(135deg, #4caf50, #45a049);
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.save__button:hover {
+  background: linear-gradient(135deg, #45a049, #3d8b40);
+  transform: translateY(-0.5rem);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateY(-0.5rem);
+  -moz-transform: translateY(-0.5rem);
+  -ms-transform: translateY(-0.5rem);
+  -o-transform: translateY(-0.5rem);
+}
+.save__button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.save__button:disabled {
+  background: #ecf0f1;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+.save__button svg {
+  width: 18px;
+  height: 18px;
+}/*# sourceMappingURL=main.css.map */

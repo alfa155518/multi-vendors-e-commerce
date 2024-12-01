@@ -23,6 +23,15 @@
             justify-content: center;
             align-items: center;
           }
+          a {
+            display: flex;
+            justify-content: center;
+          }
+          .remove__btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
         }
       }
     }

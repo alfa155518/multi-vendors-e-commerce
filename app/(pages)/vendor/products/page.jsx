@@ -13,6 +13,7 @@ export default function Products() {
   const products = singleVendor?.products || [];
   const [ref, inView] = useInViewAnimation();
 
+
   return (
     <section className="products">
       <h2>Products ({products.length})</h2>
@@ -48,7 +49,9 @@ export default function Products() {
                     </Link>
                   </td>
                   <td>
-                    <BtnRemove />
+                    <div className="remove__btn">
+                      <BtnRemove />
+                    </div>
                   </td>
                 </tr>
               );
@@ -58,7 +61,7 @@ export default function Products() {
       ) : (
         <Loading />
       )}
-      <Link className="btn-add" href={"/"}>
+      <Link className="btn-add" href={"/vendor/add-product"}>
         <BtnAdd />
       </Link>
     </section>

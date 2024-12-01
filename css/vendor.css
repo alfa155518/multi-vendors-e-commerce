@@ -398,6 +398,15 @@
   justify-content: center;
   align-items: center;
 }
+.products table tbody tr td a {
+  display: flex;
+  justify-content: center;
+}
+.products table tbody tr td .remove__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .products .btn-add {
   margin: 2rem auto;
   display: block;
@@ -509,4 +518,4 @@
 }
 .top-selling .product-name {
   color: #e67e22;
-}
+}/*# sourceMappingURL=vendor.css.map */

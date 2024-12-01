@@ -12,6 +12,7 @@ export function ProductProvider({ children }) {
   const [featuredProducts, setFeaturedProducts] = useState([]);
 
   const token = Cookies.get("token") ? JSON.parse(Cookies.get("token")) : null;
+  const vendorToken = Cookies.get("tokenVendor") ? JSON.parse(Cookies.get("tokenVendor")) : null;
 
   // Fetch products
   useEffect(() => {
@@ -97,6 +98,7 @@ export function ProductProvider({ children }) {
         handlePageChange,
         currentPage,
         token,
+        vendorToken,
       }}>
       {children}
     </ProductContext.Provider>

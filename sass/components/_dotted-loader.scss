@@ -1,0 +1,189 @@
+@use "../helpers/mixins" as *;
+@use "../helpers/variables" as *;
+
+.dotted__container {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  background-color: #000000;
+  height: 100%;
+  top: -200%;
+  right: 0;
+  left: 0;
+  @include transition(0.5s);
+  &.show {
+    top: 0 !important;
+    @include transition(0.5s);
+  }
+  .dotted__loader {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --color: hsl(0, 0%, 87%);
+    --animation: 2s ease-in-out infinite;
+    .circle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      width: 20px;
+      height: 20px;
+      border: solid 2px var(--color);
+      border-radius: 50%;
+      margin: 0 10px;
+      background-color: transparent;
+      animation: circle-keys var(--animation);
+      .dot {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: var(--color);
+        animation: dot-keys var(--animation);
+      }
+      .outline {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        animation: outline-keys var(--animation);
+      }
+
+      &:nth-child(2) {
+        animation-delay: 0.3s;
+      }
+
+      &:nth-child(3) {
+        animation-delay: 0.6s;
+      }
+
+      &:nth-child(4) {
+        animation-delay: 0.9s;
+      }
+
+      &:nth-child(5) {
+        animation-delay: 1.2s;
+      }
+
+      &:nth-child(2) .dot {
+        animation-delay: 0.3s;
+      }
+
+      &:nth-child(3) .dot {
+        animation-delay: 0.6s;
+      }
+
+      &:nth-child(4) .dot {
+        animation-delay: 0.9s;
+      }
+
+      &:nth-child(5) .dot {
+        animation-delay: 1.2s;
+      }
+
+      &:nth-child(1) .outline {
+        animation-delay: 0.9s;
+      }
+
+      &:nth-child(2) .outline {
+        animation-delay: 1.2s;
+      }
+
+      &:nth-child(3) .outline {
+        animation-delay: 1.5s;
+      }
+
+      &:nth-child(4) .outline {
+        animation-delay: 1.8s;
+      }
+
+      &:nth-child(5) .outline {
+        animation-delay: 2.1s;
+      }
+    }
+  }
+}
+
+@keyframes circle-keys {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
+
+@keyframes dot-keys {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
+
+@keyframes outline-keys {
+  0% {
+    transform: scale(0);
+    outline: solid 20px var(--color);
+    outline-offset: 0;
+    opacity: 1;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+    outline: solid 0 transparent;
+    outline-offset: 20px;
+    opacity: 0;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}

@@ -1,0 +1,190 @@
+@use "../helpers/mixins" as *;
+@use "../helpers/variables" as *;
+
+%group__icon {
+  color: $secondaryColor_2;
+  background-color: $neutralColor_2;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  @include radios(0.2rem);
+}
+.add__product__container {
+  position: relative;
+  padding: 2rem 3rem;
+  margin: 0 2rem;
+  // Btn Back
+  .btn__back {
+    position: relative;
+    top: -3rem;
+    right: 45%;
+    a {
+      color: $neutralColor_1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      font-size: 1rem;
+      margin: 1rem;
+      @include transition(0.3s);
+      &:hover {
+        @include transition(0.3s);
+        color: $secondaryColor_2;
+      }
+    }
+  }
+
+  // Form Header
+  .form__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+    .icon {
+      @extend %group__icon;
+    }
+    .text {
+      h2 {
+        font-size: 1rem;
+        font-weight: 900;
+        color: $neutralColor_1;
+      }
+      span {
+        color: $secondaryColor_2;
+        font-weight: 600;
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  // Form
+  form {
+    &.add__product {
+      padding: 1rem;
+      background-color: $neutralColor_1;
+      @include radios(1rem);
+      .inputs__group__head {
+        display: flex;
+        align-items: center;
+        margin: 2rem 0;
+        gap: 1rem;
+        .icon {
+          @extend %group__icon;
+        }
+        .text {
+          h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: $textColor_1;
+          }
+          strong {
+            color: $secondaryColor_2;
+          }
+        }
+      }
+      .input__group {
+        margin: 3rem 1.5rem;
+        label {
+          color: $secondaryColor_2;
+          margin-bottom: 0.5rem;
+          font-size: 1rem;
+          font-weight: 600;
+          &.label__photo {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            cursor: pointer;
+            color: $primaryColor;
+            font-size: 1rem;
+            border: 0.2rem dashed $secondaryColor_2;
+            @include transition(0.3s);
+            width: 100%;
+            height: 33vh;
+            svg {
+              display: block;
+              margin: 0.5rem auto;
+              font-size: 2rem;
+              color: $secondaryColor_2;
+              @include radios(50%);
+            }
+            &:hover {
+              background-color: $orangeWithDarkColor;
+            }
+          }
+        }
+        input,
+        textarea,
+        select {
+          display: block;
+          width: 100%;
+          color: $textColor_1;
+          font-size: 0.8rem;
+          font-weight: 600;
+          padding: 0.5rem;
+          @include radios(0.5rem);
+          @include transition(0.3s);
+          &:focus {
+            border: 0.1rem solid $secondaryColor_2;
+          }
+          &[type="file"] {
+            display: none;
+          }
+          &:placeholder-shown {
+            content: attr(placeholder);
+            color: $textColor_2;
+          }
+        }
+        textarea {
+          margin-bottom: 0.5rem;
+        }
+        .instruction {
+          display: flex;
+          color: $primaryColor;
+          justify-content: space-between;
+          font-size: 0.7rem;
+          font-weight: 500;
+        }
+        select {
+          margin-bottom: 0.5rem;
+          option {
+            background-color: $secondaryColor_2;
+            color: $neutralColor_2;
+          }
+        }
+        &.price__inventory {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 1rem;
+          .price,
+          .inventory {
+            label {
+              display: flex;
+              align-items: center;
+              gap: 0.5rem;
+            }
+            flex: 1;
+            input {
+              margin-bottom: 0.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  // Responsive
+  @media (max-width: 872px) {
+    padding: 0;
+    margin: 2rem 0.2rem;
+    .btn__back {
+      top: -2rem !important;
+      right: 0 !important;
+    }
+    @media (max-width: 472px) {
+      .price__inventory {
+        flex-direction: column;
+      }
+    }
+  }
+}

@@ -30,6 +30,9 @@ export default function UserReview({ product }) {
         rating: 0,
         message: "",
       });
+      setTimeout(() => {
+        window.location.reload();
+      }, 1000);
     } catch (error) {
       console.log(error);
     }

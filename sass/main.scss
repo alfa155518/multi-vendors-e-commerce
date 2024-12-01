@@ -24,6 +24,7 @@
 @import "./components/btn-logout";
 @import "./components/pagination";
 @import "./components/user-review";
+@import "./components/dotted-loader";
 @import "./layout/footer";
 
 * {
@@ -37,17 +38,67 @@ body {
   background-color: #000000;
 }
 
-input {
+input,
+textarea,
+button,
+select {
   @apply outline-none;
 }
+
+::selection {
+  background-color: $secondaryColor_2;
+  color: $neutralColor_2;
+}
+
 ul {
   list-style: none;
 }
+
 .appear {
   display: block !important;
 }
+
 .appear-menu {
   @include transition(0.5s);
   width: 50% !important;
   left: -21px !important;
+}
+
+.save__button {
+  background: linear-gradient(135deg, $successColor, #45a049);
+  color: $neutralColor_2;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  &:hover {
+    background: linear-gradient(135deg, #45a049, #3d8b40);
+    transform: translateY(-0.5rem);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    -webkit-transform: translateY(-0.5rem);
+    -moz-transform: translateY(-0.5rem);
+    -ms-transform: translateY(-0.5rem);
+    -o-transform: translateY(-0.5rem);
+  }
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  &:disabled {
+    background: $neutralColor_1;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
+  svg {
+    width: 18px;
+    height: 18px;
+  }
 }
