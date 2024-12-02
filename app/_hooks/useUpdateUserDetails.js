@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Notification from "../_components/Notification";
 
 export default function useUpdateUserDetails(
   name,
@@ -13,7 +14,10 @@ export default function useUpdateUserDetails(
     name,
     email,
     role,
-    photo,
+    photo: {
+      url: photo?.url || "",
+      publicId: photo?.publicId || "",
+    },
   });
 
   // Handle changes in the input fields
@@ -30,7 +34,14 @@ export default function useUpdateUserDetails(
     if (files.length > 0) {
       const file = files[0];
       if (validateFile(file)) {
-        setFormData((prev) => ({ ...prev, photo: file }));
+        setFormData((prev) => ({
+          ...prev,
+          photo: {
+            file, // Include the actual file
+            url: "",
+            publicId: "",
+          },
+        }));
       } else {
         Notification(
           "error",
@@ -47,8 +58,16 @@ export default function useUpdateUserDetails(
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await UpdateDetails(formData, token, setLoading);
+    const updatedUser = await UpdateDetails(formData, token, setLoading);
+
+    if (updatedUser) {
+      setFormData((prev) => ({
+        ...prev,
+        ...updatedUser,
+      }));
+    }
   };
+
   return {
     handleChangeBasicDetails,
     handleSubmit,

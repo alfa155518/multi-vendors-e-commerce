@@ -28,8 +28,9 @@ export default function VendorLayout({ children }) {
 
   return (
     <div ref={ref} className="vendor-profile">
-      {activeLink === "/vendor/add-product" ||
-      activeLink === "/vendor/update" ? (
+      {activeLink === "/vendor/products/add-product" ||
+      (activeLink.startsWith("/vendor/products/") &&
+        activeLink.split("/").length > 3) ? (
         ""
       ) : (
         <>

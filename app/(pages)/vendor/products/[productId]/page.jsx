@@ -1,69 +1,63 @@
 "use client";
 
 import Link from "next/link";
-import InputsGroupHead from "@/app/_components/InputGroupHead";
 import { FaArrowLeft } from "react-icons/fa";
 import { PiPackageBold } from "react-icons/pi";
-import { BsCurrencyDollar } from "react-icons/bs";
+import { BsInfoCircle } from "react-icons/bs";
 import { TbPhoto } from "react-icons/tb";
+import { MdOutlineClose } from "react-icons/md";
+import { FiUpload } from "react-icons/fi";
+import { BsCurrencyDollar } from "react-icons/bs";
 import { IoSaveSharp } from "react-icons/io5";
+import { useParams } from "next/navigation";
 import DottedLoader from "@/app/_components/DottedLoader";
-import useAddProduct from "@/app/_hooks/useAddProduct";
-import "../../../../css/add-product.css";
+import InputsGroupHead from "@/app/_components/InputGroupHead";
+import LazyLoadImageAnimation from "@/app/_components/ImageAnimation";
+import useUpdateProduct from "@/app/_hooks/useUpdateProduct";
+import "../../../../../css/add-and-update-product.css";
 
-export default function AddProduct() {
-  const { productData, handleFormChange, handleFormSubmit, loading } =
-    useAddProduct();
+export default function UpdateProduct() {
+  // Product Id
+  const { productId } = useParams();
 
-  if (loading) {
-    return <DottedLoader isLoading={loading} />;
+  // Custom hook for Update Product
+  const {
+    isLoading,
+    productData,
+    setProductData,
+    handleFormChange,
+    handelFormSubmit,
+  } = useUpdateProduct(productId);
+
+  if (isLoading) {
+    return <DottedLoader isLoading={isLoading} />;
   }
+
   return (
-    <section className="add__product__container">
+    <section className="update__product__container">
       <div className="btn__back">
         <Link href={"/vendor/products"}>
           <FaArrowLeft />
           Back to Products
         </Link>
       </div>
-
       {/* Form Header */}
       <div className="form__header">
         <div className="icon">
           <PiPackageBold />
         </div>
         <div className="text">
-          <h2>Add New Product</h2>
-          <span>Fill in the details to create a new product listing.</span>
+          <h2>Update Product</h2>
+          <span>Make changes to your product information below.</span>
         </div>
       </div>
 
       {/* From inputs */}
-      <form className="add__product">
+      <form className="update__product">
         <InputsGroupHead
-          icon={<TbPhoto />}
-          headText={"Product Image"}
-          text={"Add a high-quality image to showcase your product"}
-        />
-        <div className="input__group">
-          <label htmlFor="photo" className="label__photo">
-            <TbPhoto /> Select Product Photo
-          </label>
-          <input
-            type="file"
-            name="photo"
-            autoComplete="add img"
-            placeholder="select Product Photo"
-            id="photo"
-            onChange={handleFormChange}
-            accept="image/*"
-            required
-          />
-        </div>
-        <InputsGroupHead
-          icon={<PiPackageBold />}
-          headText={"Product Details"}
-          text={"Provide the basic information about your product"}
+          icon={<BsInfoCircle />}
+          headText={"Basic Information"}
+          text={"Add a Basic information To Your Product "}
         />
         <div className="input__group">
           <label htmlFor="name">Product Name</label>
@@ -88,30 +82,64 @@ export default function AddProduct() {
             onChange={handleFormChange}
             value={productData.description}
             required
+            maxLength={200}
+            disabled={productData.description?.length >= 200}
           />
           <div className="instruction">
             <span>Be descriptive, but concise</span>
-            <span>0 / 200</span>
+            <span>
+              {productData.description &&
+                Array.from(productData.description).length}
+              / 200
+            </span>
           </div>
         </div>
+
+        <InputsGroupHead
+          icon={<TbPhoto />}
+          headText={"Product Image"}
+          text={"Add a high-quality image to showcase your product"}
+        />
         <div className="input__group">
-          <label htmlFor="category">Category</label>
-          <select
-            name="category"
-            id="category"
-            onChange={handleFormChange}
-            value={productData.category}
-            required>
-            <option>Select Category</option>
-            <option value="Electronics">Electronics</option>
-            <option value="Chocolate">Chocolate</option>
-            <option value="Foods">Foods</option>
-            <option value="Glasses">Glasses</option>
-            <option value="Jewelry">Jewelry</option>
-            <option value="Technology">Technology</option>
-            <option value="Fashion">Fashion</option>
-            <option value="Cosmetics">Cosmetics</option>
-          </select>
+          {productData.photo?.url ? (
+            <div className="img__wrapper">
+              <LazyLoadImageAnimation
+                src={productData.photo.url}
+                alt="Product preview"
+                width={200}
+                height={200}
+              />
+              <span
+                className="remove__img"
+                onClick={() =>
+                  setProductData({
+                    ...productData,
+                    photo: { url: null },
+                  })
+                }>
+                <MdOutlineClose />
+              </span>
+            </div>
+          ) : (
+            <>
+              <label htmlFor="photo" className="label__photo">
+                <FiUpload /> Upload Product Photo
+              </label>
+              <input
+                type="file"
+                name="photo"
+                autoComplete="add img"
+                placeholder="select Product Photo"
+                id="photo"
+                onChange={handleFormChange}
+                accept="image/*"
+                required
+              />
+              <strong>
+                Supported formats: JPG, PNG, WebP. Maximum size: 5MB
+              </strong>
+            </>
+          )}
         </div>
         <InputsGroupHead
           icon={<BsCurrencyDollar />}
@@ -138,7 +166,7 @@ export default function AddProduct() {
           </div>
           <div className="inventory">
             <label htmlFor="stock">
-              <PiPackageBold /> Stock
+              <PiPackageBold /> Stock Quantity
             </label>
             <input
               type="number"
@@ -157,7 +185,7 @@ export default function AddProduct() {
         <button
           type="submit"
           className="save__button"
-          onClick={handleFormSubmit}>
+          onClick={handelFormSubmit}>
           <IoSaveSharp /> Save Product
         </button>
       </form>

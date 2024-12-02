@@ -1,6 +1,7 @@
+const API = process.env.NEXT_PUBLIC_API_URL;
+
 export async function getAllProducts(currentPage) {
   try {
-    const API = process.env.NEXT_PUBLIC_API_URL;
     const response = await fetch(
       `${API}/products?limit=20&page=${currentPage}`,
       {
@@ -19,7 +20,6 @@ export async function getAllProducts(currentPage) {
 }
 export async function getProductById(productId, Notification) {
   try {
-    const API = process.env.NEXT_PUBLIC_API_URL;
     const response = await fetch(`${API}/products/${productId}`, {
       method: "GET",
       next: {
@@ -55,7 +55,6 @@ export async function addProduct(
   formData.append("price", price);
   formData.append("stock", stock);
   try {
-    const API = process.env.NEXT_PUBLIC_API_URL;
     const response = await fetch(`${API}/products`, {
       method: "POST",
       headers: {
@@ -82,5 +81,91 @@ export async function addProduct(
     console.error(error);
   } finally {
     setLoading(false);
+  }
+}
+
+export async function updateProduct(
+  productData,
+  productId,
+  vendorToken,
+  setIsLoading,
+  Notification
+) {
+  setIsLoading(true);
+  // FormData
+  const formData = new FormData();
+  Object.keys(productData).forEach((key) => {
+    if (key === "photo") {
+      if (productData.photo.file) {
+        formData.append("photo", productData.photo.file); // File upload
+      } else {
+        formData.append("photo", JSON.stringify(productData.photo)); // Existing photo object
+      }
+    } else {
+      formData.append(key, productData[key]);
+    }
+  });
+
+  try {
+    const response = await fetch(`${API}/products/${productId}`, {
+      method: "PATCH",
+      headers: {
+        Authorization: `Bearer ${vendorToken}`,
+      },
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (response.ok) {
+      Notification("success", "Product Updated successfully", "Done!");
+      window.location.href = "/vendor/products";
+    } else {
+      Notification(
+        "error",
+        "An error occurred",
+        `${data.message === "fail" ? data.errors[0] : data.message}`
+      );
+    }
+
+    return data;
+  } catch (error) {
+    console.error(error);
+  } finally {
+    setIsLoading(false);
+  }
+}
+
+export async function deleteProduct(
+  productId,
+  vendorToken,
+  Notification,
+  setIsLoading
+) {
+  try {
+    const response = await fetch(`${API}/products/${productId}`, {
+      method: "DELETE",
+      headers: {
+        Authorization: `Bearer ${vendorToken}`,
+      },
+    });
+
+    const data = await response.json();
+    if (response.ok) {
+      Notification("success", "Product Deleted successfully", "Done!");
+      window.location.href = "/vendor/products";
+    }
+
+    if (!response.ok) {
+      Notification(
+        "error",
+        "An error occurred",
+        `${data.message === "fail" ? data.errors[0] : data.message}`
+      );
+    }
+  } catch (error) {
+    console.error(error);
+  } finally {
+    setIsLoading(false);
   }
 }

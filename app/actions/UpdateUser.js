@@ -1,21 +1,24 @@
 import Notification from "../_components/Notification";
+const API = process.env.NEXT_PUBLIC_API_URL;
 
-export async function UpdateDetails(
-  { name, email, photo, role },
-  token,
-  setLoading,
-) {
+export async function UpdateDetails(userData, token, setLoading) {
   try {
     setLoading(true);
 
-    const API = process.env.NEXT_PUBLIC_API_URL;
-
     const formData = new FormData();
-    formData.append("name", name);
-    formData.append("email", email);
-    formData.append("photo", photo);
-    formData.append("role", role);
-    console.log(formData);
+
+    // Dynamically append fields from userData
+    Object.keys(userData).forEach((key) => {
+      if (key === "photo") {
+        if (userData.photo.file) {
+          formData.append("photo", userData.photo.file); // File upload
+        } else {
+          formData.append("photo", JSON.stringify(userData.photo)); // Existing photo object
+        }
+      } else {
+        formData.append(key, userData[key]);
+      }
+    });
 
     const response = await fetch(`${API}/users`, {
       method: "PATCH",
@@ -24,13 +27,18 @@ export async function UpdateDetails(
       },
       body: formData,
     });
-    const data = await response.json();
 
+    const data = await response.json();
     if (response.ok) {
-      if (data) {
-        window.location.href = "/profile";
-      }
-      return Notification("success", "Details updated successfully", "Done!");
+      const updatedUser = {
+        ...data.user,
+        photo: userData.photo, // Reuse the photo from userData
+      };
+
+      Notification("success", "Details updated successfully", "Done!");
+
+      window.location.reload();
+      return updatedUser;
     } else {
       return Notification(
         "error",
@@ -40,14 +48,13 @@ export async function UpdateDetails(
     }
   } catch (error) {
     console.error("UpdateDetails error:", error);
+    Notification("error", "Update failed", "An unexpected error occurred.");
   } finally {
     setLoading(false);
   }
 }
-
 export async function UpdatePassword(userId, token, passwordData, setLoading) {
   try {
-    const API = process.env.NEXT_PUBLIC_API_URL;
     const response = await fetch(`${API}/users/${userId}`, {
       method: "PATCH",
       headers: {

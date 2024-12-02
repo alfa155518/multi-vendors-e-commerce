@@ -3,6 +3,7 @@ import { createContext, useEffect, useState, useMemo } from "react";
 import React from "react";
 import Cookies from "js-cookie";
 import { getAllProducts, getProductById } from "../actions/products";
+import Notification from "../_components/Notification";
 export const ProductContext = createContext({});
 
 export function ProductProvider({ children }) {
@@ -12,7 +13,9 @@ export function ProductProvider({ children }) {
   const [featuredProducts, setFeaturedProducts] = useState([]);
 
   const token = Cookies.get("token") ? JSON.parse(Cookies.get("token")) : null;
-  const vendorToken = Cookies.get("tokenVendor") ? JSON.parse(Cookies.get("tokenVendor")) : null;
+  const vendorToken = Cookies.get("tokenVendor")
+    ? JSON.parse(Cookies.get("tokenVendor"))
+    : null;
 
   // Fetch products
   useEffect(() => {
@@ -99,6 +102,7 @@ export function ProductProvider({ children }) {
         currentPage,
         token,
         vendorToken,
+        Notification,
       }}>
       {children}
     </ProductContext.Provider>
