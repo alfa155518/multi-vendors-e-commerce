@@ -4,8 +4,18 @@ import { FaShoppingCart } from "react-icons/fa";
 import LazyLoadImageAnimation from "./ImageAnimation";
 import Link from "next/link";
 import useInViewAnimation from "../_hooks/useInViewAnimation";
+import { useContext } from "react";
+import { CartContext } from "../_context/cartManageMent";
+import Loading from "./Laoding";
+
 const Product = ({ product }) => {
   const [ref, inView] = useInViewAnimation();
+  const { addToCart, loading } = useContext(CartContext);
+
+  if (loading) {
+    return <Loading />;
+  }
+
   return (
     <div
       ref={ref}
@@ -30,7 +40,7 @@ const Product = ({ product }) => {
         </span>
       </div>
       <div className="actions">
-        <button className="btn-cart">
+        <button className="btn-cart" onClick={(e) => addToCart(e, product._id)}>
           <span className="IconContainer">
             <FaShoppingCart className="icon" />
           </span>

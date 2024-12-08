@@ -1,0 +1,140 @@
+.cart__page .cart__container .cart__items {
+  flex: 3;
+  overflow-x: auto;
+  margin: 5rem auto;
+  color: #ffffff;
+}
+.cart__page .cart__container .cart__items h2 {
+  color: #e67e22;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 0.5rem;
+}
+.cart__page .cart__container .cart__items table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1rem;
+}
+.cart__page .cart__container .cart__items table thead tr {
+  padding: 1.2rem;
+  font-weight: bold;
+  border-bottom: 0.2rem solid #34495e;
+}
+.cart__page .cart__container .cart__items table tbody tr:nth-child(even) {
+  background-color: #2c3e50;
+}
+.cart__page .cart__container .cart__items table tbody tr td {
+  padding: 0.6rem;
+  border-bottom: 0.2rem solid #34495e;
+  font-weight: 800;
+}
+.cart__page .cart__container .cart__items table tbody tr td.price {
+  color: #f1c40f;
+}
+.cart__page .cart__container .cart__items table tbody td.price, .cart__page .cart__container .cart__items table tbody td.total__price {
+  color: #f1c40f;
+}
+.cart__page .cart__container .cart__items table tbody td .remove__product {
+  cursor: pointer;
+  color: #cd0000;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.cart__page .cart__container .cart__items table tbody .product__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.cart__page .cart__container .cart__items table tbody .product__img img {
+  width: 40px;
+  height: 40px;
+}
+@media (max-width: 670px) {
+  .cart__page .cart__container .cart__items table tbody .product__img img {
+    display: none;
+  }
+}
+.cart__page .cart__container .cart__items table tbody .product__img .product__info strong {
+  display: block;
+  color: #e67e22;
+}
+.cart__page .cart__container .cart__items table tbody .product__img .product__info span {
+  color: #ecf0f1;
+}
+.cart__page .cart__container .cart__items table tbody .product__quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart__page .cart__container .cart__items table tbody .product__quantity button {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0.5rem;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+}
+.cart__page .cart__container .cart__items table tbody .product__quantity button.active {
+  background-color: #e67e22;
+  color: #ffffff;
+}
+.cart__page .cart__container .cart__items table tbody .product__quantity button.not__active {
+  background-color: rgba(210, 203, 196, 0.6588235294);
+  pointer-events: none;
+}
+.cart__page .cart__container h2 {
+  color: #ecf0f1;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.cart__page .cart__container .cart__summary {
+  padding: 1rem;
+  margin: 1rem;
+  color: #ffffff;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 0.1rem solid #ecf0f1;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.cart__page .cart__container .cart__summary .summary li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 2rem;
+  font-size: 0.8rem;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+}
+.cart__page .cart__container .cart__summary .summary li span {
+  color: #ecf0f1;
+}
+.cart__page .cart__container .cart__summary .summary li strong {
+  color: #f1c40f;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.cart__page .cart__container .cart__summary .btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+.cart__page .cart__container .cart__summary .btn:hover {
+  color: #ffffff;
+}
+@media (max-width: 472px) {
+  .cart__page .cart__container .cart__summary {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

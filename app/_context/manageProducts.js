@@ -12,7 +12,9 @@ export function ProductProvider({ children }) {
   const [currentPage, setCurrentPage] = useState(1);
   const [featuredProducts, setFeaturedProducts] = useState([]);
 
+  // User Token
   const token = Cookies.get("token") ? JSON.parse(Cookies.get("token")) : null;
+  // Vendor Token
   const vendorToken = Cookies.get("tokenVendor")
     ? JSON.parse(Cookies.get("tokenVendor"))
     : null;
@@ -46,6 +48,7 @@ export function ProductProvider({ children }) {
       "Chocolate",
     ];
 
+    // Show Product Depend On Categories
     const productsByCategory = allCategories.reduce((acc, category) => {
       const productsInCategory = allData.products.filter(
         (product) => product.category === category

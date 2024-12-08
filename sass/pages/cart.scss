@@ -1,0 +1,118 @@
+@use "../helpers/mixins" as *;
+@use "../helpers/variables" as *;
+
+.cart__page {
+  h1 {
+  }
+  .cart__container {
+    .cart__items {
+      flex: 3;
+      @include tableComponent;
+      table {
+        tbody {
+          td {
+            &.price,
+            &.total__price {
+              color: $accentColor_1;
+            }
+            .remove__product {
+              cursor: pointer;
+              color: $dangerColor;
+              font-size: 1.2rem;
+              font-weight: 600;
+            }
+          }
+          .product__img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            img {
+              width: 40px;
+              height: 40px;
+              @media (max-width: 670px) {
+                display: none;
+              }
+            }
+            .product__info {
+              strong {
+                display: block;
+                color: $secondaryColor_2;
+              }
+              span {
+                color: $neutralColor_1;
+              }
+            }
+          }
+          .product__quantity {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            button {
+              font-size: 1rem;
+              font-weight: 700;
+              margin: 0 0.5rem;
+              padding: 0.2rem;
+              @include radios(0.2rem);
+              &.active {
+                background-color: $secondaryColor_2;
+                color: $neutralColor_2;
+              }
+              &.not__active {
+                background-color: #d2cbc4a8;
+                pointer-events: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    h2 {
+      color: $neutralColor_1;
+      font-size: 1.5rem;
+      font-weight: 900;
+    }
+    .cart__summary {
+      padding: 1rem;
+      margin: 1rem;
+      color: $neutralColor_2;
+      width: fit-content;
+      border: 0.1rem solid $neutralColor_1;
+      @include radios(0.5rem);
+      .summary {
+        li {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          gap: 2rem;
+          font-size: 0.8rem;
+          margin: 1rem auto;
+          padding: 1rem 2rem;
+          span {
+            color: $neutralColor_1;
+          }
+          strong {
+            color: $accentColor_1;
+            font-weight: 700;
+            font-size: 1rem;
+          }
+        }
+      }
+      .btn {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+        &:hover {
+          color: $neutralColor_2;
+        }
+      }
+      @media (max-width: 472px) {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+}

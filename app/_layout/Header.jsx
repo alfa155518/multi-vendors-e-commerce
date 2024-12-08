@@ -15,11 +15,13 @@ import LazyLoadImageAnimation from "../_components/ImageAnimation";
 import LogoutBtn from "../_components/LogoutBtn";
 import Logout from "../actions/Logout";
 import { UserContext } from "../_context/usersManagement";
+import { CartContext } from "../_context/cartManageMent";
 
 export default function Header() {
   const { handleSearch } = useContext(ProductContext);
-  const [searchValue, setSearchValue] = useState("");
   const { userData } = useContext(UserContext);
+  const { allProductsInCart } = useContext(CartContext);
+  const [searchValue, setSearchValue] = useState("");
   const menuRef = useRef("");
 
   // Debounce function to  limit the rate of function calls
@@ -110,10 +112,12 @@ export default function Header() {
       </div>
 
       <div className="cart relative">
-        <Link href={"/"} aria-label="cart icon">
+        <Link href={"/cart"} aria-label="cart icon">
           <TiShoppingCart />
         </Link>
-        <span className="cart-count absolute">0</span>
+        <span className="cart-count absolute">
+          {allProductsInCart.length || 0}
+        </span>
       </div>
       {userData ? (
         <>
