@@ -14,7 +14,7 @@ import "../../css/admin.css";
 export default function adminLayout({ children }) {
   return (
     <>
-      <header>
+      <header className="admin-header">
         <nav className="top-bar">
           <div className="right-content">
             <Link href={"/admin"} className="logo">
@@ -70,7 +70,7 @@ export default function adminLayout({ children }) {
               </Link>
             </li>
             <li>
-              <Link href={"/"}>
+              <Link href={"/admin/analytics"}>
                 <SiSimpleanalytics />
                 <span>Analytics</span>
               </Link>

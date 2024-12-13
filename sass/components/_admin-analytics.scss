@@ -1,0 +1,34 @@
+.analytics {
+  .overview {
+    @include gridTemplateAdmin(18rem) {
+      place-items: center;
+      gap: 1rem;
+    }
+    margin: 1rem auto;
+    padding: 0.5rem;
+    @include adminCardOverview;
+  }
+  .content {
+    @include gridTemplateAdmin(30rem);
+    .revenue-charts {
+      @include adminSection;
+    }
+    .sales-charts {
+      @include adminSection;
+    }
+    .rate-charts {
+      @include adminSection;
+    }
+    .growth-charts {
+      @include adminSection;
+    }
+  }
+  @media (max-width: 772px) {
+    .overview {
+      @include gridTemplateAdmin(15rem);
+    }
+    .content {
+      @include gridTemplateAdmin(20rem);
+    }
+  }
+}

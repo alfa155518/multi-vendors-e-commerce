@@ -1,8 +1,11 @@
 @use "../helpers/mixins" as *;
 @use "../helpers/variables" as *;
 
+// Components
 @import "../components/admin-overview";
+@import "../components/admin-analytics";
 
+// Global Class
 .admin-page-name {
   color: $secondaryColor_2;
   font-size: 2rem;
@@ -18,7 +21,7 @@
 }
 
 // Admin Header
-header {
+.admin-header {
   padding: 1rem;
   background-color: #202d3b;
   .top-bar {
