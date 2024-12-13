@@ -22,7 +22,7 @@ export default function adminLayout({ children }) {
             </Link>
             <div className="search-input">
               <input type="text" placeholder="Search..." name="search" />
-              <button>
+              <button aria-label="search">
                 <IoSearchOutline />
               </button>
             </div>

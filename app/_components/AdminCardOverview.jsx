@@ -12,7 +12,7 @@ export default function AdminCardOverview({ cardOverviewData }) {
         animate={{ scale: 1, y: 0 }}
         transition={{ duration: 1, delay: index * 0.2 }}>
         <div className="body">
-          <h5 className="title">{card.title}</h5>
+          <h3 className="title">{card.title}</h3>
           <strong className="amount">{card.amount}</strong>
           <div className="details">
             <span className="increase">{card.increase}</span>
