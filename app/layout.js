@@ -19,6 +19,8 @@ import VendorsManagement from "./_context/vendorsManagement";
 import ReviewsManagement from "./_context/reviewsManagement";
 import { CartProvider } from "./_context/cartManageMent";
 
+import ClientLogic from "./clientLogic";
+
 // MetaData
 export const metadata = {
   title: "Ahmed's Marketplace | Multi-Vendor E-commerce Platform",
@@ -59,10 +61,9 @@ export default function RootLayout({ children }) {
               <ReviewsManagement>
                 <CartProvider>
                   <AnimatePresencePages>
-                    <Header />
-                    <main>{children}</main>
-                    <Footer />
-                    <BtnToTop />
+                    <ClientLogic>
+                      <main>{children}</main>
+                    </ClientLogic>
                   </AnimatePresencePages>
                 </CartProvider>
               </ReviewsManagement>

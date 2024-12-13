@@ -26,6 +26,7 @@
     "react-lazyload": "^3.2.1",
     "react-phone-number-input": "^3.4.9",
     "react-use": "^17.5.1",
+    "recharts": "^2.14.1",
     "sharp": "^0.33.5",
     "sweetalert2": "^11.14.4",
     "swiper": "^11.1.14"

@@ -46,7 +46,7 @@ export default function Header() {
   };
 
   return (
-    <header className="flex justify-between items-center">
+    <header className="header-site flex justify-between items-center">
       <div className="logo relative">
         <Link href={"/"}>
           <Image

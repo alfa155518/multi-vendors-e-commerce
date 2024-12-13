@@ -1,0 +1,105 @@
+.admin-overview {
+  .overview {
+    @include gridTemplateAdmin(18rem) {
+      place-items: center;
+      gap: 1rem;
+    }
+    margin: 1rem auto;
+    padding: 0.5rem;
+    @include adminCardOverview;
+  }
+  .content {
+    @include gridTemplateAdmin(30rem) {
+      gap: 1rem;
+    }
+    .sales-charts {
+      .chart {
+        @include adminSection;
+      }
+    }
+
+    // Top Product Section
+    .top-products {
+      @include adminSection;
+      h3 {
+        font-size: 1rem;
+      }
+      .products {
+        .product {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin: 0.8rem auto;
+          background-color: $neutralColor_1;
+          padding: 0.5rem;
+          @include radios(0.2rem);
+          .info {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            .icon {
+              @include section-icon;
+            }
+            .name {
+              display: block;
+              color: $primaryColor;
+              font-weight: 600;
+              font-size: 1rem;
+            }
+            .sales {
+              font-weight: 700;
+              color: $secondaryColor_2;
+            }
+          }
+          .details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .price {
+              color: $accentColor_1;
+              font-size: 1rem;
+              font-weight: 500;
+              margin-bottom: 0.2rem;
+            }
+            .revenue {
+              color: $primaryColor;
+              font-weight: 700;
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  .recent-orders {
+    margin: 1rem !important;
+    @include tableComponent;
+    h3 {
+      font-size: 1.2rem;
+    }
+    table {
+      color: $textColor_1;
+      tr {
+        &:nth-child(even) {
+          color: $neutralColor_1;
+        }
+        td {
+          border: none !important;
+          &.date {
+            color: $secondaryColor_1;
+          }
+          &.pending {
+            background-color: rgb(230 126 34 / 47%);
+            color: $secondaryColor_2;
+          }
+          &.delivered {
+            color: $secondaryColor_1;
+            background-color: #1abc9c4f;
+          }
+        }
+      }
+    }
+  }
+
+  // Responsive
+}

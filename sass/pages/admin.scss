@@ -1,0 +1,124 @@
+@use "../helpers/mixins" as *;
+@use "../helpers/variables" as *;
+
+@import "../components/admin-overview";
+
+.admin-page-name {
+  color: $secondaryColor_2;
+  font-size: 2rem;
+  margin: 1rem;
+  font-weight: 500;
+}
+
+.admin-section-name {
+  color: $secondaryColor_2;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0.5rem;
+}
+
+// Admin Header
+header {
+  padding: 1rem;
+  background-color: #202d3b;
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .right-content {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      .logo {
+        color: $secondaryColor_2;
+        font-weight: 800;
+        font-size: 1.2rem;
+        text-wrap: balance;
+      }
+      .search-input {
+        position: relative;
+        input {
+          background-color: $neutralColor_1;
+          width: 100%;
+          padding: 0.3rem 1rem;
+          font-size: 1rem;
+          font-weight: 500;
+          @include radios(0.2rem);
+        }
+        button {
+          color: $textColor_1;
+          position: absolute;
+          right: 0.4rem;
+          top: 0.4rem;
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .left-content {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      .admin-link {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 1.2rem;
+        svg {
+          color: $secondaryColor_2;
+        }
+        span {
+          color: $secondaryColor_2;
+        }
+      }
+    }
+  }
+
+  // Responsive
+  @media (max-width: 772px) {
+    .search-input {
+      display: none;
+    }
+    .top-bar,
+    .left-content {
+      @media (max-width: 472px) {
+        flex-direction: column;
+        gap: 1rem 0;
+      }
+    }
+  }
+}
+
+// Admin Container
+.admin-container {
+  display: flex;
+  margin-top: 0.1rem;
+  border-top: 0.1rem solid $neutralColor_2;
+  .side-bar {
+    flex: 1;
+    background-color: $primaryColor;
+    ul {
+      li {
+        padding: 0.8rem;
+        margin: 0.5rem;
+        a {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          font-size: 1rem;
+          font-weight: 500;
+          padding: 0.2rem 1rem;
+          color: $neutralColor_1;
+          &.active {
+            background-color: $textColor_1;
+            @include radios(0.2rem);
+            color: $secondaryColor_2;
+          }
+        }
+      }
+    }
+  }
+  .admin-content {
+    flex: 5;
+    background-color: $neutralColor_1;
+  }
+}

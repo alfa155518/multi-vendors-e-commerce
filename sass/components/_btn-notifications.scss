@@ -1,0 +1,73 @@
+.button-notifications {
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(
+    to bottom,
+    $secondaryColor_2,
+    $orangeWithDarkColor
+  );
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 0.8rem;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+  .bell {
+    width: 13px;
+
+    path {
+      fill: rgb(255, 255, 255);
+    }
+  }
+
+  &:hover {
+    background: linear-gradient(
+      to top,
+      $secondaryColor_2,
+      $orangeWithDarkColor
+    );
+  }
+
+  &:active {
+    transform: scale(0.97);
+    transition-duration: 0.2s;
+  }
+  &:hover .bell {
+    animation: bellRing 0.9s both;
+  }
+}
+
+/* bell ringing animation keyframes*/
+@keyframes bellRing {
+  0%,
+  100% {
+    transform-origin: top;
+  }
+
+  15% {
+    transform: rotateZ(10deg);
+  }
+
+  30% {
+    transform: rotateZ(-10deg);
+  }
+
+  45% {
+    transform: rotateZ(5deg);
+  }
+
+  60% {
+    transform: rotateZ(-5deg);
+  }
+
+  75% {
+    transform: rotateZ(2deg);
+  }
+}

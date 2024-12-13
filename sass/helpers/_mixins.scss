@@ -49,6 +49,7 @@
   overflow-x: auto;
   margin: 5rem auto;
   color: $neutralColor_2;
+  background-color: $neutralColor_2;
   h2 {
     color: $secondaryColor_2;
     font-size: 1.5rem;
@@ -83,4 +84,62 @@
       }
     }
   }
+}
+
+@mixin adminSection {
+  padding: 0.8rem;
+  margin: 0.8rem;
+  box-shadow: 0 0 0.1rem 0 $textColor_1;
+  background-color: #fff;
+  @include radios(0.2rem);
+}
+@mixin section-icon {
+  color: $secondaryColor_2;
+  background-color: $orangeWithLightColor;
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  @include radios(0.2rem);
+}
+@mixin adminCardOverview {
+  .card-overview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    @include adminSection;
+    .body {
+      .title {
+        color: $primaryColor;
+        font-size: 1rem;
+        margin: 0.1rem auto;
+        font-weight: 500;
+      }
+      .amount {
+        color: $secondaryColor_2;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+      .details {
+        .increase {
+          color: $successColor;
+          padding-right: 0.5rem;
+          font-weight: 700;
+        }
+        span {
+          color: $textColor_1;
+          font-size: 0.8rem;
+        }
+      }
+    }
+    .icon {
+      @include section-icon;
+    }
+  }
+}
+
+@mixin gridTemplateAdmin($size) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($size, 1fr));
+  @content;
 }
