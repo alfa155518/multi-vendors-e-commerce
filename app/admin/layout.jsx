@@ -52,7 +52,7 @@ export default function adminLayout({ children }) {
               </Link>
             </li>
             <li>
-              <Link href={"/"}>
+              <Link href={"/admin/vendors"}>
                 <GiShop />
                 <span>Vendors</span>
               </Link>

@@ -4,6 +4,7 @@
 // Components
 @import "../components/admin-overview";
 @import "../components/admin-analytics";
+@import "../components/admin_vendors";
 
 // Global Class
 .admin-page-name {
@@ -18,6 +19,48 @@
   font-size: 1rem;
   font-weight: 700;
   margin: 0.5rem;
+}
+
+.top-element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  .info {
+    display: flex;
+    align-items: center;
+    span {
+      color: $textColor_1;
+      font-size: 0.7rem;
+      font-weight: 400;
+    }
+  }
+  .btn-filter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: $neutralColor_2;
+    background: linear-gradient(135deg, $secondaryColor_2, $textColor_1);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    @include transition(0.3s);
+    @include radios(0.5rem);
+
+    &:hover {
+      background: linear-gradient(135deg, $textColor_1, $secondaryColor_2);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      transform: translateY(0);
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+  }
 }
 
 // Admin Header

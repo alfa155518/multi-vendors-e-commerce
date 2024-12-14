@@ -311,6 +311,133 @@
   }
 }
 
+.vendors {
+  margin: 1rem;
+}
+.vendors .overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  place-items: center;
+  gap: 1rem;
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+.vendors .overview .card-overview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.8rem;
+  box-shadow: 0 0 0.1rem 0 #34495e;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+}
+.vendors .overview .card-overview .body .title {
+  color: #2c3e50;
+  font-size: 1rem;
+  margin: 0.1rem auto;
+  font-weight: 500;
+}
+.vendors .overview .card-overview .body .amount {
+  color: #e67e22;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.vendors .overview .card-overview .body .details .increase {
+  color: #4caf50;
+  padding-right: 0.5rem;
+  font-weight: 700;
+}
+.vendors .overview .card-overview .body .details span {
+  color: #34495e;
+  font-size: 0.8rem;
+}
+.vendors .overview .card-overview .icon {
+  color: #e67e22;
+  background-color: rgba(230, 126, 34, 0.2392156863);
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+}
+.vendors .vendors-table {
+  overflow-x: auto;
+  margin: 5rem auto;
+  color: #ffffff;
+  background-color: #ffffff;
+}
+.vendors .vendors-table h2 {
+  color: #e67e22;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 0.5rem;
+}
+.vendors .vendors-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1rem;
+}
+.vendors .vendors-table table thead tr {
+  padding: 1.2rem;
+  font-weight: bold;
+  border-bottom: 0.2rem solid #34495e;
+}
+.vendors .vendors-table table tbody tr:nth-child(even) {
+  background-color: #2c3e50;
+}
+.vendors .vendors-table table tbody tr td {
+  padding: 0.6rem;
+  border-bottom: 0.2rem solid #34495e;
+  font-weight: 800;
+}
+.vendors .vendors-table table tbody tr td.price {
+  color: #f1c40f;
+}
+.vendors .vendors-table table {
+  color: #34495e;
+}
+.vendors .vendors-table table tr:nth-child(even) {
+  color: #ecf0f1;
+}
+.vendors .vendors-table table tr td {
+  border: none !important;
+}
+.vendors .vendors-table table tr td:first-child, .vendors .vendors-table table tr td:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.vendors .vendors-table table tr td.name .icon {
+  color: #e67e22;
+  background-color: rgba(230, 126, 34, 0.2392156863);
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+  font-size: 2rem;
+}
+.vendors .vendors-table table tr td.date, .vendors .vendors-table table tr td.orders,
+.vendors .vendors-table table tr td .stars {
+  color: #e67e22;
+}
+.vendors .vendors-table table tr td.revenue {
+  color: #1abc9c;
+}
+
 .admin-page-name {
   color: #e67e22;
   font-size: 2rem;
@@ -323,6 +450,54 @@
   font-size: 1rem;
   font-weight: 700;
   margin: 0.5rem;
+}
+
+.top-element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.top-element .info {
+  display: flex;
+  align-items: center;
+}
+.top-element .info span {
+  color: #34495e;
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+.top-element .btn-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(135deg, #e67e22, #34495e);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.top-element .btn-filter:hover {
+  background: linear-gradient(135deg, #34495e, #e67e22);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+.top-element .btn-filter:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .admin-header {
