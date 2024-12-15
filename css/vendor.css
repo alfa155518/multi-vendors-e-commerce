@@ -312,7 +312,7 @@
   font-weight: 800;
 }
 .orders table tbody tr td.price {
-  color: #f1c40f;
+  color: #e67e22;
 }
 .orders table tbody tr td.count {
   color: #e67e22;
@@ -376,7 +376,7 @@
   font-weight: 800;
 }
 .products table tbody tr td.price {
-  color: #f1c40f;
+  color: #e67e22;
 }
 .products table tbody tr td.count {
   color: #e67e22;
@@ -514,7 +514,7 @@
   font-weight: 800;
 }
 .top-selling table tbody tr td.price {
-  color: #f1c40f;
+  color: #e67e22;
 }
 .top-selling .sales {
   color: #e67e22;

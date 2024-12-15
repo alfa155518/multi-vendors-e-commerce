@@ -65,6 +65,7 @@ export default function Vendors() {
 
   return (
     <div className="vendors">
+      {/* Top Elements */}
       <div className="top-element">
         <div className="info">
           <h1 className="admin-page-name">Vendors</h1>
@@ -74,9 +75,11 @@ export default function Vendors() {
           <FiFilter /> Filters
         </button>
       </div>
+      {/* Overview Cards */}
       <section className="overview">
         <AdminCardOverview cardOverviewData={vendorsOverviewData} />
       </section>
+      {/* Vendors Table */}
       <section className="vendors-table">
         <table>
           <thead>

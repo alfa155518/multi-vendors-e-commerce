@@ -31,7 +31,7 @@
   font-weight: 800;
 }
 .cart__page .cart__container .cart__items table tbody tr td.price {
-  color: #f1c40f;
+  color: #e67e22;
 }
 .cart__page .cart__container .cart__items table tbody td.price, .cart__page .cart__container .cart__items table tbody td.total__price {
   color: #f1c40f;

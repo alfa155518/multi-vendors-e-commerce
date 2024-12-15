@@ -4,7 +4,9 @@
 // Components
 @import "../components/admin-overview";
 @import "../components/admin-analytics";
-@import "../components/admin_vendors";
+@import "../components/admin-vendors";
+@import "../components/admin-products";
+@import "../components/admin-users";
 
 // Global Class
 .admin-page-name {
@@ -146,6 +148,10 @@
       li {
         padding: 0.8rem;
         margin: 0.5rem;
+        @include radios(0.2rem);
+        &.active {
+          background-color: $textColor_1;
+        }
         a {
           display: flex;
           align-items: center;
@@ -154,11 +160,6 @@
           font-weight: 500;
           padding: 0.2rem 1rem;
           color: $neutralColor_1;
-          &.active {
-            background-color: $textColor_1;
-            @include radios(0.2rem);
-            color: $secondaryColor_2;
-          }
         }
       }
     }

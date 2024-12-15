@@ -1,0 +1,50 @@
+.products-container {
+  margin: 1rem;
+  // Overview Cards
+  .overview {
+    @include gridTemplateAdmin(15rem) {
+      place-items: center;
+      gap: 1rem;
+    }
+    margin: 1rem auto;
+    padding: 0.5rem;
+    @include adminCardOverview;
+  }
+
+  // Products Table
+  .products-table {
+    @include tableComponent;
+    table {
+      color: $textColor_1;
+      tr {
+        &:nth-child(even) {
+          color: $neutralColor_1;
+        }
+        td {
+          border: none !important;
+          &:first-child {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+          }
+          &.name {
+            .icon {
+              @include section-icon;
+              font-size: 2rem;
+            }
+          }
+          &.stock {
+            color: $successColor;
+            &.decreased {
+              color: $dangerColor;
+            }
+          }
+          &.vendor {
+            color: $secondaryColor_2;
+          }
+        }
+      }
+    }
+  }
+}
