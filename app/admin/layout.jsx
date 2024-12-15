@@ -24,7 +24,7 @@ export default function AdminLayout({ children }) {
     { href: "/admin/products", icon: <AiOutlineProduct />, label: "Products" },
     { href: "/admin/vendors", icon: <GiShop />, label: "Vendors" },
     { href: "/admin/users", icon: <FaUsers />, label: "Users" },
-    { href: "/", icon: <FaCartShopping />, label: "Orders" },
+    { href: "/admin/orders", icon: <FaCartShopping />, label: "Orders" },
     {
       href: "/admin/analytics",
       icon: <SiSimpleanalytics />,
