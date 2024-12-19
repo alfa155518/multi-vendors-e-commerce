@@ -30,8 +30,8 @@ export default function AdminLayout({ children }) {
       icon: <SiSimpleanalytics />,
       label: "Analytics",
     },
-    { href: "/", icon: <IoSettingsSharp />, label: "Settings" },
-    { href: "/", icon: <MdOutlineSecurity />, label: "Security" },
+    { href: "/admin/settings", icon: <IoSettingsSharp />, label: "Settings" },
+    { href: "/admin/security", icon: <MdOutlineSecurity />, label: "Security" },
   ];
 
   return (

@@ -38,7 +38,7 @@ export default function DashBoard() {
     },
   ];
   return (
-    <div className="admin-overview">
+    <div className="admin-overview relative">
       <h1 className="admin-page-name">Overview</h1>
       <section className="overview">
         <AdminCardOverview cardOverviewData={cardOverviewData} />

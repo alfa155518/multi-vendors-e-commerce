@@ -20,6 +20,7 @@ import ReviewsManagement from "./_context/reviewsManagement";
 import { CartProvider } from "./_context/cartManageMent";
 
 import ClientLogic from "./clientLogic";
+import { AdminManagement } from "./_context/adminManagement";
 
 // MetaData
 export const metadata = {
@@ -61,9 +62,11 @@ export default function RootLayout({ children }) {
               <ReviewsManagement>
                 <CartProvider>
                   <AnimatePresencePages>
-                    <ClientLogic>
-                      <main>{children}</main>
-                    </ClientLogic>
+                    <AdminManagement>
+                      <ClientLogic>
+                        <main>{children}</main>
+                      </ClientLogic>
+                    </AdminManagement>
                   </AnimatePresencePages>
                 </CartProvider>
               </ReviewsManagement>
