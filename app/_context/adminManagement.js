@@ -16,7 +16,7 @@ export function AdminManagement({ children }) {
     setShowFilterPopup(!showFilterPopup);
   };
 
-  // Function to apply filters based on form input
+  // Function to apply filters on Products
   const filterProducts = (formData) => {
     filterProductByCategories(formData, allData, setAllProducts);
   };

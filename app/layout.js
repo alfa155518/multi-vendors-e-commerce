@@ -6,13 +6,7 @@ import "animate.css";
 import "@/css/main.css";
 
 import AnimatePresencePages from "./_components/AnimatePresence";
-// Import Component
-import BtnToTop from "./_components/BtnToTop";
-import Footer from "./_layout/Footer";
-import Header from "./_layout/Header";
-
 import { ProductProvider } from "./_context/manageProducts";
-
 import UsersManageMent from "./_context/usersManagement";
 import VendorManageMent from "./_context/vendorManagement";
 import VendorsManagement from "./_context/vendorsManagement";
