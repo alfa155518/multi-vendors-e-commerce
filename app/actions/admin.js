@@ -1,3 +1,6 @@
+const Api = process.env.NEXT_PUBLIC_API_URL;
+
+// Fetch all products And Filter
 export async function filterProductByCategories(
   formData,
   allData,
@@ -29,5 +32,23 @@ export async function filterProductByCategories(
       }
     });
     return setAllProducts(filteredProducts);
+  }
+}
+
+// Fetch all users
+export async function allUsers(token) {
+  try {
+    const res = await fetch(`${Api}/users`, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+    });
+    const data = await res.json();
+
+    return data.users;
+  } catch (error) {
+    console.error("Error fetching user data:", error);
   }
 }

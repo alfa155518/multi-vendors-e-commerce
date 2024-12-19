@@ -1,15 +1,25 @@
 "use client";
 
-import React, { createContext, useContext, useEffect, useState } from "react";
+import React, {
+  createContext,
+  use,
+  useCallback,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 import { ProductContext } from "./manageProducts";
-import { filterProductByCategories } from "../actions/admin";
+import { allUsers, filterProductByCategories } from "../actions/admin";
+import { UserContext } from "./usersManagement";
 
 export const AdminContext = createContext([]);
 
 export function AdminManagement({ children }) {
-  const [showFilterPopup, setShowFilterPopup] = useState(false);
+  const { token } = useContext(UserContext);
   const { allData } = useContext(ProductContext);
   const [allProducts, setAllProducts] = useState([]);
+  const [users, setUsers] = useState([]);
+  const [showFilterPopup, setShowFilterPopup] = useState(false);
 
   // Function to toggle filter popup
   const toggleFilterPopup = () => {
@@ -21,6 +31,19 @@ export function AdminManagement({ children }) {
     filterProductByCategories(formData, allData, setAllProducts);
   };
 
+  // Function to get all users
+  const getAllUsers = useCallback(() => {
+    if (token) {
+      allUsers(token).then((data) => {
+        setUsers(data);
+      });
+    }
+  }, [token]);
+
+  useEffect(() => {
+    getAllUsers();
+  }, [getAllUsers]);
+
   useEffect(() => {
     if (allData && allData.products) {
       setAllProducts(allData.products);
@@ -30,10 +53,11 @@ export function AdminManagement({ children }) {
   return (
     <AdminContext.Provider
       value={{
+        users,
         showFilterPopup,
+        allProducts,
         toggleFilterPopup,
         filterProducts,
-        allProducts,
       }}>
       {children}
     </AdminContext.Provider>

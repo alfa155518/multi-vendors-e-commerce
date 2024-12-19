@@ -1,6 +1,6 @@
 "use client";
 import React, { createContext, useEffect, useState } from "react";
-import { getVendorById, getVendors, logoutVendor } from "../actions/vendor";
+import { getVendors } from "../actions/vendor";
 import Cookies from "js-cookie";
 import Notification from "../_components/Notification";
 export const VendorsContext = createContext();

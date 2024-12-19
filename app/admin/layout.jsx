@@ -9,8 +9,6 @@ import { GiShop } from "react-icons/gi";
 import { FaUsers } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
 import { SiSimpleanalytics } from "react-icons/si";
-import { IoSettingsSharp } from "react-icons/io5";
-import { MdOutlineSecurity } from "react-icons/md";
 import { IoSearchOutline } from "react-icons/io5";
 import BtnNotifications from "../_components/BtnNotifications";
 import "../../css/admin.css";
@@ -30,8 +28,6 @@ export default function AdminLayout({ children }) {
       icon: <SiSimpleanalytics />,
       label: "Analytics",
     },
-    { href: "/admin/settings", icon: <IoSettingsSharp />, label: "Settings" },
-    { href: "/admin/security", icon: <MdOutlineSecurity />, label: "Security" },
   ];
 
   return (
