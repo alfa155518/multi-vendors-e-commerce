@@ -6,6 +6,7 @@
     .cart__items {
       flex: 3;
       @include tableComponent;
+      background: transparent;
       table {
         tbody {
           td {

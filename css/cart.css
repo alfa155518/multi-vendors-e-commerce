@@ -4,6 +4,7 @@
   margin: 5rem auto;
   color: #ffffff;
   background-color: #ffffff;
+  background: transparent;
 }
 .cart__page .cart__container .cart__items h2 {
   color: #e67e22;

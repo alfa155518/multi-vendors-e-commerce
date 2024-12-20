@@ -7,7 +7,7 @@ import Footer from "./_layout/Footer";
 import BtnToTop from "./_components/BtnToTop";
 
 export default function ClientLogic({ children }) {
-  const admin = true; // Example admin flag, replace with real authentication logic
+  const admin = false; // Example admin flag, replace with real authentication logic
   const router = useRouter();
   const pathname = usePathname();
   const isAdminRoute = pathname.startsWith("/admin");

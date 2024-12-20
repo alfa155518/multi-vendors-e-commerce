@@ -175,3 +175,30 @@ export async function minusProductQuantityInCart(
     setLoading(false);
   }
 }
+
+// Proceed To Checkout
+export async function proceedToCheckout(userToken, Notification) {
+  try {
+    const res = await fetch(`${Api}/payment`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${userToken}`,
+      },
+      next: {
+        revalidate: 1,
+      },
+    });
+
+    const data = await res.json();
+    if (res.ok) {
+      Notification("success", "Done!!", "Orders Placed Successfully");
+    } else {
+      Notification("error", "Fail", data.message);
+    }
+    return data.url;
+  } catch (error) {
+    console.log(error);
+    Notification("error", "Fail", error.message);
+  }
+}

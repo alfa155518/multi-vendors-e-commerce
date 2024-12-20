@@ -5,6 +5,7 @@ import {
   addProductToCart,
   minusProductQuantityInCart,
   plusProductQuantityInCart,
+  proceedToCheckout,
   productsInCart,
   removeProductFromCart,
 } from "../actions/cart";
@@ -111,6 +112,12 @@ export const CartProvider = ({ children }) => {
     }
   };
 
+  // Handel Payment Method
+  async function handelPaymentMethod() {
+    const url = await proceedToCheckout(token, Notification);
+    window.location.href = url;
+  }
+
   return (
     <CartContext.Provider
       value={{
@@ -120,6 +127,7 @@ export const CartProvider = ({ children }) => {
         plusProductQuantity,
         minusProductQuantity,
         handelRemoveProduct,
+        handelPaymentMethod,
       }}>
       {children}
     </CartContext.Provider>
