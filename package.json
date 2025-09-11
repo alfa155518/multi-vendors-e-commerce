@@ -28,7 +28,7 @@
     "react-use": "^17.5.1",
     "recharts": "^2.14.1",
     "sharp": "^0.33.5",
-    "sweetalert2": "^11.14.4",
+    "sweetalert2": "^11.22.4",
     "swiper": "^11.1.14"
   },
   "devDependencies": {
